@@ -1,16 +1,16 @@
 [
     {
-        "id": "gl_areaeffect",
+        "id": "gl_default",
         "type": "Glossary",
         "source": "core",
         "tags": {
-            "category" : "general"
+            "category" : "default"
         },
         "eventtags": {},
-        "name": "Area Effect",
+        "name": "Default",
         "description":  [{
             "tags": {"desc_type" : "desc"},
-            "content": "An effect that is applied in a large, fixed pattern.",
+            "content": "This is a default test item.",
             "subcontent":   []
         }]
     }
