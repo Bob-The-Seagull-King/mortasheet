@@ -1,0 +1,2677 @@
+[
+    {
+        "id": "ul_perfecthelion",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Perfect Helion",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can repeat this effect once on either allies or enemies."
+            }
+                        ]
+    },
+    {
+        "id": "ms_heracule_perfectheracule",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Perfect Heracule",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Heracule gains rebound, and its second effect triggers +1 more time."
+            }
+                        ]
+    },
+    {
+        "id": "ms_batteringram_gatesmasher",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Gatesmasher",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once a turn, if you trigger Battering Ram’s Collide or Heroic effect, the ability can be used one more time this turn.",
+                "glossary": [{"val": "Collide", "id": "gl_collide"}, {"val": "Heroic", "id": "gl_heroic"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_landwaster_ajax",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Ajax",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Terrain effect: Before Land Waster’s effect triggers, you tear up the very ground, creating a height 1 boulder object in range 3 of you."
+            }
+                        ]
+    },
+    {
+        "id": "ms_valiant_secondwind",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Second Wind",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or higher in combat, Valiant becomes a free action."
+            }
+                        ]
+    },
+    {
+        "id": "ms_endlessbattlement_perfectbattlement",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Perfect Battlement",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or higher, Endless Battlement has no maximum range, deals 4 damage instead of 2, and becomes interrupt 2.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_catapult_mangonel",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Mangonel",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Catapult becomes Interrupt 3.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_perseus_chaosfinisher",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Chaos Finisher",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When this interrupt triggers, after the triggering effect resolves, you may deal 2 damage to all affected foes from the triggering ability and shove them 1 in any direction.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}, {"val": "+1 curse", "id": "gl_curse"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_rook_implacablefortress",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Implacable Fortress",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies in the aura also reduce all damage by 2, as if by armor.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_greatgiorgios_dragonslayer",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Dragonslayer",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can choose to Delay Great Giorgios. Your next turn must be slow, but the effect activates at the start of that turn instead of at the end of your target’s turn, and it deals double damage."
+            }
+                        ]
+    },
+    {
+        "id": "ul_godwaster",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "God Waster",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While holding a God Cutting Blow, you can rush 2 at the start or end of any other turn than yours, but no more than twice a round.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_demoncutter_blooddrinkingdevilblade",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Blood Drinking Devil Blade",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After this ability resolves, gain 2 vigor for every foe damaged.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_comet_exaltedblossomsdevilblade",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Exalted Blossoms Devil Blade",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "You may teleport to any space adjacent to your weapon at the start and end of your turn.",
+                    "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+                }] 
+            }
+        ]
+    },
+    {
+        "id": "ms_drakencross_darkwinddevilblade",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Dark Wind Devil Blade",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "After using this ability, you may teleport to any space of any area created, then all foes in any area you created with this ability are slashed and take 2 divine damage.",
+                    "glossary": [{"val": "teleport", "id": "gl_teleport"}, {"val": "area", "id": "gl_areaeffect"}, {"val": "slashed", "id": "gl_slashed"}, {"val": "divine", "id": "gl_divine"}]
+                }] 
+            }
+        ]
+    },
+    {
+        "id": "ms_righteousdisdain_shirahadori",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Dark Wind Devil Blade",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The damage from Righteous Disdain cannot reduce you past 1 hp." 
+            }
+        ]
+    },
+    {
+        "id": "ms_demonclaw_ragingdemon",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Raging Demon",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Demon Claw’s damage increases by 1 for every 25% of your maximum hp you are missing, up to a maximum of +3 damage." 
+            }
+        ]
+    },
+    {
+        "id": "ms_gatesofhell_flashstep",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Flash Step",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Gates of Hell resolves, you create an afterimage terrain effect in a free adjacent space. The afterimage is dangerous terrain, but only for foes. You also gain the following ability:",
+                "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_flashstep"
+            }
+        ]
+    },
+    {
+        "id": "ms_soulblade_windcallingdevilblade",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Wind Calling Devil Blade",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later in combat, soul blade also refreshes at the start of your turn and any area created by it shoves all characters inside 1 space.",
+                "glossary": [{"val": "area", "id": "gl_areaeffect"}, {"val": "shoves", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_sixhellstrigram_darkwindchain",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Dark Wind Chain",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While inside the area, you gain the following ability:"
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_darkwindchain"
+            }
+        ]
+    },
+    {
+        "id": "ms_wickedsheath_mugenshometsu",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Mugen Shometsu",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If the die is 2 or higher and you would discard it, roll it instead of discarding it. On a 1 or 2, keep it, using the new number."
+            }
+        ]
+    },
+    {
+        "id": "ul_atomoscrusher",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Atomos Crusher",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you’re at 1 hp or lower, this ability deals 25% more max hp damage to non-legend characters."
+            }
+        ]
+    },
+    {
+        "id": "ms_valkyrie_calloferenhelion",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Call of Erenhelion",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you use Valkyrie, all allies may fly 1. If they end this flight on a lower elevation than they started, they may fly 1 again.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_upheaval_titanstrength",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Titan Strength",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gains range 5 and Comeback: Boulder may be placed as a height 2 pillar instead.",
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_dropkick_giantkicker",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Giant Kicker",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, Dropkick gains true strike and a line 4 area effect that must include your target. The area deals fray damage to all characters other than your target.",
+                "glossary": [{"val": "true strike", "id": "gl_truestrike"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "fray damage", "id": "gl_fray"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_massiveoverhead_bloodrush",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Blood Rush",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, Massive Overhead also grants you 4 vigor and no longer ends your turn.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}, {"val": "ends your turn", "id": "gl_endturn"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_takedown_fierceelbow",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Fierce Elbow",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you Takedown a character, the character takes 2 damage once after the ability resolves for each difference in elevation between you and them when you started this ability, for a maximum of three times."
+            }
+        ]
+    },
+    {
+        "id": "ms_greatsuplex_titanheart",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Titanheart",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can target two adjacent characters with this ability."
+            }
+        ]
+    },
+    {
+        "id": "ms_gigatonwhip_izunadrop",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Izuna Drop",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Instead of the normal collide effect, on collide you can do the legendary Izuna Drop. You take a pose, then end your turn and gain Delay: Your next turn must be slow. At the start of that turn, you may rush 2, then if any foe is adjacent, you grab them, removing both of you from the battlefield, then come spinning back to earth, placing both of you back in free space adjacent to each other in range 3. That foe is weakened, stunned and takes fray damage twice.",
+                "glossary": [{"val": "collide", "id": "gl_collide"}, {"val": "end your turn", "id": "gl_endturn"}, {"val": "Delay", "id": "gl_delay"}, {"val": "next turn must be slow", "id": "gl_slowturn"}, {"val": "rush", "id": "gl_rush"}, {"val": "weakened", "id": "gl_weakened"}, {"val": "stunned", "id": "gl_stunned"}, {"val": "fray", "id": "gl_fray"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_ragingwolf_beastwithin",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Beast Within",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can immediately use Raging Wolf as an interrupt before becoming defeated. This ignores the interrupt limit.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_boilingblood_greathemon",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Hemon",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When Defy Death would expire, you can take a wound to extend the duration by 1 turn. This effect can only be triggered once per combat."
+            }
+        ]
+    },
+    {
+        "id": "ul_dreadmock",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Dread Mock",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gains range 5 and also deals divine fray damage to your foe.",
+                "glossary": [{"val": "divine", "id": "gl_divine"}, {"val": "fray damage", "id": "gl_fray"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_lowblow_sadist",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Sadist",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After this ability resolves, you may rush 1 and gain 2 vigor for every status your foe is suffering from.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "vigor", "id": "gl_vigor"}, {"val": "status", "id": "gl_status"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_provoke_stormoffury",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Storm of Fury",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Before dealing each instance of damage, you may rush 1.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_revenge_ironmaiden",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Iron Maiden",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Also gains "
+                    },
+                    {
+                        "tags": {"desc_type" : "subeffect"},
+                        "content": "effect:",
+                        "subcontent":   [{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "until the end of your next turn, immediately after you activate vigilance, deal 2 damage to all adjacent foes.",
+                            "glossary": [{"val": "vigilance", "id": "gl_vigilance"}]
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ms_riposte_strongleft",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Storm of Fury",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Refresh Riposte at the start of your turn. Uses of Dire Parry can stack up to 3 times, and you can bank these uses."
+            }
+        ]
+    },
+    {
+        "id": "ms_darkknight_infectioushatred",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Infectious Hatred",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While in Dark Knight, you have aura 1. Foes that end their turn in the aura must save or gain hatred of you.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "hatred", "id": "gl_hatred"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_strongarm_perfectstrongarm",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Perfect Strongarm",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Perform two full circles instead, and you may rush 2 before the second circle.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_intimidate_ironskull",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Iron Skull",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Intimidate’s stun triggers, also become unstoppable until the end of your next turn.",
+                "glossary": [{"val": "stun", "id": "gl_stunned"}, {"val": "unstoppable", "id": "gl_unstoppable"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_suckerpunch_strongright",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Strong Right",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can rush 2 before activating Sucker Punch, it triggers from within range 2, and you may give it shove 1.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_bleakmercy_painkiller",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Painkiller",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once gained, Sweet Torment’s aura lasts indefinitely. If you use Sweet Torment again while the aura is active, deal 2 damage, once, to all foes in the aura within for every status they are suffering from, to a maximum of three times.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "status", "id": "gl_status"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_ultimacurtaincall",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Ultima Curtain Call",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After this ability resolves, summon half as many bombs as your gamble result anywhere on the battlefield.",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_cavaliere_pegaso",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Pegaso",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Cavaliere resolves, you may fly 4.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_carnevale_ilcaoslamiamusa",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Il Caos, La Mia Musa",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When you summon a",
+                        "glossary": [{"val": "summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_bomb"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "with this ability, you may bounce it it off a character in range, dealing 2 damage, then summon it in range 2 of that character."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ms_spinningtop_vorticedifollia",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Vortice Di Follia",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you triggered a slay effect during your turn before using Spinning Top, it becomes a free action.",
+                "glossary": [{"val": "slay", "id": "gl_slay"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_death_ultimadeath",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Vortice Di Follia",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Increase Death’s threshold to 16 hp or less."
+            }
+        ]
+    },
+    {
+        "id": "ms_gallowshumor_maestriamortale",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Vortice Di Follia",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "While in this stance, all your abilities with an action cost of 1 or 2 gain",
+                        "glossary": [{"val": "stance", "id": "gl_stance"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "slay:",
+                        "subcontent":   [{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "all allies may dash 1, then foes adjacent to at least one ally that dashed this way take 2 damage.",
+                            "glossary": [{"val": "dash", "id": "gl_dash"}]
+                        }],
+                        "glossary": [{"val": "slay", "id": "gl_slay"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ms_partyfavor_amico",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Amico",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can throw the Party Favor at any character in range instead, making it a mark. You can gamble at the end of any turn after yours to detonate it, ending the mark and effect.",
+                "glossary": [{"val": "mark", "id": "gl_mark"}, {"val": "gamble", "id": "gl_gamble"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_masquerade_hallofmirrors",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hall of Mirrors",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Masquerade has no maximum range."
+            }
+        ]
+    },
+    {
+        "id": "ms_diablo_hellfestival",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hell Festival",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can also choose to end your turn, mark out the area effect and gain",
+                "glossary": [{"val": "end your turn", "id": "gl_endturn"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "delay:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "You must take a slow turn next round. At the start of that turn, the area explodes again, dealing [D] damage to all characters within as an area effect, and summoning a",
+                    "glossary": [{"val": "slow turn", "id": "gl_slowturn"}, {"val": "[D]", "id": "gl_damagedice"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "summoning", "id": "gl_summon"}]
+                },
+                {
+                    "tags": {"desc_type" : "textsummon"},
+                    "content": "sm_bomb"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "adjacent to each foe in the area."
+                }],
+                "glossary": [{"val": "delay", "id": "gl_delay"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_chronotemper_revolution",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Revolution",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can take this interrupt three times a round. The second time you use it, the dash becomes just 2 spaces, and the third time just 1 space.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}, {"val": "dash", "id": "gl_dash"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_ultimaparadiso",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Ultima Paradiso",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "As a free action ability while Paradiso is active, you can teleport yourself, all allies, and the area itself to any other part of the battlefield, as long as there is free space to place all characters teleported inside the area when it is moved.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_strafeshot_platinumchamber",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Platinum Chamber",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Strafe Shot can interrupt and break up any movement you make without halting it."
+            }
+        ]
+    },
+    {
+        "id": "ms_exorcism_puresilver",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Puresilver",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If Exorcism's target is defeated, you can cause the projectiles to fly and track a new target in range 3 of you or the original target, transferring the mark and keeping the power die.",
+                "glossary": [{"val": "mark", "id": "gl_mark"}, {"val": "power die", "id": "gl_powerdie"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_trickshot_goldenbullet",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Golden Bullet",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Trick Shot can cause an ability to rebound twice. The second bounce must be off a new character or object in range 3 of the first.",
+                "glossary": [{"val": "rebound", "id": "gl_rebound"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_astralchain_diamondpunisher",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Diamond Punisher",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While your foe is marked and in range 3 of you, they must save if they attempt to move to any space more than 3 spaces away from you. On a successful save, they can move as normal. On a failed save, they can’t consider any space further away than range 3 of you valid space to move to until the start of their next turn, then become immune to this effect for the rest of combat.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "immune", "id": "gl_immune"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_deusexmachina_whipofthethrones",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Whip of the Thrones",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain stealth after marking your target. This interrupt does not break stealth, and while you have stealth, it can be used +1 more time a round.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}, {"val": "interrupt", "id": "gl_interrupt"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_ace_hotchamber",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hot Chamber",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, Ace becomes a free action to enter if you have not used it yet this combat. It also refreshes automatically at the start of your turn, and its dash increases to 3.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_showdown_quench",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Quench",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Terrain Effect: After activating Showdown, you may create a small blast terrain effect on you of smoke. The area grants cover, and yourself and allies exiting the area can gain stealth, but no more than once a round for each character. It lasts until created again.",
+                "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "cover", "id": "gl_cover"}, {"val": "stealth", "id": "gl_stealth"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_wardingbolts_phantombolts",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Phantom Bolts",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can cause the area to hover around you as an Aura 2 instead, which lasts for the rest of combat, with the same effect as the default area. When this ability triggers again, you may deal 2 unerring damage to all foes in this aura instead of replacing the aura.",
+                "glossary": [{"val": "Aura", "id": "gl_aura"}, {"val": "unerring", "id": "gl_unerring"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_soulshot_greatangelos",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Angelos",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies Soul Shot passes through gain 3 vigor and may fly 3.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}, {"val": "fly", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_ultimaecstasy",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Ultima Ecstasy",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Summon"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "s adjacent to all allies."
+                    }]
+            }]
+    },
+    {
+        "id": "ms_umbra_devilfrogtechnique",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Devil Frog Technique",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Increase Umbra and Penumbra’s range to 6 and it gains unerring.",
+                "glossary": [{"val": "unerring", "id": "gl_unerring"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_harrow_boneraventechnique",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Bone Raven Technique",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "This effect can trigger twice a round by default instead."
+            }
+        ]
+    },
+    {
+        "id": "ms_deathblossom_shukuchi",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Shukuchi",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can teleport 2 spaces before and after using this ability.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_nightmare_hellcentipedetechnique",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hell Centipede Technique",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain"
+            },
+            {   "tags": {"desc_type" : "subeffect"},
+                "content": "effect",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "until the start of your next turn, when a"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "is consumed in the aura, you may also create a pit in or adjacent to its space.",
+                        "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "pit", "id": "gl_pit"}]
+                    }]
+            }
+        ]
+    },
+    {
+        "id": "ms_shadowplay_palerattechnique",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Pale Rat Technique",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later in combat, Shadow Play becomes a free action."
+            }
+        ]
+    },
+    {
+        "id": "ms_umbralecho_bunshin",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Bunshin",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain the following interrupt while in this stance:",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}, {"val": "stance", "id": "gl_stance"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_soulproxy"
+            }
+        ]
+    },
+    {
+        "id": "ms_assassinate_thousandyearlizardtechnique",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Thousand Year Lizard Technique",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, you can choose two foes with this ability. Trigger its effects in any order."
+            }
+        ]
+    },
+    {
+        "id": "ms_nocturne_trapdoorspidertechnique",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Trap Door Spider Technique",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can weave shadow magic when the area is created to teleport any characters in range 2 of you into any free space inside the area, as long as there is room for that character.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_incubus_toxicwidowtechnique",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Toxic Widow Technique",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Incubus’ mark stacks with other marks. You may mark any number of characters with Incubus. When a character takes damage from an Incubus mark, you may also mark them.",
+                "glossary": [{"val": "mark", "id": "gl_mark"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_ultimalycanthropy",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Ultima Lycanthropy",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you shape change, you can also allow allies to partly shift. The first two effects from Lycanthropy affect all allied characters."
+            }
+                        ]
+    },
+    {
+        "id": "ms_apex_loadedquiver",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Loaded Quiver",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "If you end your turn without attacking, the next time you use Apex, summon +1 more",
+                        "glossary": [{"val": "summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_beast"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "and deal 2 damage, once, to your target for every beast you summon."
+                    }]
+            }
+        ]
+    },
+    {
+        "id": "ms_gwynt_greatgwynt",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Gwynt",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Increase dashes and ranges by +1, and the effect can be used on an additional ally or allied summon in range.",
+                "glossary": [{"val": "dashes", "id": "gl_dash"}, {"val": "summon", "id": "gl_summon"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_circletheoak_timbersplit",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Timber Split",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Enemies no longer stop this move, and you may phase through their spaces. Enemies you pass through are shoved 1, take fray damage, and are dazed.",
+                "glossary": [{"val": "phase", "id": "gl_phasing"}, {"val": "shoved", "id": "gl_shove"}, {"val": "fray", "id": "gl_fray"}, {"val": "dazed", "id": "gl_dazed"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_miststrider_riverguardians",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "River Guardians",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "This ability creates a"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_beast"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "inside when an area is created. Foes that start their turn inside the area that end their turn outside of it take 2 damage and are dazed.",
+                        "glossary": [{"val": "dazed", "id": "gl_dazed"}]
+                    }]
+            }
+        ]
+    },
+    {
+        "id": "ms_stampede_lordofthesteppe",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Lord of the Steppe",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Yourself and allies can ride the beast if it passes through their space, removing themselves from the battlefield instead of taking damage and shove. When it ends its movement, they hop off and must place themselves in an adjacent space, or as close as possible.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_strengthofthepack_cuchulainn",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Cú Chulainn",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Strength Of The Pack becomes a free action at round 4 or later and its aura affects the entire battlefield.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_underway_baleportal",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Bale Portal",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes that are shoved into portals or that end their turn adjacent to an underway can be teleported to any free space adjacent to any other underway. A foe can pass a save to avoid it, and can only be successfully teleported this way once a round. Bloodied foes fail the save.",
+                "glossary": [{"val": "shoved", "id": "gl_shove"}, {"val": "teleported", "id": "gl_teleport"}, {"val": "Bloodied", "id": "gl_bloodied"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_morrigan_darkwing",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Bale Portal",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Morrigan resolves, you can redirect the flock, creating a small blast terrain effect in range 3. The area is dangerous terrain for foes, and allies in the area have cover. It lasts until this effect is repeated.",
+                "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "cover", "id": "gl_cover"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_sidhe_greatfumepoison",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Fume Poison",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While the toxin’s effect is active, your foe treats all other characters as having cover, evasion and dodge. This effect turns off while they are adjacent to an ally.",
+                "glossary": [{"val": "cover", "id": "gl_cover"}, {"val": "evasion", "id": "gl_evasion"}, {"val": "dodge", "id": "gl_dodge"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_divineinvestment",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Divine Investment",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You also gain the benefit of any chosen saint, lasting until the end of your next turn."
+            }
+                        ]
+    },
+    {
+        "id": "ms_holy_magnasancti",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Magnasancti",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Holy creates a small blast terrain effect after resolving. Only one of these areas can be placed at once. Allies have flying in the area, and allies that end their turn in the area may gain 2 vigor.",
+                "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "flying", "id": "gl_flying"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_felicity_fantasia",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Fantasia",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain an alternate combo ability. You can choose this ability or Fleet when you spend a token:",
+                "glossary": [{"val": "combo", "id": "gl_combo"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_fantasia"
+            }
+        ]
+    },
+    {
+        "id": "ms_pandaemonium_dulcepurgatorio",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Dulce Purgatorio",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "This ability deals bonus damage. Pandaemonium’s area effect and Purgatorio’s pit explosion effect extend to all pits on the battlefield.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "pit", "id": "gl_pit"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_aria_powerchord",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Power Chord",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, Aria gains charge: free action.",
+                "glossary": [{"val": "charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_dervish_beaconofhope",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Beacon of Hope",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can empower this ability to gain both effects at once and automatically activate their charge effects. This also counts as spending a combo token, though you don’t actually need to spend one. If you empower the ability this way, it cannot be used for the rest of combat.",
+                "glossary": [{"val": "combo", "id": "gl_combo"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_symphony_crescendo",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Crescendo",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you create four or more motes with this ability, you can create a mote in range 5 as a free action as part of ending your turn for the rest of combat. This effect does not stack."
+            }
+        ]
+    },
+    {
+        "id": "ms_gentleness_gentleprayer",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Gentle Prayer",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain"
+            },
+            {   "tags": {"desc_type" : "subeffect"},
+                "content": "Special Effect:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When the aura refreshes, you may increase or decrease the aura size by +1, to a maximum of 3 or a minimum of 1. When you do, foes inside must save or be pacified.",
+                        "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "pacified", "id": "gl_pacified"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "ms_monogatari_raconteur",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Raconteur",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Roll 1 extra d6 when gambling, and when gambling, you can choose any two results. Yourself and allies that complete both results in the same turn are also cured.",
+                "glossary": [{"val": "gambling", "id": "gl_gamble"}, {"val": "cured", "id": "gl_cure"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_chastise_supremeforbiddance",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Supreme Forbiddance",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The first time you use this ability in a combat, any character chosen is immune to all damage from the chosen foe until the start of your next turn.",
+                "glossary": [{"val": "immune", "id": "gl_immune"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_soulbloom",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Soul Bloom",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If the foe is defeated while their soul is out, summon 4 plants anywhere on the battlefield."
+            },
+            {
+                "tags": {"desc_type" : "textsummon"},
+                "content": "sm_plant"
+            }
+                        ]
+    },
+    {
+        "id": "ms_sow_spectralscythe",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Spectral Scythe",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Reap and Sow also create an arc 4 area effect drawn from your target as the origin space, that cannot include your target. Foes inside take 2 piercing damage, and allies inside gain 2 vigor.",
+                "glossary": [{"val": "area effect", "id": "gl_areaeffect"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_growingseason_soothingspore",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Soothing Spore",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes marked by Growing Season are pacified+ while in or adjacent to spaces occupied by plants.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "pacified", "id": "gl_pacified"}, {"val": "+", "id": "gl_ongoing"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_gravebirth_recycle",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Recycle",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While Gravebirth’s aura is active, as a free action you can cause any two thralls in the aura to collapse into plants to cure an ally in range 4."
+            }
+        ]
+    },
+    {
+        "id": "ms_harvest_harvestmoon",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Harvest Moon",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When this ability passes through a"
+            },
+            {
+                "tags": {"desc_type" : "textsummon"},
+                "content": "sm_plant"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "you can cause that plant to explode, dealing 2 piercing damage in a small blast area effect centered on each plant, and granting its blessing character to yourself or any other ally in range 3 of that plant. Characters can only be damaged by one of these explosions a turn.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}, {"val": "small blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_bloodgrove_hungrygrove",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hungry Grove",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Each time you summon a",
+                "glossary": [{"val": "summon", "id": "gl_summon"}]
+            },
+            {
+                "tags": {"desc_type" : "textsummon"},
+                "content": "sm_thrall"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "with Blood Grove, extend the area by 1 space, added to its total area, as long as those spaces are placed adjacent to the area when the effect is triggered."
+            }
+        ]
+    },
+    {
+        "id": "ms_rot_regrowth",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Regrowth",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain an alternate combo action:",
+                "glossary": [{"val": "combo", "id": "gl_combo"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_regrowth"
+            }
+        ]
+    },
+    {
+        "id": "ms_crimsonbloom_motherbloodwillow",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Mother Bloodwillow",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, Crimson Bloom becomes a free action and its power die starts at 3 ticks.",
+                "glossary": [{"val": "power die", "id": "gl_powerdie"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_fairyring_sporeshroud",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Spore Shroud",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Whenever the rings’ interrupt activates, create a height 1 Megamushroom object anywhere inside or adjacent to the area. The object has a blessing token on it and counts as a",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}]
+            },
+            {
+                "tags": {"desc_type" : "textsummon"},
+                "content": "sm_plant"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "but isn’t removed if the token is removed."
+            }
+        ]
+    },
+    {
+        "id": "ms_darksliver_recycle",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Recycle",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Dark Sliver can summon a mote of life instead of any regular plant. A mote of life is a",
+                "glossary": [{"val": "summon", "id": "gl_summon"}]
+            },
+            {
+                "tags": {"desc_type" : "textsummon"},
+                "content": "sm_plant"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "but becomes a terrain effect when its blessing is removed. Inside, any ally gains regeneration while standing in its space.",
+                "glossary": [{"val": "regeneration", "id": "gl_regeneration"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_reachheaventhroughviolence",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "REACH HEAVEN THROUGH VIOLENCE",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The teleport effect has the range of the battlefield for both allied characters and yourself. If your target is at or under 25% hp, they take 2 divine damage twice for each adjacent ally instead.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}, {"val": "divine", "id": "gl_divine"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_godhand_fistsofheavenandhell",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Fists of Heaven and Hell",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Add an alternate combo action. It gains all talent effects of this ability.",
+                "glossary": [{"val": "combo", "id": "gl_combo"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_fistsofheavenandhell"
+            }
+        ]
+    },
+    {
+        "id": "ms_grandseal_milksutra",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Milk Sutra",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When this mark ends, if there is a new foe in range 3 of your target, you may transfer it to that foe.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_matsuri_bloodfestival",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Blood Festival",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The first time you use Matsuri in a combat, you may increase all its teleports by +2, it deals bonus damage, and it triggers all exceed effects.",
+                "glossary": [{"val": "teleports", "id": "gl_teleport"}, {"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_spiritshrine_spiritpatronage",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Spirit Patronage",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain the following interrupt:",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_graceofthespirits"
+            }
+        ]
+    },
+    {
+        "id": "ms_sanctify_eldensalt",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Elden Salt",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can place two areas with Sanctify without replacing the first. At round 4+, Sanctify becomes 1 action."
+            }
+        ]
+    },
+    {
+        "id": "ms_grandbanishment_horseandoxseal",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Horse and Ox Seal",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you take this ability, you can also choose to invert the effect for the duration, dealing damage to the chosen foe if they move away from you instead."
+            }
+        ]
+    },
+    {
+        "id": "ms_divineaegis_shroudfromheaven",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Shroud From Heaven",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "This mark can be activated twice before it fades.",
+                "glossary": [{"val": "mark", "id": "gl_mark"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_justice_granjudicata",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Gran Judicata",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Add an alternate combo action:",
+                "glossary": [{"val": "combo", "id": "gl_combo"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_granjudicata"
+            }
+        ]
+    },
+    {
+        "id": "ms_openthegates_burialfist",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Burial Fist",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Any version of this ability deals bonus damage and always triggers exceed effects at round 4 or later.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_thoth",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Thoth",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While the aura is active, you are automatically missed by attacks, turn any of your attack misses into hits, and succeed all saves.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_sleightofhand_kingofswords",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "King of Swords",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After using this ability, you gain six spectral blades that hover behind you, using a d6 power die starting at 6 to track them. At the end of your turn, gamble. If you roll under the number of blades remaining, a blade flies out and deals 2 divine damage to a foe in range 6. Using this ability again with blades active restocks them.",
+                "glossary": [{"val": "power die", "id": "gl_powerdie"}, {"val": "gamble", "id": "gl_gamble"}, {"val": "divine", "id": "gl_divine"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_chaostarot_royaltygold",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Royalty Gold",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Instead of summoning a"
+            },
+            {
+                "tags": {"desc_type" : "textsummon"},
+                "content": "sm_wildcard"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "with this ability, you can instead end your turn and summon a Master Card. You can only have one Master Card active at once. The Master Card acts as a wild card, but also gains the gamble effect of Chaos Tarot, which it grants to any area ability that triggers it. It is consumed as normal after being activated.",
+                "glossary": [{"val": "summon", "id": "gl_summon"}, {"val": "gamble", "id": "gl_gamble"}, {"val": "area", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_astra_thechalice",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "The Chalice",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After you use any version of this ability, deal 2 divine damage, once, to a foe in the area for each blessed ally in the area, up to a maximum of three times. Foes can be damaged more than once by this effect.",
+                "glossary": [{"val": "divine", "id": "gl_divine"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_polaris_moonsilverprincess",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Moon Silver Princess",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4+, Polaris becomes a free action."
+            }
+        ]
+    },
+    {
+        "id": "ms_sisyphus_blackknightgrave",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Sisyphus",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Sisyphus triggers no matter how far away a character is from their starting position at the end of their turn."
+            }
+        ]
+    },
+    {
+        "id": "ms_granreversa_misericordia",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Misericordia",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Vigor granted by Gran Reversa can increase a character’s total vigor over their maximum.",
+                "glossary": [{"val": "Vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_eclipse_thehelm",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "The Helm",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you choose, at the start of your turn, Eclipse’s effect does not expire after activating. Instead, you can repeat its delay effect at the end of your turn without ending your turn or creating a new area. The area also disappears if you use this ability again.",
+                "glossary": [{"val": "delay", "id": "gl_delay"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_wish_starscornedhermit",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Star Scorned Hermit",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If the damage would have reduced your ally to 0 hp, they also gain defiance, then become unstoppable until the end of their next turn.",
+                "glossary": [{"val": "defiance", "id": "gl_defiance"}, {"val": "unstoppable", "id": "gl_unstoppable"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_thetower_superbolide",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Superbolide",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If the chosen character is at 25% hp or lower, they take double damage from Eclipse’s meteor effect, and the effect also ignores defiance.",
+                "glossary": [{"val": "defiance", "id": "gl_defiance"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_meteor",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { 
+            "infuse": 8
+        },
+        "eventtags": {},
+        "name": "Meteor",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Deal [D]+fray four times instead.",
+                "glossary": [{"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Special Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You can pay the resolve, aether, and action cost of this spell with your entire life force, dying after this action resolves, obliterating your body, and scattering your soul. If you do, it deals 999 divine damage instead.",
+                                    "glossary": [{"val": "divine", "id": "gl_divine"}]
+                }]
+            }
+                        ]
+    },
+    {
+        "id": "ms_pyre_magnapyre",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Magnapyre",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain access to the Magnapyre infusion. Magnapyre benefits from Pyre talents."
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_magnapyre"
+            }
+        ]
+    },
+    {
+        "id": "ms_eldenrune_arkenrune",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Arkenrune",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can put an Arkenrune down instead of a regular Elden Rune, but only one at a time, replacing the last Arkenrune you placed. Arkenrunes can't be scrubbed out, extend to a small blast area, and their benefits also extend to allies.",
+                "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "area", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_lance_greatspiritlance",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Spirit Lance",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain access to the Great Spirit Lance infusion. Great Spirit Lance benefits from Lance talents."
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_greatspiritlance"
+            }
+        ]
+    },
+    {
+        "id": "ms_soulburn_soulspark",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Soul Spark",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Free Action: You can willingly siphon off your burning life force to empower your next ability sacrificing 4, then ending the stance.",
+                "glossary": [{"val": "sacrificing", "id": "gl_sacrifice"}, {"val": "stance", "id": "gl_stance"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The ability deals bonus damage, cannot miss (turn any attack miss into a hit), activates all exceed effects, and foes gain +1 curse on any saves.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "exceed", "id": "gl_exceed"}, {"val": "+1 curse", "id": "gl_curse"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_blazingbond_greatsoulbond",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Soul Bond",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If one of the partners would take damage from an ability that would reduce them below 1 hp, the other can reduce themselves to 1 hp to grant that ally immunity to all damage from the triggering ability. The bond then snaps, ending this mark.",
+                "glossary": [{"val": "immunity", "id": "gl_immune"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_aethershard_aethershift",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Aethershift",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you start or end your turn adjacent to an Aethershard, gain phasing until the end of your next turn. The spaces of objects cost a maximum of 0 spaces for you to enter for the same duration.",
+                "glossary": [{"val": "phasing", "id": "gl_phasing"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_implode_wakingvoid",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Waking Void",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can choose a character with this ability instead of a space, but it doesn't stun the center character. If that character is defeated, Implode immediately activates.",
+                "glossary": [{"val": "stun", "id": "gl_stunned"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_pyroclast_magmotic",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Waking Void",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Instead of creating a spire, you can create a magma-filled Pit. The pit is additionally dangerous terrain. When it appears, the eruption causes a medium blast area effect centered on your target that inflicts 2 piercing damage.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "medium blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_blackstar_greatspiritbomb",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Spirit Bomb",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you use Blackstar, if it's special effect triggers, you can split sacrifice into 25% max hp to yourself, and 25% to an ally in range 4.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}]
+            }
+        ]
+    },
+    {
+        "id": "ul_moltencore",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Molten Core",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After taking this move, you emerge with a shield of molten rock covering you. You gain unstoppable and resistance until the end of your next turn.",
+                "glossary": [{"val": "unstoppable", "id": "gl_unstoppable"}, {"val": "resistance", "id": "gl_resistance"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_bio_magnabio",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Magnabio",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain access to the Magnabio infusion. Magnabio benefits from Bio talents."
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_magnabio"
+            }
+        ]
+    },
+    {
+        "id": "ms_dragondive_doubledragon",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Double Dragon",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can pull an adjacent willing ally with you during Dragon Dive, removing them when it triggers and placing them in any adjacent space after the ability resolves."
+            }
+        ]
+    },
+    {
+        "id": "ms_geo_magnageo",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Magnageo",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain access to the Magnageo infusion. Magnageo benefits from Geo talents."
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_magnageo"
+            }
+        ]
+    },
+    {
+        "id": "ms_helixheel_spiralcrusher",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Spiral Crusher",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can bounce Helix Heel off characters instead. Characters that it bounces off are shoved 1 away from you after the ability resolves.",
+                "glossary": [{"val": "shoved", "id": "gl_shove"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Collide:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Create a pit under the colliding character.",
+                        "glossary": [{"val": "pit", "id": "gl_pit"}]
+                    }
+                ],
+                "glossary": [{"val": "Collide", "id": "gl_collide"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_terraforming_ancienteruption",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Ancient Eruption",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "As part of using this ability, you may end your turn, and gain",
+                "subcontent":   [{
+                        "tags": {"desc_type" : "effect"},
+                        "content": "Delay:",
+                        "glossary": [{"val": "Delay", "id": "gl_delay"}]
+                },
+                {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Your next turn must be slow, but at the start of that turn, you may shove all characters 2 spaces towards or away from the center space of the area created by Terraforming. It then explodes, dealing 2 piercing damage twice to all characters inside.",
+                        "glossary": [{"val": "next turn must be slow", "id": "gl_slowturn"}, {"val": "shove", "id": "gl_shove"}, {"val": "piercing", "id": "gl_piercing"}]
+                }],
+                "glossary": [{"val": "end your turn", "id": "gl_endturn"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_obsidianflesh_diamondsoul",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Diamond Soul",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You have regeneration while in this stance, and when it refreshes, you can tick the die up or down by 2.",
+                "glossary": [{"val": "regeneration", "id": "gl_regeneration"}, {"val": "stance", "id": "gl_stance"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_realignment_jadeneedle",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Jade Needle",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Characters in the affected area must save or also be affected by every status that was just purged.",
+                "glossary": [{"val": "status", "id": "gl_status"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_midas_stoneresonance",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Stone Resonance",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Any time a statue created by this ability is caught in an area affect from any character, you may choose one of the following:",
+                "glossary": [{"val": "area effect", "id": "gl_areaeffect"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• Deal 2 piercing damage to all characters in the area effect again.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• Shelter all adjacent characters to the statue from the area effect, granting them cover against its effects and +1 boon on any saves.",
+                "glossary": [{"val": "cover", "id": "gl_cover"}, {"val": "+1 boon", "id": "gl_boon"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_quakingpalm_purehaeon",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Pure Haeon",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Quaking Palm's effect triggers for each object in range 2 instead of adjacent."
+            }
+        ]
+    },
+    {
+        "id": "ul_gotterdammerung",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { 
+            "infuse": 6
+        },
+        "eventtags": {},
+        "name": "Götterdämmerung",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Area Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "After this ability resolves, scathing divine lightning hits every quarter of the map but one of your choice. Characters within take 2[D]+fray Divine damage.",
+                                    "glossary": [{"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}, {"val": "Divine", "id": "gl_divine"}]
+                }]
+            }
+                        ]
+    },
+    {
+        "id": "ms_blitz_gungnir",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Gungnir",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The last teleport you make with Blitz creates a small blast terrain effect of crackling lightning in free space, with at least one space adjacent. The area is dangerous terrain. At the start and end of your turn, you may deal 1 piercing damage to all characters in the area. The area disappears if a new one is created.",
+                "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_odinforce_levinblades",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Levinblades",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, if you're in this stance, you may spend 1 action and end it to deal 1 piercing damage six times, to a character in range 6, ignoring cover. If you do so, you can't use the stance again for the rest of combat.",
+                "glossary": [{"val": "stance", "id": "gl_stance"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "cover", "id": "gl_cover"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_nothung_excalibur",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Excalibur",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "All 1 piercing damage listed by this ability becomes divine.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}, {"val": "divine", "id": "gl_divine"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_atherwand_hellerwind",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hellerwind",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can create a powerful gale instead. If you do, you can't extend or move the area, but it becomes impassable terrain."
+            }
+        ]
+    },
+    {
+        "id": "ms_fulminate_handoftyr",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hand of Tyr",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Ranged attacks against the target change depending on whether you marked a foe or ally.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• On a foe, attacks are pulled towards it. They have no maximum range if they have a listed range and target the foe, deal bonus damage, and ignore cover.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "cover", "id": "gl_cover"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• On an ally, attacks made from range 2 or greater cannot critical hit (turn any critical hit into a regular hit), cannot deal bonus damage, and gain +1 curse.",
+                "glossary": [{"val": "critical hit", "id": "gl_criticalhit"}, {"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "+1 curse", "id": "gl_curse"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_bifrost_pathtoerenhelion",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Path to Erenhelion",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bifröst bounces if its end space lands in the space of an object, creating a second line 3 area that extends the total area effect and terrain effect area.",
+                "glossary": [{"val": "area effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_rampantnail_voraciousnail",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Voracious Nail",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Characters that start their turn adjacent to the nail become vulnerable. Vulnerable characters are vulnerable+ instead while inside the nail's aura.",
+                "glossary": [{"val": "vulnerable", "id": "gl_vulnerable"}, {"val": "+", "id": "gl_ongoing"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_sturmreiten_mjollnir",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Mjöllnir",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Create an arc 5 area any time you would create an area with this ability instead.",
+                "glossary": [{"val": "area", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_driftingleaf_greatcyclone",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Cyclone",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, Drifting Leaf's infuse is always active."
+            }
+        ]
+    },
+    {
+        "id": "ul_shieldofthefourwinds",
+        "type": "Ultimate",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Shield of the Four Winds",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you so choose, when an ally would be shoved, teleported, or removed from your area, you can completely prevent that ally from being moved. This effect can trigger only once a round.",
+                "glossary": [{"val": "shoved", "id": "gl_shove"}, {"val": "teleported", "id": "gl_teleport"}]
+            }
+                        ]
+    },
+    {
+        "id": "ms_rime_magnarime",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Magnarime",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Rime can be infused with massive aether, becoming",
+                "subcontent":   [{
+                        "tags": {"desc_type" : "effect"},
+                        "content": "Infuse X:"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "If so:"
+                }]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• The area gains range 6 and becomes Arc 4, plus one per aether infused."
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• Summon a pit in the area after the ability resolves for every two aether infused.",
+                "glossary": [{"val": "Summon", "id": "gl_summon"}, {"val": "pit", "id": "gl_pit"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• Deal 1 piercing damage to all characters in the area again after the ability resolves for every two aether infused.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_tsunami_legendarystorm",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Legendary Storm",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4+, Tsunami becomes 1 action, moves anywhere from 1 to 4 spaces instead of a flat 4, and also affects flying foes.",
+                "glossary": [{"val": "flying", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_cryo_magnacryo",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Magnacryo",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain access to the Magnacryo infusion. Magnacryo benefits from Cryo talents."
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_magnacryo"
+            }
+        ]
+    },
+    {
+        "id": "ms_geyser_greatgeyser",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Geyser",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies can be placed up to three spaces away by a geyser and after landing gain flying until the end of their next turn.",
+                "glossary": [{"val": "flying", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_gust_northsoul",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Northsoul",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gust's area is not replaced if the ability is used again, though you cannot have more than three areas active."
+            }
+        ]
+    },
+    {
+        "id": "ms_heaveho_tidalsmash",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Tidal Smash",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain access to the Tidal Smash infusion."
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_tidalsmash"
+            }
+        ]
+    },
+    {
+        "id": "ms_deepwrath_darktide",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Darktide",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The first time the marked character vacates a space during their turn, they leave a dangerous terrain space behind them. Marked allies are immune to dangerous terrain, and marked foes take +1 more damage from dangerous terrain.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "immune", "id": "gl_immune"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_waterspout_hurricane",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hurricane",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, waterspouts grow to a small blast area instead of a single space. They become dangerous terrain, and characters that start their turn adjacent to the area are shoved 1 in any direction of your choice.",
+                "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "shoved", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "ms_eyeofthestorm_greataeoncloud",
+        "type": "Mastery",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Aeoncloud",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Object: If there is no character in the center space, you may also create a height 1 aethercloud object in the center space. At the start of your turn, the cloud drifts 3 spaces in a direction of your choice. Any character on top of the cloud when it moves moves with it, and is unstoppable while moving this way.",
+                "glossary": [{"val": "unstoppable", "id": "gl_unstoppable"}]
+            }
+        ]
+    }
+]

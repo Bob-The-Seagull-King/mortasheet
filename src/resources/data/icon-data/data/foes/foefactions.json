@@ -1,0 +1,977 @@
+[
+    {   "id": "fc_general",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "General",
+        "description" : [
+            {
+            "tags": {"desc_type" : "subeffect"},
+            "content": "Foes with no faction tied to them. These jobs are flexible and can be used for simple, easy-to-run foes that can fit into any scenario or faction encounter. You can use these jobs to describe any person, monster, or beast that a character runs into, with a little adjustment to flavor. If you want to fit these jobs into a faction, you can apply a faction template."
+            }
+        ],
+        "template": [],
+        "traits": [],
+        "actions": [],
+        "traits_added": [],
+        "actions_added": [],
+        "stats" : {}
+    },
+    {   "id": "fc_folk_chronicler",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Chronicler",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The great melange of peoples that populate Arden Eld, split into the Six Great Cultures. Folk are as diverse as the land itself, and all hold dear their own stories, upbringings, and dreams. Though their drives and passions often bring them into conflict, they are, at their root, people just like you."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Though many regard chroniclers as sheltered, erudite, and austere, the stereotypes don’t tend to fit a culture that values a deep drive for curiosity and learning. A close connection to the divine and a cultural sense of discipline and purpose tend to drive them forward."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Monks, priests, and warrior-nuns of the chroniclers often descend from their mountain monasteries on quests of great import, often a task given to them by their elders interpreting a passage from the Great Chant, the Tale of Ages, the Yamangeriad, or some other holy text. This quite often brings them into conflict with folk who have no idea of their quest, especially when the instructions are based on centuries old prophecy."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Occasionally more senior chroniclers are sent to retrieve or locate dangerous or powerful artifacts that were stolen or lost from the Chambers - no matter their current state, or their current owner."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Chronicler, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk are Kin."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Kin usually fight for their ideals, usually to protect something they care about (even if that something is something as simple as their own survival)."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk value their own lives and will usually surrender or flee if there’s no chance of winning a fight. Martial-minded cultures like Islanders, Leggio, or Guilders might put up more of a fight."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_folk_greatfaith"],
+        "actions": [],
+        "traits_added": ["tf_faction_folk_greatfaith"],
+        "actions_added": [],
+        "stats" : {}
+    },
+    {   "id": "fc_folk_churner",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Churner",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The great melange of peoples that populate Arden Eld, split into the Six Great Cultures. Folk are as diverse as the land itself, and all hold dear their own stories, upbringings, and dreams. Though their drives and passions often bring them into conflict, they are, at their root, people just like you."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Churners are the great melange of shop-keeps, dungeon guides, map-makers, cooks, packmules, and other camp followers that make up the nomads that follow the dungeons. Every dungeon of a certain age and level of fame has a churner camp perched along its edge, and its garish tents and colorful shop signs are a welcome sight to many."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Churners are more likely than other cultures to get into dangerous, dirty, or disreputable work, and the more ruthless of them treat adventurers as a never ending stream of disposable marks, easy pickings for an enterprising entrepreneur."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Churners are well prepared for nearly any situation, which usually mean recognizing when it’s time to cut and run."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Churner, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk are Kin."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Kin usually fight for their ideals, usually to protect something they care about (even if that something is something as simple as their own survival)."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk value their own lives and will usually surrender or flee if there’s no chance of winning a fight. Martial-minded cultures like Islanders, Leggio, or Guilders might put up more of a fight."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_folk_stackdice"],
+        "actions": ["af_folk_churner_stackdice"],
+        "traits_added": ["tf_faction_folk_stackdice"],
+        "actions_added": ["af_folk_churner_stackdice"],
+        "stats" : {}
+    },
+    {   "id": "fc_folk_guilder",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Guilder",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The great melange of peoples that populate Arden Eld, split into the Six Great Cultures. Folk are as diverse as the land itself, and all hold dear their own stories, upbringings, and dreams. Though their drives and passions often bring them into conflict, they are, at their root, people just like you."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Though the cities of Arden Eld are few, they are growing in both size and influence. With no real counties or kingdoms, they are the closest thing to nations across the great Green. Their citizens tend to be proud, loyal, and hardworking, even if a little packed in."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Though diverse in both rule and character, the cities are largely dominated by the great Trade Guilds and their fleets of airships, and the Colleges with their trained Wrights, machines, and clockwork."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The highlords of the guilds and colleges are powerful indeed, and pursue their own agendas and machinations with great vigor. Though many are high minded and truly believe in ideas of progress, equality, and wealth for all, others are more cynical, worldly, or greedy, and are not above employing ruthless tactics to accomplish their goals."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Guilder, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk are Kin."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Kin usually fight for their ideals, usually to protect something they care about (even if that something is something as simple as their own survival)."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk value their own lives and will usually surrender or flee if there’s no chance of winning a fight. Martial-minded cultures like Islanders, Leggio, or Guilders might put up more of a fight."
+                }
+            ]
+        }],
+        "traits": [],
+        "actions": ["af_folk_guilder_strive"],
+        "traits_added": [],
+        "actions_added": ["af_folk_guilder_strive"],
+        "stats" : {}
+    },
+    {   "id": "fc_folk_islander",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Islander",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The great melange of peoples that populate Arden Eld, split into the Six Great Cultures. Folk are as diverse as the land itself, and all hold dear their own stories, upbringings, and dreams. Though their drives and passions often bring them into conflict, they are, at their root, people just like you."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Brave, hardy, and adventurous folk, the islanders are not ones to shy away from trouble. Every one of the Thousand Isles is a stunningly diverse place - from it’s people, to its food, to its sights and sounds, to its dangers."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "All islands dabble in a little light piracy here and there, mostly from the soft and cargo-laden ships of the great guilds, and pirates and freelance brigadiers are often viewed as local heroes."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "In times of trouble or scarcity, particularly hardened or unscrupulous Jarls may order raids on coastal villages. These can often turn into bloody affairs, and the Jarls into warlords."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Islander, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk are Kin."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Kin usually fight for their ideals, usually to protect something they care about (even if that something is something as simple as their own survival)."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk value their own lives and will usually surrender or flee if there’s no chance of winning a fight. Martial-minded cultures like Islanders, Leggio, or Guilders might put up more of a fight."
+                }
+            ]
+        }],
+        "traits": [],
+        "actions": ["af_folk_islander_bravado"],
+        "traits_added": [],
+        "actions_added": ["af_folk_islander_bravado"],
+        "stats" : {}
+    },
+    {   "id": "fc_folk_leggio",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Leggio",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The great melange of peoples that populate Arden Eld, split into the Six Great Cultures. Folk are as diverse as the land itself, and all hold dear their own stories, upbringings, and dreams. Though their drives and passions often bring them into conflict, they are, at their root, people just like you."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Part warrior clan, part merchant enclave, and part theatre troupe, a Leggio caravan is a magnificent (and relieving) sight to all across the Green. The Leggio caravans are the lifeblood of Arden Eld, for without them, far off towns and settlements isolated by dungeons and growing blights would be starved of supplies, medicine, and food. Their arrival in a town is part circus, part festival, and part market day."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The caravans occasionally accept shady business, sometimes out of profit, sometimes out of desperation - transporting dangerous, rare, or illicit goods. Rarely, and usually due to some traumatic event, a wagon abandons the ways and strictures of the Multicolored Titan, and turns to banditry and thievery. These rogue wagons abandon the caravan and become similar to pirates - though they sail the seas of grass and stone instead of water."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Leggio, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk are Kin."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Kin usually fight for their ideals, usually to protect something they care about (even if that something is something as simple as their own survival)."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk value their own lives and will usually surrender or flee if there’s no chance of winning a fight. Martial-minded cultures like Islanders, Leggio, or Guilders might put up more of a fight."
+                }
+            ]
+        }],
+        "traits": [],
+        "actions": ["af_folk_leggio_acrobatics"],
+        "traits_added": [],
+        "actions_added": ["af_folk_leggio_acrobatics"],
+        "stats" : {}
+    },
+    {   "id": "fc_folk_yeokin",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Yeokin",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The great melange of peoples that populate Arden Eld, split into the Six Great Cultures. Folk are as diverse as the land itself, and all hold dear their own stories, upbringings, and dreams. Though their drives and passions often bring them into conflict, they are, at their root, people just like you."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "In the villages, you work together, you eat together, and you celebrate together. The earth supports you, and you support the earth. Life in the villages can be slow and appear sleepy or idyllic from the outside, but all villages must work hard to keep everyone safe, fed, and flourishing. Villages move with the seasons, the air, the forests, and the whims of the spirits."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },            
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "It’s considered rare for Yeokin to stray too far from their villages (those that do tend to become adventurers), especially to cause trouble, but it does occasionally happen. Town priests and elders of larger towns sometimes start to ponder demanding tribute from their smaller neighbors, or sending over their largest and toughest to ‘negotiate’ favorable trade deals. When pushed into desperation by surging dungeons or untamed blights, Yeokin towns are occasionally abandoned, those remaining turning to any means necessary to survive."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Yeokin, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk are Kin."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Kin usually fight for their ideals, usually to protect something they care about (even if that something is something as simple as their own survival)."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Folk value their own lives and will usually surrender or flee if there’s no chance of winning a fight. Martial-minded cultures like Islanders, Leggio, or Guilders might put up more of a fight."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_folk_camaraderie"],
+        "actions": [],
+        "traits_added": ["tf_faction_folk_camaraderie"],
+        "actions_added": [],
+        "stats" : {}
+    },
+    {   "id": "fc_relict",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Relict",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The Relict are the most common danger that adventurers face in the ruins of Arden Eld. They are the spectral remnants of the Arken Empire, souls bound in a semi-automated etheric network that runs through the ruins, entrapped there by an ancient sorcerer as a last ditch effort to save a dying people. The process was technically successful, but most relict have been left mindless husks - tormented souls harnessed and stored in lightning aether powered sarcophagus-like nodes nestled throughout the ruins."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "In its dying days, the Arken Empire became obsessed with escaping its own destruction, and the places where Relict now rest show this in their very stones. The great tomb-cities prepared for the populace now lie beneath the earth, both dead and alive. Great monuments of dead emperors peer over pitch black chasms lined with the husks of the deceased. Relict armor sits eerily still in alcoves, or crumpled into a corner, until its a node senses intruders, the Relict within rippling out through conduits to manifest in crackling undeath."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "There are some Relict, remnants of the Black Sun cult, that have retained more sense of themselves and work at dark purpose to resurrect the old empire and bring back the Arkenlords. These masters of the dead are barely sane from their long stint with undeath and think only of returning the surface world to its former glory."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Relict, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Monsters:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Most relict are mindless husks. Their more intelligent masters usually have more complex motivations."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Relict are usually dormant, but become active when their tomb-cities are intruded upon by unlucky treasure-seekers. They can also be stirred into wakefulness by the priests of the Black Sun, whose only goal is the reawakening of the old empire, the resurrection of the Arkenlords, and the reconquest and total subjugation of the world of the living."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_relict_legionofthedead","tf_faction_relict_mindlesshusks"],
+        "actions": [],
+        "traits_added": ["tf_faction_relict_legionofthedead"],
+        "actions_added": [],
+        "stats" : {}
+    },
+    {   "id": "fc_beast",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Ruin Beast",
+        "description" : [
+            {
+            "tags": {"desc_type" : "subeffect"},
+            "content": "The ruins are full of wildlife that has adapted to their unique environment over time - or have been changed or warped by it. Wherever there are dungeons or a Blight, there are Ruin Beasts. They are the most common monsters found afield in the blight-stricken areas of Arden Eld, and the most likely to wander adrift."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Beasts fit into a dungeon ecosystem much the same as they do in more mundane ecosystems outside of their unnatural environments. There are many biologists and naturalists across Arden Eld undertaking the hard work of categorizing the dizzying number of species that are found every week by intrepid adventurers. Many beast organs and excretions are extremely useful in medicine, research, industry, and even cosmetics, and teams of hunters are often sent out to bag a particularly beast once its kind are sighted."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Some naturalists are more in favor of conservation, and argue that despite their strange origins, the beasts of the great dungeons, though dangerous and unusual, should be treated as just another part of the natural world. They’re more interested in studying the beasts and preventing them from harming local communities than actively poaching them."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Not all ruin beasts are hostile, and some are in fact quite docile unless provoked. However, nearly all of them are capable of tremendous bursts of strength and power when enraged, a by product of their harsh environment - and necessary for survival."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Beast, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Monsters:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Beasts do not negotiate. They might flee if losing a fight badly or act out of self preservation."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Beasts have simple motivations, which are typically for territory or food. Ruin beasts in particular are often affected by the blighted energies of unconfined ruins, which can mutate them or drive them sick or mad. Sometimes it is possible to cure these beasts of their afflictions."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_common_enrage"],
+        "actions": [],
+        "traits_added": ["tf_faction_common_enrage"],
+        "actions_added": [],
+        "stats" : {}
+    },
+    {   "id": "fc_scavenger",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Scavenger",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Scavengers is a particular term in Arden Eld, referring to the scions of the Churning Age - those who rush into the ruins in search of relics to extract for a quick profit, or prowl the roads in search of vulnerable folk to shake down. Many find that it is easier to have others do the hard work for them, then rob them blind on the way out."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Scavenger bands are as diverse as any other folk of Arden Eld, but usually turn to scavenging out of a desire for profit, something that can be intensely personal. Many scavengers come from the cities, seeking wealth from the ruins that was denied to them by virtue of social class in their homelands. Still others are opportunists, deserters from Imperial armies, Churners whose business has dried up, or people from local villages that were sick of the parochial life and wanted to exercise their ambition. A lot of the time, they are barely one step away from adventurers."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Not all scavenger bands employ banditry, and some are actually large, ‘legitimate’ enterprises, sanctioned by the major guilds (frequently involving a lot of corruption). These bands are run by individuals colloquially known as Churn Barons - ruthless profiteers who will turn to any means to make money."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Scavenger, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Scavengers are kin, can be bargained with, and will flee or surrender if heavily outnumbered or heavily losing a fight."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Scavengers are typically after the wealth in the ruins and won’t fight if terms can be reached."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_scavenger_valuables", "tf_faction_scavenger_cutandrun","tf_faction_scavenger_greed"],
+        "actions": [],
+        "traits_added": ["tf_faction_scavenger_cutandrun","tf_faction_scavenger_greed"],
+        "actions_added": [],
+        "stats" : {}
+    },
+    {   "id": "fc_imperial",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Imperial",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The great cities of Arden Eld are growing, stretching at their limits. Some have crowned kings, dictators, or patricians. Other set their ambitions higher - to create a nation, or recreate the old empire - a terrible endeavor indeed. The leaders of the Imperials are single-minded people in love with regalia, the war-banner, the factory, and the clang of steel. They worship the musket. Their soldiers on the ground are less enthusiastic, but given the chance, they will trample the Green into mud and ashes none the less."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Imperials make heavy use of salvaged and repurposed arkentech, that drive the engine- cores of their massive war machines and automatons. The black-powder weapons that they employ are low quality but effective in mass."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe an Imperial, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Imperials are kin, can be bargained with, and will flee or surrender if heavily outnumbered or heavily losing a fight."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Imperials have orders they are following from whatever guild master, warlord, or under-baron they serve. Usually this is to capture a location, object of power, or person of interest. If characters can work around those orders, Imperials can usually be bargained with or even be helpful."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_imperial_orders","tf_faction_imperial_chainofcommand"],
+        "actions": [],
+        "traits_added": [],
+        "actions_added": [],
+        "stats" : {}
+    },
+    {   "id": "fc_demon",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Demon",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The origin of Demons is a mystery, but most scholars agree they appear to be closely related to the Doom. They are among the most dangerous and fearsome creatures that lurk in the deep levels of the Arkenruins, existing seemingly only to destroy. Whenever they appear, they drive other creatures to the surface in a Blight."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The deeper you go in the ruins, the more demons you come across, and the more reality seems to fall apart. Some of the more infamous and unconquered ruins in Arden Eld descend miles and miles, deep into the earth, where they eventually dissolve into lightless Abyss, full of squirming Natal demons that crawl over each other like maggots, and stalked by enormous, misshapen horrors."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Demon, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Monsters:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Demons do not flee or negotiate. All Demons have the Devour trait and Abyssal Legion trait."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Most demons are mindless, extra dimensional killing machines that exist to kill and eat living things. Those that have the intelligence or wherewithal to communicate with Kin usually reveal a cruel and sadistic malice. They delight in inflicting pain, fear, violence, and destruction - including on each other."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Abyssal Legion:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "All Demons have the Abyssal Legion special mechanic, which includes the Legion, Devour, and Devour Natal traits."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_demon_legion"],
+        "actions": ["af_faction_demon_devour", "af_faction_demon_devournatal"],
+        "traits_added": [],
+        "actions_added": ["af_faction_demon_devour", "af_faction_demon_devournatal"],
+        "stats" : {}
+    },
+    {   "id": "fc_lowlander",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Lowlander",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "A society of rejects, survivors, and outcasts, lowlanders are a relatively new development in Arden Eld - those that make their homes in and under the blightlands - the areas around long- emerged and active arkenruins that are inhospitable to life and full of monsters, where the very ground might be poison. They often live in squalor and constant danger from their harsh environment, and band together for survival into loose clans."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Those that live in the blightlands live on the fringe. Most people that are out there chase the herds of monsters and blighted fauna, harvesting them for valuable parts that can be sold or traded back to guilds or other clans. Many of them are often pariahs, exiled from society, for real or perceived transgressions, forced into a life of brutal survival."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The lowlander way of life is one of hunting, constantly on the move, and using convoys of giant, blight resistant pack insects to haul their tents, cargo, and supplies. Many lowlander clans are raiders, and using the blight as a natural barrier they attack the towns, farms, and lands outside when they need to gather supplies, retreating into the blight when pursued. Some principled lowlander clans may try to avoid bloodshed and take only what they need, but the villages they take from would nearly all see it differently."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Clanners are masters of the giant (and very dangerous) insect species of the Blightlands, using them for labor, transportation, food, and protection. They have the biggest repositories of knowledge about blightland fauna and flora in the known world, and are frequently hired as guides or advisors by enterprising outsiders. Many of them have also developed a semi- religious respect for the dungeons that in its worse forms can manifest as cult-like reverence."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Lowlander, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Lowlanders are kin, can be bargained with, and will flee or surrender if heavily outnumbered or heavily losing a fight."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Lowlanders nearly always fight for territory or supplies. Negotiating for them for passage through their territory usually involves doing a favor or payment, and they typically respect fair deals. They prefer to take captives in battle and ransom them back later."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Lowlanders are survivors and won't hesitate to back down from a fight they know they will lose - conversely, they won’t hesitate to exploit weaknesses."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Blightland Survivalists:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "All Lowlanders have the Blightland Survivalists special mechanic, which include the Lowlander Toxin, Pit Expert, and Suddenly! traits."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_lowlander_lowlandertoxin", "tf_faction_lowlander_pitexpert", "tf_faction_lowlander_suddenly"],
+        "actions": [],
+        "traits_added": ["tf_faction_lowlander_lowlandertoxin", "tf_faction_lowlander_pitexpert", "tf_faction_lowlander_suddenly"],
+        "actions_added": [],
+        "stats" : {}
+    },
+    {   "id": "fc_jotunn",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Jotunn",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Distant cousins of the Troggs, Jotunn were born of the Titans and served them when the world was young. A variety of peoples, they are united only by their origins, extreme age, prodigious strength, and enormous stature. Most Jotunn stand twice the height of other kin, some as big as a small building."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Jotunn seem virtually immune to disease, and do not age, making them technically immortal, though they can still be slain by a powerful enough foe. They do not reproduce, but were made by the titans, fully formed. There are therefore a limited number of them in the world (though many have yet to emerge), and eventually their age will pass. This is something many Jotunn are keenly aware of."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Jotunn have long but very fallible memories, and the ancients remember the Arken and the Doom, and have witnessed the sins of Kin throughout the age. This tends to make them melancholy, distrustful, or resentful. At their best, they are burdened by the weights of their long lives. Many ancient Jotunn wander the land or stand guard over crumbling titan ruins, following the edicts, patrol routes, and tasks given to them by their ancient lords, so long ago that even they have forgotten. Others seek out the cities and towns of Kin, finding purpose in labor, learning, or battle."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The slaying of the titans scattered their blood across the land, where it sunk smoking into the earth. Where the blood crystallized and pooled, it formed cysts that grew a new crop of Jotunn. The Jotunn that have emerged from the earth in the millennia since then have all emerged insane, and driven only by the pain and rage of their dying progenitors, going on rampages until they are slain or collapse dead from exhaustion."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Older Jotunn often seek out their insane kin in order to put them down or out of some faint hope for salvation, hoping for some final end to their pain."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Jotunn, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ancient Jotunn are kin, can be bargained with, and will flee or surrender if heavily losing a fight."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Jotunn are motivated strongly by their negative emotions (sadness, anger, distrust, ennui, hunger, etc). Appeasing them or appealing to their feelings can soften them and make them open to negotiation."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Jotunn typically don’t flee but value their lives and will surrender if they see no chance of winning a fight."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Legacy of the Titans:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "All Jotunn have the Legacy of the Titans special mechanic, which include the Elite, Titanblood, Titanfall, and Titan Armament traits."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_jotunn_elite", "tf_faction_jotunn_titanblood", "tf_faction_jotunn_titanfall", "tf_faction_jotunn_titanarmament"],
+        "actions": [],
+        "traits_added": ["tf_faction_jotunn_elite", "tf_faction_jotunn_titanfall"],
+        "actions_added": [],
+        "stats" : {
+            "hp_mod": 2,
+            "turns": 2,
+            "size": 2
+        }
+    },
+    {   "id": "fc_hob",
+        "type": "FoeFaction",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hob",
+        "description" : [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Nature spirits of the Green and the Deep Green, Hobs are the keepers of field and forest. Tied intimately to the seasons, the flora and fauna of Arden Eld, and to the land itself, these ancient beings range from the tiny, mischievous spriggs to the the colossal Forest Gods."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Hobs are animate spirits made of the aether of Arden Eld itself - the world soul, that inhabits every tiny rock, tree, and blade of grass. Most of the time these spirits slumber peacefully inside the land, their presence felt rather than seen, but in places where the aether of the world is especially strong, these spirits burgeon forth, emerging at the twilight hours to frolic, gallop, and clamber through the trees and streams."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Hobs range from childlike or barely intelligent, to ancient and wise, depending on the aspect of nature they are tied to. The tiny spriggs are curious enough to follow travelers and smart enough to play tricks, but otherwise have no more awareness than the birds, mice, and flowers from which they draw their essence. Conversely, the Aesi are powerful and skilled in old, powerful magic, being tied to deep and dark lakes, enormous trees, rock formations, or embodied as ancient beasts or in the shape of kin."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Most of the time, Hobs pay travelers little heed other than innocent curiosity, and many villages of the Green worship them along with a broad cast of local spirits, leaving offerings and prayers to placate them. The relationship is often harmonious and mutual - with Hobs often reciprocating by guiding travelers back to civilization, blessing harvests, or gifting small and valuable presents to local children."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "However, Hobs have existed far longer on Arden Eld than civilization and do not play by its rules. Some hobs have no more intelligence than the wild beasts from which they draw their essence, and can be just as dangerous. Others may find it perfectly acceptable to lead a traveler astray for three days in order to show them a breathtaking lake view, to encourage beautiful and colorful weeds to grow over a field, or to transform someone into a deer for a week so they can run wild in the forest. Occasionally, this turns sour and conflicts spring up between Kin and Hob - conflicts that Hobs remember for a very long time. A village priest familiar with their ways may grow old and die, or grandson may forget the yearly offering that his grandfather made to the local spirits, and the Hobs see no difference - only a sudden and unforgivable slight."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "" },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "In the worst cases, the aether of the land is stirred when the natural order is wounded. The Churn has driven more and more kin into the deeper parts of the land, as power-hungry kingdoms, barons, and princes use fire, axe, and machine to tear up the forests and mountains to fuel their industries and armies. In these cases, the Hobs that emerge from the wounded landscape are wild, vicious, or mad with rage. Driving up local animals into a frenzy, they become a terrifying force of nature that can wage all-out war with local towns or outposts, killing scores."
+            }
+        ],
+        "template": [{
+            "tags": {"desc_type" : "desc"},
+            "content": "To make any foe a Hob, you can add the following:"
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Kin:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Hobs can (technically) be bargained with, and will occasionally flee or surrender when they are badly losing a fight. Unless greatly pressed, hobs that are considered kin will never kill characters intentionally, preferring to punish or humiliate."
+                }
+            ]
+        },
+        { "tags": {"desc_type" : "gap"}, "content": "" },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Motivations:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Hobs are usually strongly motivated by trespass or injury against the land. Some are motivated by some perceived slight or offense against some ancient bargain, rule, or compact. Still others are simply motivated by natural beauty or whimsy and don’t see malice in their own actions."
+                }
+            ]
+        },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Flee:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Being immortal nature spirits, being killed doesn’t really bother a Hob (they will usually return with the next season), but they can be flighty and will run away if afraid."
+                }
+            ]
+        },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Monsters:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Hobs that are stirred up by some natural disaster or desecration of the natural world are warped and malicious, and will not bargain or negotiate until things are put right, usually returning to their usual natures once the crisis passes."
+                }
+            ]
+        },
+        {
+            "tags": {"desc_type" : "effect"},
+            "content": "Nature Spirits:",
+            "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "All Hobs have the Nature Spirits special mechanic, which include the Greenwalker, Spirit Away, Trickery, and Forest Children traits."
+                }
+            ]
+        }],
+        "traits": ["tf_faction_hob_greenwalker", "tf_faction_hob_trickery", "tf_faction_hob_forestchildren"],
+        "actions": ["af_faction_hob_spiritaway"],
+        "traits_added": ["tf_faction_hob_greenwalker", "tf_faction_hob_trickery"],
+        "actions_added": ["af_faction_hob_spiritaway"],
+        "stats" : {}
+    }
+]

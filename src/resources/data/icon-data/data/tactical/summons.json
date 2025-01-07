@@ -1,0 +1,492 @@
+[
+    {
+        "id": "sm_bomb",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Bomb",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The bomb can be shoved or teleported and can share space with other characters, though it can't share space with other bombs. When any character enters a bomb's space, they can remove it from the battlefield. At the end of their turn, they may place it on any free adjacent space. Characters can only carry one bomb at once.",
+                                    "glossary": [{"val": "shoved", "id": "gl_shove"},{"val": "teleported", "id": "gl_teleport"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once a round, you may gamble at the end of any turn other than yours, after all bombs have been placed. All bombs explode, dealing damage equal to the gamble result in a small blast area effect centered on them. Characters in the area of multiple explosions are only affected once.",
+                                    "glossary": [{"val": "gamble", "id": "gl_gamble"},{"val": "area effect", "id": "gl_areaeffect"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "cl_vagabond",
+        "limit": 6
+    },
+    {
+        "id": "sm_astralseraph",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true,
+            "Flying": true,
+            "Skirmisher": true
+        },
+        "eventtags": {},
+        "name": "Astral Seraph",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The seraph flies 3.",
+                                    "glossary": [{"val": "flies", "id": "gl_flying"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once a round, when you score a Critical hit, trigger a Finishing Blow, or trigger an Exceed effect, you may cause the seraph to lash out against all foes at exactly range 3 from the seraph, dealing 2 unerring damage to them.",
+                                    "glossary": [{"val": "Critical Hit", "id": "gl_criticalhit"}, {"val": "Finishing Blow", "id": "gl_finishingblow"}, {"val": "Exceed", "id": "gl_exceed"}, {"val": "unerring", "id": "gl_finishingblow"}]
+                                }]
+            }
+        ],
+        "blurb":  [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "At the start of combat, you may place your seraph in range 2 from you. This summon persists even if you’re defeated."
+        }],
+        "colour": "cl_vagabond",
+        "limit": 1
+    },
+    {
+        "id": "sm_shadow",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Shadow",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The shadow can share space other characters, and has different effects on foes and allies:"
+                }]
+            },
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "• If a foe enters the shadow’s space for any reason or starts their turn there, it it consumed, dealing 2 damage to them, disappearing and turning into a"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadowcloud"
+                    }]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• If a yourself or an ally enters the shadow’s space, it is consumed. It disappears and grants them stealth.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+            }
+        ],
+        "blurb":  [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "Shadows can be summoned in free space in range 2, unless a higher range is specified."
+        }],
+        "colour": "cl_vagabond",
+        "limit": 6
+    },
+    {
+        "id": "sm_shadowcloud",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "Terrain Effect": true
+        },
+        "eventtags": {},
+        "name": "Shadow Cloud",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Difficult terrain. While inside this terrain space, characters are blinded+. You are immune to these effects.",
+                "glossary": [{"val": "Difficult terrain", "id": "gl_difficultterrain"}, {"val": "blinded", "id": "gl_blinded"}, {"val": "+", "id": "gl_ongoing"}, {"val": "immune", "id": "gl_immune"}]
+            }
+        ],
+        "blurb":  [],
+        "colour": "cl_vagabond",
+        "limit": 0
+    },
+    {
+        "id": "sm_beast",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Beast",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "All beasts can dash 1 space at the start of your turn.",
+                                    "glossary": [{"val": "dash", "id": "gl_dash"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When you or an ally ends any movement adjacent to a beast’s space, you may cause the beast to pounce at a foe in range 3. That character takes unerring damage equal to their distance from the beast (1-3). Then remove the beast.",
+                                    "glossary": [{"val": "unerring", "id": "gl_unerring"}]
+                                }]
+            }
+        ],
+        "blurb":  [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "When a beast is summoned, it can be summoned in any free space in range 2 unless a different range is listed. Beasts can be summoned in free space in range 2, unless a higher range is specified."
+        }],
+        "colour": "cl_vagabond",
+        "limit": 6
+    },
+    {
+        "id": "sm_greatbeast",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Great Beast",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once during your turn, your beast can dash up to 2 spaces, then may deal 2 damage to an adjacent foe and shove 1.",
+                                    "glossary": [{"val": "dash", "id": "gl_dash"}, {"val": "shove", "id": "gl_shove"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Charge:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Repeat the action."
+                                }]
+            }
+        ],
+        "blurb":  [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "At the start of every combat, summon a great beast in range 2, a trained animal companion. This summon persists even if you’re defeated."
+        }],
+        "colour": "cl_vagabond",
+        "limit": 1
+    },
+    {
+        "id": "sm_thrall",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Thrall",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "At the start of your turn, all your thralls may dash 2 spaces, ignoring difficult terrain, then dealing 1 piercing damage to an adjacent foe. Then, remove each thrall and replace it with a plant.",
+                                    "glossary": [{"val": "dash", "id": "gl_dash"}, {"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            }
+        ],
+        "blurb":  [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "When a thrall or plant is created, it can be summoned in any free space in range 2 unless a different range is listed."
+        }],
+        "colour": "cl_mendicant",
+        "limit": 6
+    },
+    {
+        "id": "sm_plant",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "Terrain Effect": true
+        },
+        "eventtags": {},
+        "name": "Plant",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Terrain Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "A plant space is dangerous terrain that only affects foes, and has a blessing token on it, which can be picked up if yourself or an ally enters its space. When the blessing is removed, remove the plant.",
+                                    "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "teleported", "id": "gl_teleport"}]
+                                }]
+            }
+        ],
+        "blurb":  [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "When a thrall or plant is created, it can be summoned in any free space in range 2 unless a different range is listed."
+        }],
+        "colour": "cl_mendicant",
+        "limit": 0
+    },
+    {
+        "id": "sm_severedsoul",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true,
+            "Immobile": true
+        },
+        "eventtags": {},
+        "name": "Severed Soul",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "While they have their soul knocked out, foes can act normally. However, the soul can be targeted as if it was the body, transferring all damage or effects it would take to the body, no matter the distance or line or sight. Damage becomes divine. Abilities that are able to target both the body and soul of the foe (such as AoEs) can hit both.",
+                                    "glossary": [{"val": "divine", "id": "gl_divine"}, {"val": "AoEs", "id": "gl_areaeffect"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "cl_mendicant",
+        "limit": 1
+    },
+    {
+        "id": "sm_wildcard",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Wild Card",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The card emits a small blast area effect centered on it, which is normally inactive. When any space of an area ability from you or an ally would touch the area, it can be activated, causing the card to explode, and extending the area effect of that ability to encompass the card’s area for the duration. Then, remove the card.",
+                                    "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "•",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Wild cards can be triggered by other wild cards."
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "•",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Wild cards do not extend the persistent effects of any area abilities, such as creating terrain effects in their space, but only the effects that last for the duration of the ability."
+                                }]
+            }
+        ],
+        "blurb":  [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "When a wild card is summoned, it can be summoned in range 2 if no other range is listed."
+        }],
+        "colour": "cl_mendicant",
+        "limit": 0
+    },
+    {
+        "id": "sm_saltsprite",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true,
+            "Immobile": true
+        },
+        "eventtags": {},
+        "name": "Salt Sprite",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Sprite is both a summon and terrain effect. It can share spare with other characters, and its area counts as difficult terrain.",
+                                    "glossary": [{"val": "summon", "id": "gl_summon"}, {"val": "difficult terrain", "id": "gl_difficultterrain"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When a character is shoved into the sprite’s area, it triggers collide effects and awakens it. Allies shoved into its space can fly 2. Foes are shoved 2 in any direction. Then, remove the sprite.",
+                                    "glossary": [{"val": "shoved", "id": "gl_shove"}, {"val": "collide", "id": "gl_collide"}, {"val": "fly 2", "id": "gl_flying"}]
+                                }]
+            }
+        ],
+        "blurb":  [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "When a Salt Sprite is summoned, it can be summoned in range 2 unless a different range is specified."
+        }],
+        "colour": "cl_wright",
+        "limit": 6
+    },
+    {
+        "id": "sm_selkie",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true,
+            "Flying": true
+        },
+        "eventtags": {},
+        "name": "Selkie",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Your Selkie can share space with characters, and is also considered a terrain effect."
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Selkie may fly 3 at the end of your turn. Any character standing in the Selfie’s space when it moves is removed from the battlefield, then placed back in its space, or adjacent to it if that space is occupied.",
+                                    "glossary": [{"val": "fly 3", "id": "gl_flying"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "cl_wright",
+        "limit": 1
+    },
+    {
+        "id": "sm_spiritidol",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "hp": 10,
+            "defense": 10,
+            "armour": 0,
+            "speed": 4
+        },
+        "eventtags": {},
+        "name": "Spirit Idol",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Idol heals to full HP after each combat. It can take a standard move and the following actions:"
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Spirit Slash (1 Action, Attack, Range 3): ",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "subeffect"},
+                        "content": "On hit: "
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "1d6+1 damage."
+                    },
+                    {
+                        "tags": {"desc_type" : "subeffect"},
+                        "content": "Miss: "
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "1 damage."
+                    }
+                ]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Push (1 Action): ",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "An adjacent character is shoved 1 space.",
+                        "glossary": [{"val": "shoved", "id": "gl_shove"}]
+                    }
+                ]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Spirit Blast (1 Action): ",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "A character in range 3 is sealed or weakened (spirit’s choice).",
+                        "glossary": [{"val": "sealed", "id": "gl_sealed"},{"val": "weakened", "id": "gl_weakened"}]
+                    }
+                ]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Dash (1 Action): ",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "The spirit dashes 3 spaces.",
+                        "glossary": [{"val": "dashes", "id": "gl_dash"}]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 1
+    }
+]

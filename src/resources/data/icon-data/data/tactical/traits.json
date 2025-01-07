@@ -1,0 +1,1630 @@
+[
+    {
+        "id": "tr_armour",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Armor 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Reduce all damage taken by 2."
+            }
+                        ]
+    },
+    {
+        "id": "tr_fortify",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Fortify",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Spaces adjacent to you have Rampart. Gain Vigilance +1 at the end of your turn."
+            }
+                        ]
+    },
+    {
+        "id": "tr_rush",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Rush X",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Stalwarts can rush as part of their abilities. When you rush, you move X spaces and are unstoppable and immune to all damage during that move.",
+                "glossary": [{"val": "unstoppable", "id": "gl_unstoppable"}, {"val": "immune", "id": "gl_immune"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_strive",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Strive",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may cause any ability to trigger its heroic effects when you use it, and increase the distance of any shoves by +1. If you do, after that ability resolves, you can’t use heroics until the end of your next turn, and deal half damage during that turn.",
+                "glossary": [{"val": "heroic", "id": "gl_heroic"}, {"val": "shoves", "id": "gl_shove"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_presstheadvantage",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Press the Advantage",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once a round, when you shove a character, you and an ally of your choice anywhere can each rush 1.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}, {"val": "rush", "id": "gl_rush"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_bullsstrength",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Bull's Strength",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "All of your abilities gain collide: deal 2 damage. Characters can't take this damage more than once a turn.",
+                "glossary": [{"val": "collide", "id": "gl_impact"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_shieldmaster",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Shieldmaster",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You have aura 1. If you end your turn with an ally in the aura, gain vigilance +1 and become sturdy until the start of your turn.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_blackrockvanguard",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Black Rock Vanguard",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can take any number of interrupts per turn. When you take an interrupt, you may rush 1 after it resolves.",
+                "glossary": [{"val": "interrupts", "id": "gl_interrupt"}, {"val": "rush 1", "id": "gl_rush"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_demonedge",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Demon Edge",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you elect to take a slow turn or use a delay effect, gain vigilance +1, and all your abilities deal bonus damage and gain true strike until the end of your next turn.",
+                "glossary": [{"val": "slow turn", "id": "gl_slowturn"}, {"val": "delay", "id": "gl_delay"}, {"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "truestrike", "id": "gl_truestrike"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_demonstrength",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Demon Strength",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can make any ability Heroic when you use it. If you do, you can’t attack or use Heroics until the end of your following turn.",
+                "glossary": [{"val": "Heroic", "id": "gl_heroic"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_hissatsu",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Hissatsu",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you don’t attack during your turn, your next attack ability gains +1 boon, true strike, and upgrades its damage die to d10. This effect ends after you hit with an attack.",
+                "glossary": [{"val": "+1 boon", "id": "gl_boon"}, {"val": "true strike", "id": "gl_truestrike"}, {"val": "damage die", "id": "gl_damagedice"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_truehorn",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "True Horn",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You are sturdy from the start of each round until the start of your turn.",
+                "glossary": [{"val": "sturdy", "id": "gl_sturdy"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_rangiri",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Rangiri",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you trigger Hissatsu twice in a row, your attack ability becomes upgraded further. The entire ability now deals double damage. Roll and determine all damage on the attacker’s end when making it, then double the total before applying it."
+            }
+                        ]
+    },
+    {
+        "id": "tr_furiousberserk",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Furious Berserk",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You go into a furious blood rage as you take damage, giving you the following benefits:",
+                "subcontent":   [{
+                    "tags": {"desc_type" : "subeffect"},
+                    "content": "You start combat with defiance.",
+                    "glossary": [{"val": "defiance", "id": "gl_defiance"}]
+                },
+                {
+                    "tags": {"desc_type" : "subeffect"},
+                    "content": "You have regeneration, and regain regeneration if defeated and rescued.",
+                    "glossary": [{"val": "regeneration", "id": "gl_regeneration"}]
+                },
+                {
+                    "tags": {"desc_type" : "subeffect"},
+                    "content": "While you’re bloodied, you are sturdy, and gain vigilance +1 at the end of your turn.",
+                    "glossary": [{"val": "bloodied", "id": "gl_bloodied"}, {"val": "sturdy", "id": "gl_sturdy"}, {"val": "vigilance +1", "id": "gl_vigilance"}]
+                }]
+            }
+                        ]
+    },
+    {
+        "id": "tr_wolfheart",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Wolfheart",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once a round, you may sacrifice 25% of your max hp to make an ability Heroic and increase the distance of any flight, rush, or dash as part of that move by +1.",
+                "glossary": [{"val": "sacrifice 25%", "id": "gl_sacrifice"}, {"val": "Heroic", "id": "gl_heroic"}, {"val": "rush", "id": "gl_rush"}, {"val": "dash", "id": "gl_dash"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_pulverize",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Pulverize",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you start an attack ability on higher elevation than your target, it deals bonus damage. If you are two or more levels higher, it also triggers all exceed effects.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "exceed", "id": "gl_exceed"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_greatleap",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Leap",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you would end any movement on a lower elevation than you started, you may gain flying for the duration of that movement.",
+                "glossary": [{"val": "flying", "id": "gl_flying"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_unbreakable",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Unbreakable",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If defeated, you can rescue yourself and take a turn as normal. This doesn’t take an action and takes place at the start of your turn. In addition, after being rescued in any way, including as part of this trait. you can rush 1 and deal 2 damage to all adjacent characters.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_martialmaster",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Martial Master",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can take two stances at once.",
+                "glossary": [{"val": "stances", "id": "gl_stance"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_blackheart",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Blackheart",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While you’re suffering from a status, gain vigilance +1 at the end of your turn. If you are suffering from two or more, also deal bonus damage with all abilities.",
+                "glossary": [{"val": "vigilance +1", "id": "gl_vigilance"}, {"val": "bonus damage", "id": "gl_bonusdamage"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_taunt",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "action": 1
+        },
+        "eventtags": {},
+        "name": "Taunt",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "A foe in range 3 gains hatred of you.",
+                "glossary": [{"val": "hatred", "id": "gl_hatred"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_spite",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Spite",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can choose to use the Heroic effects of any ability when you use it. However, after it resolves, gain Hatred+ of the closest foe to you until the end of your next turn and you can’t use Heroics again for the same duration. If multiple foes are equidistant, you can choose.",
+                "glossary": [{"val": "Heroic", "id": "gl_heroic"}, {"val": "+", "id": "gl_ongoing"}, {"val": "Hatred", "id": "gl_hatred"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_wayofthecrow",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Way of the Crow",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If any ally is defeated, cure yourself and become unstoppable until the end of your next turn.",
+                "glossary": [{"val": "cure", "id": "gl_cure"}, {"val": "unstoppable", "id": "gl_unstoppable"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_skirmisher",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Skirmisher",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "A character with this trait can move diagonally and dash at full speed."
+            }
+                        ]
+    },
+    {
+        "id": "tr_dodge",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Dodge",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": " Immune to all damage from missed attacks, successful saves, and area effects.",
+                "glossary": [{"val": "area effects", "id": "gl_areaeffect"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_prowl",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "action": 1
+        },
+        "eventtags": {},
+        "name": "Prowl",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain stealth. Becomes a free action if no foes are in range 2.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_finesse",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Finesse",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You deal bonus damage to bloodied foes.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "bloodied", "id": "gl_bloodied"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_tumbling",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Tumbling",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may phase through characters. Entering the space of any character, including summons, always costs a maximum of 1 movement.",
+                "glossary": [{"val": "phase", "id": "gl_phasing"}, {"val": "summons", "id": "gl_summon"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_curseofchaos",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Curse of Chaos",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You have evasion against characters that are 3 or more spaces away from you.",
+                "glossary": [{"val": "evasion", "id": "gl_evasion"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_cheaptrick",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Cheap Trick",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When an attack misses you, you may teleport 1 space, then leave a",
+                        "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_bomb"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "in an adjacent space."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tr_stackdice",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Stack Dice",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once a round, when you trigger a finishing blow or slay effect, gain a Stacked Die after that ability resolves. You can use this die when you gamble to make the gamble result 6, consuming the die. You can only hold on to one Stacked Die at once, and lose all of them at the end of combat.",
+                "glossary": [{"val": "slay", "id": "gl_slay"}, {"val": "gamble", "id": "gl_gamble"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_deathsapprentice",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Death's Apprentice",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "You can hold on to 2"
+                    },
+                    {
+                        "tags": {"desc_type" : "texttrait"},
+                        "content": "tr_stackdice"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "at once."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tr_boundspirit",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Bound Spirit",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "At the start of combat, you may place your"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_astralseraph"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "in range 2 from you. This summon persists even if you’re defeated.",
+                        "glossary": [{"val": "teleporting", "id": "gl_teleport"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tr_aethershot",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Finesse",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Any attack made on the third and sixth round of combat deals bonus damage and triggers all exceed effects, hit or miss.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "exceed", "id": "gl_exceed"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_trigrammaton",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Finesse",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Your abilities used against foes at exactly range 3 gain +1 boon on attack rolls and unerring.",
+                "glossary": [{"val": "+1 boon", "id": "gl_boon"}, {"val": "unerring", "id": "gl_unerring"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_astralbinding",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Astral Binding",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can stack up to two marks on characters. As a free action, you can teleport all characters marked by you 1 space.",
+                "glossary": [{"val": "marks", "id": "gl_mark"}, {"val": "teleport", "id": "gl_teleport"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_divinechamber",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Divine Chamber",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Your sixth round"
+                    },
+                    {
+                        "tags": {"desc_type" : "texttrait"},
+                        "content": "tr_aethershot"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "also deals divine damage.",
+                        "glossary": [{"val": "divine", "id": "gl_divine"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tr_shadowarts",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Shadow Arts",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You have phasing and are immune to blinded.",
+                "glossary": [{"val": "phasing", "id": "gl_phasing"}, {"val": "immune", "id": "gl_immune"}, {"val": "blinded", "id": "gl_blinded"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_underworld",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Underworld",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Abilities used against foes in pits, difficult, or dangerous terrain gain unerring and deals bonus damage.",
+                "glossary": [{"val": "pits", "id": "gl_pit"}, {"val": "difficult", "id": "gl_difficultterrain"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "unerring", "id": "gl_unerring"}, {"val": "bonus damage", "id": "gl_bonusdamage"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_darkside",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Darkside",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When you first vacate a space on your turn, you may leave a"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tr_meld",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Meld",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Once a round, before or after using any ability on your turn, you can swap places with any shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "in range 3, teleporting.",
+                        "glossary": [{"val": "teleporting", "id": "gl_teleport"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tr_umbralsoul",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Umbral Soul",
+        "description":  [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Once a round, one of your allies can swap places with any of your"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "before or after using any ability, teleporting.",
+                        "glossary": [{"val": "teleporting", "id": "gl_teleport"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tr_beastmaster",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Beast Master",
+        "description":  [{   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "At the start of every combat, summon a"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_greatbeast"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "in range 2, a trained animal companion. This summon persists even if you’re defeated."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tr_pathoftheaesi",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Path of the Aesi",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While you have stealth the dash action becomes a free action.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}, {"val": "dash", "id": "gl_dash"}]
+            }
+        ]
+    },
+    {
+        "id": "tr_ambushmaster",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Ambush Master",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Your abilities made from stealth ignore cover, and deal bonus damage.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}, {"val": "cover", "id": "gl_cover"}, {"val": "bonus damage", "id": "gl_bonusdamage"}]
+            }
+        ]
+    },
+    {
+        "id": "tr_greenkenning",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Green Kenning",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You and your summons ignore all movement penalties from terrain. Any time you grant a dash, it also gains this benefit.",
+                "glossary": [{"val": "summons", "id": "gl_summon"}, {"val": "dash", "id": "gl_dash"}]
+            }
+        ]
+    },
+    {
+        "id": "tr_deepstealth",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Deep Stealth",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While in stealth, you cannot be directly targeted at all, even from adjacent spaces.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+            }
+        ]
+    },
+    {
+        "id": "tr_diaga",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "action": 1
+        },
+        "eventtags": {},
+        "name": "Diaga",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Cure a character in range 4. (A character that’s cured gains 4 vigor, or a vigor surge if they are bloodied. Then, they can immediately save agains all statuses, ending them on a success.)",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}, {"val": "bloodied", "id": "gl_bloodied"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_bless",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "action": 1
+        },
+        "eventtags": {},
+        "name": "Bless",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Grant a blessing token to a character in range 4."
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "A character can spend a blessing when making a save to gain +1 boon on that save. All Mendicant jobs also have different, alternative ways to spend blessings tokens. All blessings are discarded at the end of combat."
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Blessings are not unique (they don’t ‘belong’ to a character) and as long as a character has blessings from anyone, they can use them for any effects that require blessing tokens, though only one type of blessing at once."
+            }
+                        ]
+    },
+    {
+        "id": "tr_succor",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Succor",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Mendicants may use Rescue to bring up a defeated ally at range 4 instead of adjacent."
+            }
+                        ]
+    },
+    {
+        "id": "tr_blessingoffaith",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Blessing of Faith",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Yourself and allies may spend a blessing token when using an ability to gain True Strike on that ability and fly 2 before using it. If they spend 3 tokens, the ability also triggers any charge effects.",
+                "glossary": [{"val": "True Strike", "id": "gl_truestrike"}, {"val": "fly", "id": "gl_flying"}, {"val": "charge", "id": "gl_charge"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_songweave",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Songweave",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You are a mastery of weaving spell-songs together. You can spend a combo token as part of any ability to activate all the charge effects of that ability, even on a regular turn. If that ability was a combo, perform its base version instead of its combo version.",
+                "glossary": [{"val": "combo", "id": "gl_combo"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_divinegrace",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Divine Grace",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once a round, when you gain or spend a combo token, you may fly 2, then Bless yourself or an ally in range 3 of you.",
+                "glossary": [{"val": "combo", "id": "gl_combo"}, {"val": "fly", "id": "gl_flying"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_uplift",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Succor",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The first time a round you use any ability that allows you to fly, all allies can fly 1.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_granredempta",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3,
+            "action": 2,
+            "Use Per Expedition": 1
+        },
+        "eventtags": {},
+        "name": "Gran Redempta",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Cure yourself and every ally on the map. Characters that are cured this way are also Rescued if they’re defeated.",
+                "glossary": [{"val": "cure", "id": "gl_cure"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_blessingofrebirth",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Blessing of Rebirth",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Yourself and allies can spend 1 blessing when using any ability to grant it pierce and bonus damage. They may spend 3 blessings instead to additionally trigger any slay effects.",
+                "glossary": [{"val": "pierce", "id": "gl_piercing"}, {"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "slay", "id": "gl_slay"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_markoftsumi",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Mark of Tsumi",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At the end of your turn, deal 2 piercing damage to all foes marked by you, and bless either yourself, or all allies marked by you.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}, {"val": "marked", "id": "gl_mark"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_gardenerofkin",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Gardener of Kin",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can stack 2 marks on characters. Foes marked by you take +1 damage from summons.",
+                "glossary": [{"val": "marks", "id": "gl_mark"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_balance",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Balance",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "All your abilities gain slay: cure yourself or any ally.",
+                "glossary": [{"val": "slay", "id": "gl_slay"}, {"val": "cure", "id": "gl_cure"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_defythecycle",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3,
+            "action": 2,
+            "Use Per Expedition": 1
+        },
+        "eventtags": {},
+        "name": "Defy the Cycle",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You call upon your power to forbid the natural order of life and death from working. Until the start of your next turn, characters cannot be reduced below 1 hp. Divine damage bypasses this ability.",
+                "glossary": [{"val": "Divine", "id": "gl_divine"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_blessingofwar",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Blessing of War",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Yourself or allies can spend a blessing when they use an ability to gain +1 boon on attacks and bonus damage with that ability. If they consume 3 blessings, it additionally triggers all exceed effects.",
+                "glossary": [{"val": "+1 boon", "id": "gl_boon"}, {"val": "exceed", "id": "gl_exceed"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_mantraofsealing",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Mantra of Sealing",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Your attacks bless all adjacent allies to you and grant them 2 vigor.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_godlysmite",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Godly Smite",
+        "description":  [{
+                "tags": {"desc_type" : "desc"},
+                "content": "You steadily gather power as you fight. You start combat with a mantra power die, a d6 that starts at 1, and ticks up by 1 at the start of every round, to a maximum of 6. You gain the following interrupt:",
+                "glossary": [{"val": "power die", "id": "gl_powerdie"}, {"val": "interrupt", "id": "gl_interrupt"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_godlysmite"
+            }
+                        ]
+    },
+    {
+        "id": "tr_martialarts",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Martial Arts",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You have dodge.",
+                "glossary": [{"val": "dodge", "id": "gl_dodge"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_greatspiritfestival",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3,
+            "action": 1,
+            "Use Per Expedition": 1
+        },
+        "eventtags": {},
+        "name": "Great Spirit Festival",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bless all allies on the map and grant them 2 vigor. If they’re bloodied, repeat this effect.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}, {"val": "bloodied", "id": "gl_bloodied"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_thewheeloffate",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "The Wheel of Fate",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Set up a deck made up of one suit of a 52 card standard playing card deck (so 13 cards). At the start of any combat, draw up to 5 cards if you have less. Your hand and deck persist through combats, and your maximum hand size is 7 (you must discard down to 7 cards at the end of your turn). Discarded cards go in a discard pile. Once you draw through your deck, shuffle the discard pile and draw it as your new deck (meaning there’s no replacement and you will eventually draw through the deck)."
+            }
+                        ]
+    },
+    {
+        "id": "tr_skein",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Skein",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Draw a card at the start of your turn. If you didn’t attack, draw an extra card at the end of your turn as well."
+            }
+                        ]
+    },
+    {
+        "id": "tr_foretell",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Foretell",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can discard 1 blessing token on yourself or an ally before that ally uses any ability to tell their fortune as an effect. You discard a card from your hand and immediately apply the effects to your target, no matter the distance or if you can see them or not. If you have no cards in hand, draw the top card of your deck instead, apply its effects, then discard it."
+            }
+                        ]
+    },
+    {
+        "id": "tr_bendfate",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Bend Fate",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can discard any number of cards after you gamble to roll an extra die per card discarded, choosing any result. You can repeat this effect any number of times as long as you have cards, and you can choose to discard after you see each result.",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_karma",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Karma",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies are immune to damage from your area effects. Any time you include an ally in an area effect that would damage them, after that ability resolves they gain 2 vigor and are blessed instead.",
+                "glossary": [{"val": "immune", "id": "gl_immune"}, {"val": "area effects", "id": "gl_areaeffect"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_chakravartin",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3,
+            "action": 2,
+            "Use Per Expedition": 1
+        },
+        "eventtags": {},
+        "name": "Chakravartin",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "An ally in range 6 becomes unstoppable and immune to all damage until the end of their next turn.",
+                "glossary": [{"val": "unstoppable", "id": "gl_unstoppable"}, {"val": "immune", "id": "gl_immune"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_slip",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Slip",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Wright’s movement does not trigger and ignores interrupts, vigilance and rampart.",
+                "glossary": [{"val": "interrupts", "id": "gl_interrupt"}, {"val": "vigilance", "id": "gl_vigilance"}, {"val": "rampart", "id": "gl_rampart"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_aetherwall",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Aetherwall",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Wrights gain resistance against all abilities from characters that are outside of range 2 from them.",
+                "glossary": [{"val": "resistance", "id": "gl_resistance"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_chainreaction",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Chain Reaction",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "1/round, if a wright damages two or more foes with an ability, they gain 1 Aether after the ability resolves."
+            }
+                        ]
+    },
+    {
+        "id": "tr_innerfurnace",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Inner Furnace",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once a round, you may burn your own life force when you Infuse an ability. You can sacrifice 25% of your max hp to reduce the Aether cost of that ability by 2.",
+                "glossary": [{"val": "sacrifice 25%", "id": "gl_sacrifice"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_embersoul",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Embersoul",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Start combat with regeneration and defiance. Regain regeneration if rescued.",
+                "glossary": [{"val": "regeneration", "id": "gl_regeneration"}, {"val": "defiance", "id": "gl_defiance"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_phoenixrage",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Phoenix Rage",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At the start of round 5, become suffused with immortal flame. Gain defiance at the start of each of your turns, and when you would take a wound, gamble. On a 4+, ignore it. If this is your last wound, this roll becomes a 2+ instead.",
+                "glossary": [{"val": "defiance", "id": "gl_defiance"}, {"val": "gamble", "id": "gl_gamble"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_soulfire",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Chain Reaction",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Comeback:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Your threshold to critical hit becomes 18+, and your threshold to exceed becomes 13+. If you’re at 1 hp, these thresholds are reduced to 15+ and 10+.",
+                                    "glossary": [{"val": "Comeback", "id": "gl_comeback"}, {"val": "critical hit", "id": "gl_criticalhit"}, {"val": "exceed", "id": "gl_exceed"}]
+                }]
+            }
+                        ]
+    },
+    {
+        "id": "tr_brightsoul",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Bright Soul",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you are defeated, you can choose to burn off all your aether to cause a massive Burst 2 (self) explosion area effect, dealing 4 piercing damage, then 4 piercing damage a number of times again to all characters inside equal to the amount of aether you burned.",
+                "glossary": [{"val": "Burst 2", "id": "gl_burst"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "piercing", "id": "gl_piercing"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_aftershock",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Aftershock",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you use any attack, you can cause an aftershock in the space under your target. Gain Delay: Your next turn must be slow, but at the start of that turn, the aftershock explodes in a burst 1 area effect centered on that space, dealing piercing fray damage to characters within (other than you). If the area effect catches an object in the area, it deals piercing fray damage twice instead.",
+                "glossary": [{"val": "Delay", "id": "gl_delay"}, {"val": "next turn must be slow", "id": "gl_slowturn"}, {"val": "burst", "id": "gl_burst"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "fray", "id": "gl_fray"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Unlike most other delay effects, aftershock does not end your turn, and can stack with other delay effects.",
+                "glossary": [{"val": "delay", "id": "gl_delay"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_resonance",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Resonance",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you make an attack against a character at exactly range 3, it deals bonus damage, gain 1 Aether, and gain 3 vigor after the ability resolves.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_orogenicrage",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Orogenic Rage",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At the start of round 5 and for the rest of combat, become unstoppable and your aftershocks deal double damage.",
+                "glossary": [{"val": "unstoppable", "id": "gl_unstoppable"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_stonedouble",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Stone Double",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you first vacate a space on your turn, you can leave a height 1 statue object behind in the space you vacate."
+            }
+                        ]
+    },
+    {
+        "id": "tr_stoneswim",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Stoneswim",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You have phasing, for objects, and the spaces of objects always cost a maximum of 1 movement for you to enter.",
+                "glossary": [{"val": "phasing", "id": "gl_phasing"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_aetherdeflection",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Aether Deflection",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Interrupt 1:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "Trigger:",
+                                    "subcontent": [{
+                                                        "tags": {"desc_type" : "desc"},
+                                                        "content": "You are targeted by an ability from a character in range 2."
+                                                }]
+                                },
+                                {
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "Effect:",
+                                    "subcontent": [{
+                                                        "tags": {"desc_type" : "desc"},
+                                                        "content": "Gain resistance against damage from that ability. You only have one use of this interrupt per combat. However, you can spend 2 Aether any time to regain it.",
+                                                        "glossary": [{"val": "resistance", "id": "gl_resistance"}]
+                                                }]
+                                }
+                ],
+                "glossary": [{"val": "Interrupt 1", "id": "gl_interrupt"}]
+            }
+        ]
+    },
+    {
+        "id": "tr_conquerorsedge",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Conqueror's Edge",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The Infuse cost of your abilities is reduced by 1 if there’s a foe in range 2. Additionally, many of your infuses can be triggered as slay effects instead, and you may infuse 3 Aether to trigger the slay effect of any ability. Abilities with infuse or slay effects cannot trigger both at once.",
+                "glossary": [{"val": "slay", "id": "gl_slay"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_stormhiltrage",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Storm Hilt Rage",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At the start of round 5 and for the rest of combat, any effects that teleport you have the range of the battlefield, and you may teleport to any space before using any ability.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_klingenkunst",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "action": "free"
+        },
+        "eventtags": {},
+        "name": "Klingenkunst",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Teleport 2. This ability can interrupt other abilities or movement on your turn with stopping them.",
+                "glossary": [{"val": "Teleport", "id": "gl_teleport"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_greatwindriding",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Great Wind Riding",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once a turn, when you teleport, you can also teleport an adjacent ally with you, placing them in a free adjacent space after your teleport resolves.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_selkie",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Selkie",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You have a bound elemental. At the start of any combat, summon it in range 3.",
+                "glossary": [{"val": "summon", "id": "gl_summon"}]
+            },
+            {
+                "tags": {"desc_type" : "textsummon"},
+                "content": "sm_selkie"
+            }
+                        ]
+    },
+    {
+        "id": "tr_dashontherocks",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Dash on the Rocks",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "1/round when you cause a character to collide, you may gain 1 aether and deal 1 piercing damage as a burst 1 area effect centered on that character.",
+                "glossary": [{"val": "collide", "id": "gl_collide"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "burst", "id": "gl_burst"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_sealegs",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Sea Legs",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You deal bonus damage to characters in pits, difficult, or dangerous terrain. While inside any of your own terrain effects, you have flying.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "pits", "id": "gl_pit"}, {"val": "difficult", "id": "gl_difficultterrain"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "flying", "id": "gl_flying"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_pelagicrage",
+        "type": "Trait",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Great Wind Riding",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At the start of round 5 and for the rest of combat, you are buoyed up by a huge swell of elemental water. You gain aura 2. Yourself and allies in the aura gain flying and cover from all direction, and the area is difficult and dangerous terrain for foes.",
+                "glossary": [{"val": "aura 2", "id": "gl_aura"}, {"val": "cover", "id": "gl_cover"}, {"val": "difficult", "id": "gl_difficultterrain"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "flying", "id": "gl_flying"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_whirlgang",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+            "chapter": 3
+        },
+        "eventtags": {},
+        "name": "Whirlgang",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You are highly attuned to the ambient air currents and can command them at will. At the start of your turn, yourself and every ally in range 2 of you may fly 1 in the same direction as an effect.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_flagellantsguard",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+        },
+        "eventtags": {},
+        "name": "Flagellant's Guard",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Reduce all damage to self and adjacent allies by 3, as if from armor, but you must sacrifice 3 at the end of your turns.",
+                "glossary": [{"val": "armor", "id": "gl_armor"},{"val": "sacrifice", "id": "gl_sacrifice"}]
+            }
+                        ]
+    },
+    {
+        "id": "tr_domain",
+        "type": "Trait",
+        "source": "core",
+        "tags": { 
+        },
+        "eventtags": {},
+        "name": "Domain",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you create a terrain effect or object, you can place your Domain over one of its spaces, a small blast terrain effect. Using this trait again moves the Domain instead of creating a new one.",
+                "glossary": [{"val": "small blast", "id": "gl_blast"}]
+            }
+                        ]
+    }
+]

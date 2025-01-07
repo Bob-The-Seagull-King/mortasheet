@@ -1,0 +1,908 @@
+[
+    {
+        "id": "jb_bastion",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Interrupt": true,
+            "Shove": true,
+            "Collide": true,
+            "Aura": true
+        },
+        "eventtags": {},
+        "class_id": "cl_stalwart",
+        "name": "Bastion",
+        "subtitle": "Unbreakable Knight",
+        "traits": ["tr_strive", "tr_presstheadvantage", "tr_bullsstrength", "tr_shieldmaster"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The Bastions are the shield lords of Arden Eld, larger than life figures that tread the ancient imperial roads with their heads held high and armor gleaming. From town to town they act as errant knights and mercenaries, protecting the weak and vulnerable, and driving back the Blights with hammer-like blows from their greatshields, which they throw like a discus with incredible force."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The imperious and mighty presence of a Bastion in town is a stabilizing force and can become an event for a whole village. All Bastions follow an ancient and long-forgotten hero’s code, an old oath to stand against chaos in all its forms."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bastions are powerful knights and tacticians and focus on shoving their enemies and moving their allies into position with their Press the Advantage trait. Almost everything they do changes the shape of the battlefield in some way, and they get extra benefits for smashing foes into obstacles or other characters with collide. They benefit from good positioning, since shoves typically have to be away from you.",
+                "glossary": [{"val": "shoving", "id": "gl_shove"}, {"val": "collide", "id": "gl_collide"},{"val": "shoves", "id": "gl_shove"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bastions also have a fair number of interrupts and can react off their turn to enemy actions, and also benefit from auras.",
+                "glossary": [{"val": "auras", "id": "gl_aura"}, {"val": "interrupts", "id": "gl_interrupt"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Their Limit Break, Helion, is relatively cheap, but can rearrange everyone's position and can potentially stun and daze a huge number of foes.",
+                "glossary": [{"val": "stun", "id": "gl_stunned"}, {"val": "daze", "id": "gl_dazed"}]
+            }
+        ],
+        "limitbreak": "lb_helion",
+        "upgrade_trait": "tr_blackrockvanguard"
+    },
+    {
+        "id": "jb_demonslayer",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Delay": true,
+            "Charge": true,
+            "Sturdy": true
+        },
+        "eventtags": {},
+        "class_id": "cl_stalwart",
+        "name": "Demon Slayer",
+        "subtitle": "Master of the Forbidden Arts",
+        "traits": ["tr_demonedge", "tr_demonstrength", "tr_hissatsu", "tr_truehorn"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Warriors of impossible strength and insane bravado, demon slayers are warriors that specialize in fighting the largest and most dangerous monsters to crawl out of the pits that riddle the land. They relish in fighting against impossible odds, training themselves in forbidden techniques, arcane arts, and oversized weaponry that normal Kin would quake at wielding. They organize themselves into loose orders and train and hunt together, sharing tales and trophies of the colossal horrors they have slain. Some say in order to fight their quarries, the slayers must ingest demon blood to gain their strength, giving them dark and forbidden power that makes other Kin fear and respect them in equal measure."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Demon slayers are mobile, heavy hitting stalwarts that use their powerful traits to get a lot out of slow turns and charge effects.",
+                "glossary": [{"val": "slow turns", "id": "gl_slowturn"}, {"val": "charge", "id": "gl_charge"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Their Hissatsu trait powers up Demon Slayers when spending a turn not attacking and focusing their strength, like a quick-draw samurai or someone winding up a huge blow with an oversized weapon. Therefore they benefit from attacking every other turn, and waiting to strike, giving them a slow but reliable tempo. While waiting to act, they automatically become sturdy, making them very hard to displace.",
+                "glossary": [{"val": "attacking every other turn", "id": "gl_delay"}, {"val": "sturdy", "id": "gl_sturdy"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Their Limit Break, Split Heaven and Hell, is a very powerful AoE slice that is relatively easy to avoid for foes without assistance from your allies, but can be held and even canceled.",
+                "glossary": [{"val": "AoE", "id": "gl_areaeffect"}]
+            }
+        ],
+        "limitbreak": "lb_splitheavenandhell",
+        "upgrade_trait": "tr_rangiri"
+    },
+    {
+        "id": "jb_colossus",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Fly": true,
+            "Exceed": true,
+            "Comeback": true,
+            "Regeneration": true,
+            "Sacrifice": true
+        },
+        "eventtags": {},
+        "class_id": "cl_stalwart",
+        "name": "Colossus",
+        "subtitle": "High Flying Grappler",
+        "traits": ["tr_furiousberserk", "tr_wolfheart", "tr_pulverize", "tr_greatleap"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Ferocious followers of Arenheir, the Wolf Titan, the Colossi are a martial order of berserkers, pankrationists, and warriors that reaches across all of Arden Eld. They travel throughout the land seeking powerful foes, and taking trophies to return to their great lodges to offer in tribute to Arenheir in fierce hope of resurrecting their god. At their lodges they feast and drink to their deeds, companions, and boasts."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Colossi seek glory and challenge through battle, and will often go for only the absolute strongest warriors and monsters, heedless of their own safety. They fight with wild abandon and unconventional techniques that would make even the dirtiest Knave raise an eyebrow."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Colossi are hard-hitting grapplers and wrestlers that ride the knife’s edge to inflict maximum pain on their foes. They have unique access to fly, allowing them to vault up higher elevation and move around, and they get extra benefits such as exceed for launching themselves off higher terrain.",
+                "glossary": [{"val": "slow turns", "id": "gl_slowturn"}, {"val": "charge", "id": "gl_charge"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The lower colossi’s health is, the stronger they become, and they benefit from many comeback effects. At very low health, they gain regeneration and they can become absolute monsters at 1 hp. They can spend their own health to power up their abilities, but risk sending themselves into too vulnerable a state.",
+                "glossary": [{"val": "regeneration", "id": "gl_regeneration"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Their Limit Break, Gigantas Crusher, is a massive grab that can instantly destroy high value targets, such as elites, or deliver the killing blow to a legend. Since it does % based damage, it is an excellent finishing move."
+            }
+        ],
+        "limitbreak": "lb_gigantascrusher",
+        "upgrade_trait": "tr_unbreakable"
+    },
+    {
+        "id": "jb_knave",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Hatred": true,
+            "Counter": true,
+            "Interrupt": true,
+            "Unstoppable": true,
+            "Stance": true
+        },
+        "eventtags": {},
+        "class_id": "cl_stalwart",
+        "name": "Knave",
+        "subtitle": "Absolute Bastard",
+        "traits": ["tr_martialmaster", "tr_blackheart", "tr_taunt", "tr_spite"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The advent of the Churning Age has coincided with the rise of a certain class of person with heavy pockets and a long list of ‘problems’ to solve. The Knaves are the solution. Hedge knights, rogue warriors, duelists, deserters, and veterans, they roam the land offering their services to whoever has the dust to spare. Though some of them are altruistically minded, they tend to go where the work, food, and fighting is thickest, and never stay for long in one location."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Knaves operate under a loose moral code and an even looser no-holds-barred fighting style, using hilts, head butts, and gauntleted fists to inflict pain, punishment, and humiliation on their opponents in equal measure. These braggadocios warriors spare no effort in flexing their incredible strength - if the price is right. For a freshly roasted chicken, a pocket full of dust, and a polish of their boots, they’ll do just about anything."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Knaves are dark knights, mercenaries, and dirty fighters that have the easiest access to the very powerful hatred condition. They have numerous ways to punish foes that take the bait, such as counter and a suite of nasty interrupts. They become stronger the more foes are around them and love being surrounded.",
+                "glossary": [{"val": "hatred", "id": "gl_hatred"}, {"val": "counter", "id": "gl_counter"}, {"val": "interrupts", "id": "gl_interrupt"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Knaves become more powerful when they are suffering statuses, and even have ways to inflict statuses on themselves, which they can then ignore by becoming unstoppable. They also have the unique ability to take two stances at once, allowing them to stack very powerful effects.",
+                "glossary": [{"val": "unstoppable", "id": "gl_unstoppable"}, {"val": "stances", "id": "gl_stance"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Knave’s limit break, Mock, is a strong single target debuff, and makes it very hard for a foe to do anything but stand and focus on you."
+            }
+        ],
+        "limitbreak": "lb_mock",
+        "upgrade_trait": "tr_wayofthecrow"
+    },
+    {
+        "id": "jb_fool",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Gamble": true,
+            "Summons": true,
+            "Slay": true,
+            "Phasing": true
+        },
+        "eventtags": {},
+        "class_id": "cl_vagabond",
+        "name": "Fool",
+        "subtitle": "Masked Avenger",
+        "traits": ["tr_tumbling", "tr_curseofchaos", "tr_cheaptrick", "tr_stackdice"],
+        "addons": [],
+        "summons": ["sm_bomb"],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Fools are dedicated defenders of the common people of Arden Eld, part folk hero, and part hired killer. They have no official organization, and cover their faces with masks to hide their identity, wearing bells and motley to cover their collections of deadly weapons and explosives."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Some people fear the Fools, calling them self-interested thugs or anarchic cultists of the Laughing God. They may not be entirely wrong, but none can deny their flair for the theatrical. They are feared rightly by all would-be tyrants, under-barons, and aspiring imperial lords. Wherever kin labor under oppression, someone will take up the mask and knives and sent cold jolts of fear into the hearts of the rich and comfortable."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Fools are fast, tricky vagabonds that benefit heavily from setup. Their stack dice ability allows them to influence the outcome of gamble effects, including their bomb summons, making them very potent. Fools get stacked dice from attacking low health targets, and also have a suite of slay effects, so they get the most from zipping around the battlefield to finish off weak foes.",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}, {"val": "summons", "id": "gl_summon"}, {"val": "slay", "id": "gl_slay"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Fools spend less movement to move through the spaces of other characters, including their bomb summons, and can phase through foes, allowing them to move very far with proper setup. This can also allow them to hop through character’s spaces to ignore movement penalties, such as climbing up elevation.",
+                "glossary": [{"val": "phase", "id": "gl_phasing"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Fool’s limit break, Curtain Call, is a very powerful, high damage move that can finish off a single foe easily in a pinch, but gets the most value out of setup and with a stacked die in the pocket."
+            }
+        ],
+        "limitbreak": "lb_curtaincall",
+        "upgrade_trait": "tr_deathsapprentice"
+    },
+    {
+        "id": "jb_freelancer",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Range 3": true,
+            "Mark": true,
+            "Exceed": true
+        },
+        "eventtags": {},
+        "class_id": "cl_vagabond",
+        "name": "Freelancer",
+        "subtitle": "Divine Punisher",
+        "traits": ["tr_boundspirit", "tr_aethershot", "tr_trigrammaton", "tr_astralbinding"],
+        "addons": [],
+        "summons": ["sm_astralseraph"],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Freelancers are free-roaming exorcists and hired guns, roaming the land and fighting blights, demons and bandits in the name of justice. They tend to act as wild cards: highly independent, highly effective, and sticking to their codes of honor."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Freelancers have their history in an ancient disgraced knightly order from one of the Seven Families of the Thrynn. They each wield a bright metal six gun, a bow, or a long rifle with extreme skill, the bullets, shot, or arrows of which they infuse with raw Aether drawn from their very souls. Each weapon is a relic passed down from master to student over the years, and can only be won in a duel with another freelancer. The freelancer’s ultimate weapon is the Astral Chain, a holy gauntlet which they use to purge and bind demons and rogue spirits into their service as Seraphim."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Freelancers are expert tempo fighters that prefer to fight around a certain range band and save their power for certain turns (the number 3 will be your friend). Attacking characters at exactly range 3 allows freelancers and their bound seraph to lay down withering punishment. To aid in this task, freelancers have a number of repositioning tools for foes and allies, including Astral Binding, which allows them to stack multiple marks and nudge those marked characters around the battlefield to get them into range.",
+                "glossary": [{"val": "marks", "id": "gl_mark"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Freelancers have numerous exceed effects and automatically trigger these effects on round 3 and 6, allowing them to have explosive turns.",
+                "glossary": [{"val": "exceed", "id": "gl_exceed"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Freelancer’s limit break, Paradiso, creates a very potent aura that powers up all abilities used by you and allies, but can be turned off if foes get too close."
+            }
+        ],
+        "limitbreak": "lb_paradiso",
+        "upgrade_trait": "tr_divinechamber"
+    },
+    {
+        "id": "jb_shade",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Summons": true,
+            "Stealth": true,
+            "Adverse Terrain": true,
+            "Blind": true,
+            "Finishing Blow": true
+        },
+        "eventtags": {},
+        "class_id": "cl_vagabond",
+        "name": "Shade",
+        "subtitle": "Nocturnal Assassin",
+        "traits": ["tr_shadowarts", "tr_underworld", "tr_darkside", "tr_meld"],
+        "addons": [],
+        "summons": ["sm_shadow", "sm_shadowcloud"],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Night-walkers, shadow-steppers, and masters of secret scroll arts, the Shades are spies, scouts, and assassins of unparalleled skill. Their number forms a secret and deadly society of Shadow Clans spread across Arden Eld, each practicing and refining the Night Venom Techniques. Joining the shades is presumed to be extremely difficult, but they tend to open their ranks to anyone that has been lost or abandoned."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The legends say Shades make a deal with the Weeper, the dead titan queen of night and air, and drink her tears, splitting their soul in two. Their shadow becomes animate, bestial and hungry. Over a week and a day, they must fast and train their shadow to obey them, transforming them into agile and silent warriors of the highest order. The Shades say the stories are rumors, and they get along with their Darksides. They do have a tendency to appear when least expected, in uncanny and unsettling ways."
+            }
+        ],
+        "playstyle": [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Shades are agile vagabonds that can easily reposition themselves, foes, and allies to inflict maximum carnage. Their"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "s create dangerous zones for foes and can grant stealth to allies. Shades do more damage to characters standing in adverse terrain, which includes shadows! They can also swap with these shadows for additional mobility.",
+                        "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+                    }
+                ]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Shades are excellent at teleporting, allowing them to ignore foes and terrain completely, and have easy ways to blind their foes and inflict finishing blows.",
+                "glossary": [{"val": "teleporting", "id": "gl_teleport"}, {"val": "blind", "id": "gl_blinded"}, {"val": "finishing blows", "id": "gl_finishingblow"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Shade’s limit break, Abyssal Ecstasy, is a low cost but very potent ability that completely shuts down ranged attackers."
+            }
+        ],
+        "limitbreak": "lb_abyssalecstasy",
+        "upgrade_trait": "tr_umbralsoul"
+    },
+    {
+        "id": "jb_warden",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Summons": true,
+            "Shove": true,
+            "Stealth": true,
+            "Dash": true
+        },
+        "eventtags": {},
+        "class_id": "cl_vagabond",
+        "name": "Warden",
+        "subtitle": "Friend to Beast and Bough",
+        "traits": ["tr_beastmaster", "tr_pathoftheaesi", "tr_ambushmaster", "tr_greenkenning"],
+        "addons": [],
+        "summons": ["sm_beast", "sm_greatbeast"],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The Wardens are the protectors and keepers of the Deep Green, the old and untamed parts of Arden Eld, lorded over by the beasts and the ancient trees. They are both the keepers and the servants of the herd and root, tending to their health, and culling them when it becomes necessary. They sleep under the stars and make their home under bough and root, making staunch allies of the ferocious beasts of the deep wilds through a combination of rigorous training and mutual respect. Their fierce defense of the wild sometimes puts them at odds with civilization, which they tend to have a distaste for."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Wardens are the keepers of the green kenning, the old ranger arts, that allow one to travel noiselessly, hide in plain sight, live off the land, and become immune to even the most deadly of toxins. They are solitary and powerful fighters. It is not uncommon for a Warden on a long sojourn to go without speaking the tongue of Kin for years at a time."
+            }
+        ],
+        "playstyle": [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Wardens are masters of the wild that summon"
+                },
+                {
+                    "tags": {"desc_type" : "textsummon"},
+                    "content": "sm_beast"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "with their actions. Beasts prowl around the battlefield until activated and have a high range. Activating a lot of them at once can pummel a foe with a lot of damage, but requires good positioning, which they can achieve with a small number of shove effects.",
+                    "glossary": [{"val": "shove", "id": "gl_shove"}]
+                }]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Wardens get a lot of benefits out of stealth, and numerous ways to enter it with finishing blows. They also have a large number of charge effects, allowing them to take stock of the battlefield before acting. The dashes granted by Wardens are especially potent and can help move allies or summons around the battlefield faster. ",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}, {"val": "finishing blows", "id": "gl_finishingblow"}, {"val": "charge", "id": "gl_charge"}, {"val": "dashes", "id": "gl_dash"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Warden’s Limit Break, Lycanthropy, grants a powerful suite of benefits to their dash and allows your entire team to become much more mobile.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}]
+            }
+        ],
+        "limitbreak": "lb_lycanthropy",
+        "upgrade_trait": "tr_deepstealth"
+    },
+    {
+        "id": "jb_chanter",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Combos": true,
+            "Charge": true,
+            "Flight": true,
+            "Create Pits": true
+        },
+        "eventtags": {},
+        "class_id": "cl_mendicant",
+        "name": "Chanter",
+        "subtitle": "Songweaver of the Great Chant",
+        "traits": ["tr_blessingoffaith", "tr_songweave", "tr_divinegrace", "tr_uplift"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Descending from numerous holy orders that have their roots high in the chronicler monasteries, the chanters are part singer, part storyteller, and part priest. At the time of the Doom, when all knowledge was deemed lost and everything put to page was transformed into ash, the only thing that persisted was the power of song, poetry, and the spirit of survival. A select order of priests committed all the great and necessary knowledge of Kin to memory, creating a single, continuous song, known as the Great Chant. In myths, stories, and histories, they recorded the knowledge of the ancients, transforming it into liturgy."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The Chant performed its role, and it was through its power that the early bands of Kin survived and persevered through the darkest days. Today, however, it is so archaic, convoluted, and long that many dispute the meaning of its dogma, though none can deny its value as a mythic text. The Old Church of the chroniclers has splintered into factions that mostly squabble over its meaning and try to draw some angle from its numerous and sometimes contradictory adaptions into holy texts."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Nevertheless, the Chant still holds power - real, tangible power - to heal, mend, and uplift. There are still those that take to the road and use its awesome power for good, ringing the bells of awakening and purification, as they sing to victory."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chanters are masters of weaving combos. Their grace trait allows them to gain or lose a combo token, allowing them to ‘reset’ combos or easily use a combo version of an ability. When they use combos, they can easily bless",
+                "glossary": [{"val": "combos", "id": "gl_combo"}]
+            },
+            {
+                "tags": {"desc_type" : "texttrait"},
+                "content": "tr_bless"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": " allies. Utilizing grace requires taking slow turns, which also power up a lot of chanter’s potent charge effects, effects they can also trigger on themselves or allies by stacking blessings.",
+                "glossary": [{"val": "slow turns", "id": "gl_slowturn"}, {"val": "charge", "id": "gl_charge"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chanter has a lot of ways to grant flight, and a lot of ways to create pits, which flying allies can ignore. They are good at rearranging positioning and can directly remove characters and place them, which allows them to ignore nasty effects that trigger on movement such as rampart or vigilance.",
+                "glossary": [{"val": "flight", "id": "gl_flying"}, {"val": "pits", "id": "gl_pit"}, {"val": "rampart", "id": "gl_rampart"}, {"val": "vigilance", "id": "gl_vigilance"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chanter’s limit break, March of the Saints, powers up one ally at a time with a suite of effects. Picking the order for the march can be important!",
+                "glossary": [{"val": "stun", "id": "gl_stunned"}, {"val": "daze", "id": "gl_dazed"}]
+            }
+        ],
+        "limitbreak": "lb_marchofthesaints",
+        "upgrade_trait": "tr_granredempta"
+    },
+    {
+        "id": "jb_harvester",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Slay": true,
+            "Pierce": true,
+            "Marks": true,
+            "Summons": true
+        },
+        "eventtags": {},
+        "class_id": "cl_mendicant",
+        "name": "Harvester",
+        "subtitle": "Arbiter of Life and Death",
+        "traits": ["tr_blessingofrebirth", "tr_markoftsumi", "tr_gardenerofkin", "tr_balance"],
+        "addons": [],
+        "summons": ["sm_thrall", "sm_plant"],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Servants of Tsumi, the Moon Titan, the Harvesters are the death priests of Arden Eld. They travel from land to land, sanctifying burial sites, performing funeral rites, and helping lingering spirits move on. The land is full of the malice and unfulfilled wishes of the long suffering dead, and so the services of the harvesters are in high demand."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Tsumi is the protector of cycles, and so the Harvesters also perform fertility blessings, oversee harvest festivals, and see to the cultivation and protection of the land and nature. They plant flowers over battlefields, and tend groves of beautiful fruit trees planted over graveyards. This dual nature makes Harvesters fierce warriors, able to make the battle bloom or rot with a single swipe of their greatscythes."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Harvesters are damaging mendicants that get great benefits out of attacking, due to their balance trait and their suite of powerful slay effects. Their blessings allow them to activate these effects on themselves or allies, and also grant the powerful pierce effect.",
+                "glossary": [{"val": "slay", "id": "gl_slay"}, {"val": "pierce", "id": "gl_piercing"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Harvesters can stack marks, allowing them to greatly power up an ally or crush a foe. Their",
+                    "glossary": [{"val": "marks", "id": "gl_mark"}]
+                },
+                {
+                    "tags": {"desc_type" : "textsummon"},
+                    "content": "sm_thrall"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "summons turn into"
+                },
+                {
+                    "tags": {"desc_type" : "textsummon"},
+                    "content": "sm_plant"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "after being activated, which present obstacles for foes and blessings for allies. Some of the harvester’s talents also allow them to tap into the powers of life and death, gaining more power if the harvester or their targets are at low health.",
+                    "glossary": [{"val": "low health", "id": "gl_bloodied"}]
+                }]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Harvester’s limit break, Death Sentence, makes even the most tenacious character vulnerable, and allows area effects to hit that character twice.",
+                "glossary": [{"val": "area effects", "id": "gl_areaeffect"}]
+            }
+        ],
+        "limitbreak": "lb_deathsentence",
+        "upgrade_trait": "tr_defythecycle"
+    },
+    {
+        "id": "jb_sealer",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Exceed": true,
+            "Deny": true,
+            "Divine": true
+        },
+        "eventtags": {},
+        "class_id": "cl_mendicant",
+        "name": "Sealer",
+        "subtitle": "Holy Judge and Purger of Evil",
+        "traits": ["tr_blessingofwar", "tr_mantraofsealing", "tr_godlysmite", "tr_martialarts"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Traveling priests, monks, judges, and doctors, the Sealers roam the world from village to village, performing necessary rituals, marriages, ceremonies, and yearly festivals. They are a welcome sight in most villages, and most perform the important function of traveling judge and medium, acting as an impartial party translating for the will of the local spirits. They often travel with many blessed relics of the deities of the land or even portable shrines on their back."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "In their other role, Sealers are legendary monster hunters and exorcists of unbelievable prowess and unshakeable faith. Whenever an especially bad blight or an arch demon appears, the Sealers are usually there to drive it back with ancient sealing magic, blessed brands, and flaming weapons."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Sealers are relatively hardy melee mendicants that benefit from sticking close to allies. Their blessings can be spent to empower attacks and easily trigger exceed effects, and blessing other characters allows sealers to power up their own mantra, giving them increased benefits for being selfless.",
+                "glossary": [{"val": "exceed", "id": "gl_exceed"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Sealers have a few abilities that are stronger the first time they are used in combat, or become stronger with time. They also have the ability to deny specific enemies attacks or movement, making them strong against single, powerful foes, and they can deal many small amounts of divine damage, allowing them to chip away at hardy defenses.",
+                "glossary": [{"val": "divine", "id": "gl_divine"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Sealer’s Limit Break, Passage to the Afterlife, is the highest damage attack in the game, but can’t be used until much later in the fight."
+            }
+        ],
+        "limitbreak": "lb_passagetotheafterlife",
+        "upgrade_trait": "tr_greatspiritfestival"
+    },
+    {
+        "id": "jb_seer",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Gamble": true,
+            "Area Effects": true,
+            "Wild Card": true
+        },
+        "eventtags": {},
+        "class_id": "cl_mendicant",
+        "name": "Seer",
+        "subtitle": "Fortune Teller and Master of Fate",
+        "traits": ["tr_thewheeloffate", "tr_skein", "tr_foretell", "tr_bendfate", "tr_karma"],
+        "addons": ["ad_thegreatwheel"],
+        "summons": ["sm_wildcard"],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The Seers are made up of all the orders of hedge witches, stargazers, corner prophets, folk healers, shamans, and all manner of individuals that find themselves attracted to reading the Great Arcana, the esoteric practice of reading destiny itself, the Great Wheel of Arden Eld that determines the final fate of all things."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Through ritual, ceremony, and unrelenting practice, Seers gain the ability to predict and even defy a person’s fate, using their Aether infused card decks to influence the turning of the Great Wheel and empower their allies with foresight, precision, and uncanny accuracy."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Seers are manipulators of fate that have the potent ability to influence gamble effects and lay down powerful damaging AoE effects that do not damage their allies.",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}, {"val": "AoE", "id": "gl_areaeffect"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "They benefit a lot from set up with their"
+                },
+                {
+                    "tags": {"desc_type" : "textsummon"},
+                    "content": "sm_wildcard"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "which can extend these AoEs (and those of their allies), to hit massive areas, potentially creating huge chains. Wild cards can be used to extend the areas of any ability, not just attacks, so you can get creative with them.",
+                    "glossary": [{"val": "AoEs", "id": "gl_areaeffect"}]
+                }]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Seers have access to nearly every effect in the game through the Wheel of Fate, but their resources are limited. Choosing when to spend these cards for effects, when to draw more cards, or when to spend them on gambling is critical.",
+                "glossary": [{"val": "gambling", "id": "gl_gamble"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Seer’s limit break, High Prophecy, allows them to manipulate probability and makes gamble effects extremely powerful for its duration. The effect also applies to anything that targets you!",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}]
+            }
+        ],
+        "limitbreak": "lb_highprophecy",
+        "upgrade_trait": "tr_chakravartin"
+    },
+    {
+        "id": "jb_enochian",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Exceed": true,
+            "Comeback": true
+        },
+        "eventtags": {},
+        "class_id": "cl_wright",
+        "name": "Enochian",
+        "subtitle": "Unbridled Destruction",
+        "traits": ["tr_innerfurnace", "tr_embersoul", "tr_phoenixrage", "tr_soulfire"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The Enochian Orders of wrights are the most chaotic of the mage orders. They have no official organization, most of their members being hedge wizards or self taught. Many Enochians disdain authority and work for hire, sleeping and eating where they can and relying on the communities they work for to support them. Those that work on contract with guilds, armies, or mercenary companies tend to value their independence."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The power that condenses inside an Enochian is related to the element of fire, a wild spark that grows and wanes with their emotions and energy, but with control can be focused into power that can carve mountains, scorch forests, and boil rivers. In times of desperation, the Enochians can feed this power with their own life force, a dangerous practice that the other orders of wrights look down upon. The Enochians, for their part, see other wrights as stiff and uncreative. They’d rather do it their way, after all."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Enochians are walking calamities, firebrands that tap their own life force and ride the line of disaster. Their inner furnace and soulfire traits give them increased benefits for spending their own life, power up their exceed effects by making it easier to critical hit, and turn on a host of comeback effects.",
+                "glossary": [{"val": "exceed", "id": "gl_exceed"}, {"val": "critical hit", "id": "gl_criticalhit"},{"val": "comeback", "id": "gl_comeback"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Many Enochian abilities can be powered up by spending your own life force, but enochians are relatively immobile. Use your excellent range to stay clear of the action, or risk burning out too soon!"
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Enochian’s limit break, Gigaflare, sears the entire battlefield with powerful, unavoidable flame. Anyone standing close is immune to this effect, so warn your allies (or don’t).",
+                "glossary": [{"val": "immune", "id": "gl_immune"}]
+            }
+        ],
+        "limitbreak": "lb_gigaflare",
+        "upgrade_trait": "tr_brightsoul"
+    },
+    {
+        "id": "jb_geomancer",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Charge": true,
+            "Objects": true,
+            "Terrain": true
+        },
+        "eventtags": {},
+        "class_id": "cl_wright",
+        "name": "Geomancer",
+        "subtitle": "Guardian of the Pure Earth",
+        "traits": ["tr_aftershock", "tr_resonance", "tr_orogenicrage", "tr_stonedouble"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Geomancers belong to an old order of mystics, doctors, alchemists, and esoteric martial artists called the Keepers of the Elden Gate. These scholarly wrights are concerned with health and the flow of energy, not just through the body, but through the very earth itself. They consider themselves physicians of the highest order - their patient being the eternal land of Arden Eld."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "These studious wrights attune themselves to earth Aether, aligning the energy channels of their body to crystalline perfection with vigorous exercise and sometimes bizarre health regimes. In battle, the land itself is their ally, spitting forth poisonous gases, cavernous upheavals of earth, and great spires of rock to crush their foes."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "None are more concerned with the Churn than the geomancers, who view it as the greatest sickness known to Kin, and will take any opportunity to fight or study it with exuberance."
+            }
+        ],
+        "playstyle": [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Geomancers are masters of shaping the battlefield and inflicting slow, hard hitting destruction. Geomancers gain a lot of benefits from charge effects and are able to create and modify a great number of objects and terrain. Their",
+                    "glossary": [{"val": "charge", "id": "gl_charge"}]
+                },
+                {
+                    "tags": {"desc_type" : "texttrait"},
+                    "content": "tr_aftershock"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "are free, high damage areas that can be easy to avoid - but trapping enemies with terrain or the help of allies can help them land."
+                }]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Geomancer’s resonance trait gives them bonuses for playing close to the action, so using terrain for positioning is critical. Their ability to aid allies by modifying terrain shouldn’t be discounted!"
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Geomancer’s limit break, Cataclysm, is a slow effect that has a low action cost and also removes you from harm for a round. It causes maximum destruction if it hits a large number of objects.",
+                "glossary": [{"val": "stun", "id": "gl_stunned"}, {"val": "daze", "id": "gl_dazed"}]
+            }
+        ],
+        "limitbreak": "lb_cataclysm",
+        "upgrade_trait": "tr_stoneswim"
+    },
+    {
+        "id": "jb_spellblade",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Slay": true,
+            "Teleports": true,
+            "Vulnerable": true
+        },
+        "eventtags": {},
+        "class_id": "cl_wright",
+        "name": "Spellblade",
+        "subtitle": "Swordmaster, Wind Dancer",
+        "traits": ["tr_aetherdeflection", "tr_conquerorsedge", "tr_stormhiltrage", "tr_klingenkunst"],
+        "addons": [],
+        "summons": [],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Spellblades are a martial order of highly trained wrights. Many of them come from the Guild Academies in the great cities of Arden Eld, where they often take prestigious posts in the local militias and city watch. Other wrights tend to view Spellblades as stiff, unfeeling military types, but spell blades themselves know they are consummate professionals and unparalleled masters of their art."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The lightning Aether that the spellblades wield is highly volatile, and requires intense training and focus to control. Once a spell blade has learned their craft, however, the speed, power, and precision at which they can act is intoxicating, crossing great spans of space in an instant, riding the Aetherial currents with a flash of gleaming steel."
+            }
+        ],
+        "playstyle": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Spellblades are highly mobile, agile mages that deal a flurry of small but potent blows. Their ability to skip infuses with slay effects and their powerful teleports give them a lot of benefits for prioritizing weak targets. Though they are quite fragile, their aether deflection trait can give them some staying power, but drains their aether.",
+                "glossary": [{"val": "slay", "id": "gl_slay"}, {"val": "teleports", "id": "gl_teleport"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Spellblades get a lot of mileage out of the vulnerable status as they deal a lot of small instances of damage. They can use their utility abilities to teleport themselves or allies out of tough situations, dancing around their foes.",
+                "glossary": [{"val": "vulnerable", "id": "gl_vulnerable"}, {"val": "teleport", "id": "gl_teleport"}]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Spellblade’s limit break, Gran Levincross, allows you to cordon off enemies and give you breathing room to finish off foes. You can ignore its crackling walls of lightning with your numerous teleport effects, and your allies can do the same.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ],
+        "limitbreak": "lb_granlevincross",
+        "upgrade_trait": "tr_greatwindriding"
+    },
+    {
+        "id": "jb_stormbender",
+        "type": "Job",
+        "source": "core",
+        "tags": {
+            "Terrain": true,
+            "Summons": true,
+            "Fly": true,
+            "Collide": true
+        },
+        "eventtags": {},
+        "class_id": "cl_wright",
+        "name": "Stormbender",
+        "subtitle": "Dire Navigator, Master of the Waves",
+        "traits": ["tr_selkie", "tr_dashontherocks", "tr_sealegs", "tr_pelagicrage"],
+        "addons": [],
+        "summons": ["sm_saltsprite", "sm_selkie"],
+        "blurb": [
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The seas of Arden Eld are its most treacherous terrain. Boiling over with monsters, and wracked with unnatural and freakish weather, most folk prefer to give them wide berth. However, there are still those brave and hardy souls that live on the islands around Arden Eld, and the merchants, sailors, and travelers that rely on the sea for fast passage and the movement of cargo, the lifeblood of the continent’s great cities."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "The storm benders are the great masters of the sea, the supreme navigators that make sailing even possible around Arden Eld. Water-attuned wrights, they are most at home on a deck, or clambering the rigging. Each of them are sailors of the highest caliber, coming from all over - old trade guilds, islander clans, and nautical churner enclaves."
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Bending the essence of the sea to their beck and call, the storm benders can clear the skies with a swipe of their hands, feel the currents ahead for aquatic monsters, turn weather away from the hull of the ship, and blow wind into its sails. It doesn’t matter that many of them dabble in a little light piracy on the side - they are the undisputed masters of their element, and they wouldn’t have it any other way."
+            }
+        ],
+        "playstyle": [
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Stormbenders are seafaring masters of battlefield terrain effects, deal more damage to characters in those effects, and can even use their"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_selkie"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "summon to carry foes into these effects, or carry allies out of them. Since storm benders fly inside their own terrain, they can ignore its adverse effects, and use it to travel over other adverse terrain and enemies.",
+                        "glossary": [{"val": "summon", "id": "gl_summon"}, {"val": "fly", "id": "gl_flying"}]
+                    }
+                ]
+            },
+            {   "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "It’s other summons,"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_saltsprite"
+                    },
+                    {   "tags": {"desc_type" : "desc"},
+                        "content": "are perfect combos with collide effects and can help move around allies. With setup, a storm bender can move allies around the entire map, and easily send enemies hurtling into dangerous terrain or pits.",
+                        "glossary": [{"val": "summons", "id": "gl_summon"}, {"val": "collide", "id": "gl_collide"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "pits", "id": "gl_pit"}]
+                    }
+                ]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Stormbender’s limit break, Elemental, transforms them into a much larger form that is also a living terrain effect, allowing them to become much sturdier, fly, and greatly slow down enemies in their area.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}]
+            }
+        ],
+        "limitbreak": "lb_elemental",
+        "upgrade_trait": "tr_whirlgang"
+    }
+]

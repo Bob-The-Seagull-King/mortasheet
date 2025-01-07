@@ -1,0 +1,693 @@
+[
+    {
+        "id": "lb_helion",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 1,
+            "resolve": 2
+        },
+        "eventtags": {},
+        "name": "Helion",
+        "ultimate": ["ul_perfecthelion"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "Your shield becomes the sun: a discus of light and motion, shattering enemy ranks and spurring allies forth."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You hurl your shield, and every character on the battlefield is shoved 1 space in a direction of your choice. You may shove in any order, and may choose different directions for each character.",
+                                    "glossary": [{"val": "shoved", "id": "gl_shove"}, {"val": "shove", "id": "gl_shove"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Bloodied foes are weakened. Foes at 25% hp or lower are stunned.",
+                                    "glossary": [{"val": "Bloodied", "id": "gl_bloodied"}, {"val": "weakened", "id": "gl_weakened"},{"val": "stunned", "id": "gl_stunned"}]
+                                }]
+            }
+                        ]
+    },
+    {
+        "id": "lb_splitheavenandhell",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 1,
+            "resolve": 3,
+            "End Turn": true,
+            "Delay": true,
+            "True Strike": true,
+            "Divine": true
+        },
+        "eventtags": {},
+        "name": "Split Heaven and Hell",
+        "ultimate": ["ul_godwaster"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "Sever Divinity and cut through the threads of possibility. Pour all your rage into one blow and topple the Gods."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "End your turn, and start charging up a god cutting blow. Delay: Your next turn must be slow. At the start of that turn, you may take one of the following options:",
+                "glossary": [{"val": "End your turn", "id": "gl_endturn"}, {"val": "Delay", "id": "gl_delay"}, {"val": "next turn must be slow", "id": "gl_slowturn"}]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Sever Divine Thread:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Swing your weapon in a line 5 area effect drawn from your position. This counts as using an attack this turn. Characters in the line take damage depending on their distance on the line from you.",
+                                    "glossary": [{"val": "area effect", "id": "gl_areaeffect"}]
+                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "• 1 space: 100% of max hp"
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "• 2-4 spaces: 50% of max hp"
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "• 5+ spaces: 25% of max hp"
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Divine Cancel:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You may cancel this ability, refunding the resolve cost, and rush 1. You can limit break again this combat, but not this turn.",
+                                    "glossary": [{"val": "rush", "id": "gl_rush"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Divine Delay:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You continue to hold this ability. Your next turn must be slow and repeat this delay effect. Each time you do this, increase the width of the line by 1 space, to a maximum of 3 width, and its length by 3 spaces. You cannot attack while holding Divine Delay.",
+                                    "glossary": [{"val": "next turn must be slow", "id": "gl_slowturn"}, {"val": "delay", "id": "gl_delay"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Legend characters always take 25% of max hp from this ability instead of other effects."
+            }
+        ]
+    },
+    {
+        "id": "lb_gigantascrusher",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 2,
+            "resolve": 3,
+            "Divine": true,
+            "Sacrifice": true
+        },
+        "eventtags": {},
+        "name": "Gigantas Crusher",
+        "ultimate": ["ul_atomoscrusher"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "Wrestle with the gods themselves."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You grab an adjacent character. That character must save. Even if that character saves successfully, you grab them, and you both soar into the air. Remove both of you from the battlefield. At the start of that character’s turn, you come spinning back to earth, slamming that character into the battlefield in unoccupied space in range 3 of your original location. You sacrifice 25% of your hp. Your foe takes 50% of their max hp as divine damage, or 25% as divine damage on a successful save. Then place both of you back in or adjacent to that space.",
+                                    "glossary": [{"val": "sacrifice 25%", "id": "gl_sacrifice"}, {"val": "divine", "id": "gl_divine"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "This ability can be used against Legends, but they may always save, taking divine fray damage and refunding this ability’s resolve cost on a successful save, and only 25% hp as divine damage on a failed save.",
+                "glossary": [{"val": "divine", "id": "gl_divine"}, {"val": "fray damage", "id": "gl_fray"}]
+            }
+                        ]
+    },
+    {
+        "id": "lb_mock",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 1,
+            "resolve": 2
+        },
+        "eventtags": {},
+        "name": "Mock",
+        "ultimate": ["ul_dreadmock"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "There is no weapon greater than a well-timed and well-aimed insult."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "A foe in range 3 becomes slashed+, weakened+, cannot gain or benefit from evasion, dodge, or stealth, and gains hatred+ of you. These effects continue until the end of their next turn.",
+                                    "glossary": [{"val": "+", "id": "gl_ongoing"}, {"val": "slashed", "id": "gl_slashed"}, {"val": "weakened", "id": "gl_weakened"}, {"val": "evasion", "id": "gl_evasion"}, {"val": "dodge", "id": "gl_dodge"}, {"val": "stealth", "id": "gl_stealth"}, {"val": "hatred", "id": "gl_hatred"}]
+                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Special:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "On elite and legend foes, this ability lasts two turns instead."
+                }]
+            }
+                        ]
+    },
+    {
+        "id": "lb_curtaincall",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 2,
+            "resolve": 4,
+            "Divine": true,
+            "Gamble": true,
+            "True Strike": true
+        },
+        "eventtags": {},
+        "name": "Curtain Call",
+        "ultimate": ["ul_ultimacurtaincall"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "Bring out the fireworks. Fire up the elden magic. Time for a showstopper."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Gamble, then draw a line area effect of that many spaces +2. Soar into the air, removing yourself from the battlefield, then place yourself adjacent to the first foe in that line, delivering a massive blow. This ability has different effects depending on their position on the line. If there are no valid targets after rolling, the resolve cost of this ability is refunded.",
+                                    "glossary": [{"val": "Gamble", "id": "gl_gamble"}, {"val": "area effect", "id": "gl_areaeffect"}]
+                }]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Roll [D] + fray damage once, then apply it the number of times listed.",
+                "glossary": [{"val": "[D]", "id": "gl_damagedice"}, {"val": "fray damage", "id": "gl_fray"}]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "• 3-5 spaces:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "x2"
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "• 6-7 spaces:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "x3"
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "• 8 spaces:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "x4 and character is stunned.",
+                                    "glossary": [{"val": "stunned", "id": "gl_stunned"}]
+                                }]
+            }
+        ]
+    },
+    {
+        "id": "lb_paradiso",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 1,
+            "resolve": 3,
+            "Aura": true
+        },
+        "eventtags": {},
+        "name": "Paradiso",
+        "ultimate": ["ul_ultimaparadiso"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "You summon the spirit of your weapon, drawing out the residual soul aether of every single one of its previous users. Ghostly doubles of dozens of your predecessors match your movements, and create an aura of untold power."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Aura:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You gain an aura of supernatural accuracy, charging your weapons and the weapons of your allies with aether.",
+                                    "glossary": [{"val": "Aura", "id": "gl_aura"}]
+                }]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You gain Aura 2 until the end of your next turn. While standing in Paradiso, abilities used by you or allies against foes outside of Paradiso trigger all the following triggered effects: charge, collide, comeback, chain reaction, exceed, finishing blow, slay",
+                "glossary": [{"val": "Aura 2", "id": "gl_aura"}, {"val": "charge", "id": "gl_charge"}, {"val": "collide", "id": "gl_collide"}, {"val": "comeback", "id": "gl_comeback"}, {"val": "chain reaction", "id": "gl_chainreaction"}, {"val": "exceed", "id": "gl_exceed"}, {"val": "finishing blow", "id": "gl_finishingblow"}, {"val": "slay", "id": "gl_slay"}]
+            }
+                        ]
+    },
+    {
+        "id": "lb_abyssalecstasy",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 1,
+            "resolve": 2
+        },
+        "eventtags": {},
+        "name": "Abyssal Ecstasy",
+        "ultimate": ["ul_ultimaecstasy"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "A prayer and a drop of blood, and soothing darkness cloaks the battlefield."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Yourself, all allies, and allied summons gain stealth, and all foes are blinded.",
+                                    "glossary": [{"val": "stealth", "id": "gl_stealth"}, {"val": "blinded", "id": "gl_blinded"}]
+                }]
+            }
+                        ]
+    },
+    {
+        "id": "lb_lycanthropy",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 1,
+            "resolve": 3,
+            "Divine": true
+        },
+        "eventtags": {},
+        "name": "Lycanthropy",
+        "ultimate": ["ul_ultimalycanthropy"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "You muster up the primal magic of the Deep Green. The power of fang, tooth scale, fur, and claw pours into you, granting you massively increased speed and power."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You become a beast hybrid of primal fury. You gain a greatly enhanced dash, with the following benefits:"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• Dash always becomes a free action.",
+                "glossary": [{"val": "Dash", "id": "gl_dash"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• All dashes granted as part of any of your abilities, summons, or actions (including this one!) may be increased by +1, and grant phasing while moving.",
+                "glossary": [{"val": "dashes", "id": "gl_dash"}, {"val": "summons", "id": "gl_summon"}, {"val": "phasing", "id": "gl_phasing"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• When you take the dash action, all allies and allied summons can dash 1. Then, any foe adjacent to one or more characters that dashed this way takes 2 damage.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}, {"val": "summons", "id": "gl_summon"}]
+            }
+        ]
+    },
+    {
+        "id": "lb_marchofthesaints",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 1,
+            "resolve": 2,
+            "Stance": true
+        },
+        "eventtags": {},
+        "name": "March of the Saints",
+        "ultimate": ["ul_divineinvestment"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "You sing of the deeds of the first heroes, from the Doom. The Great Chant weaves around your allies and transforms them into echoes of those mighty heroes."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Stance:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "You begin weaving an epic song, a saga of legendary heroes. When you take this action, and when this stance refreshes, you may invest an ally in range 5 with the power of one of the great saints. Each saint must be chosen at least once before it can be chosen again. The effect takes place immediately and lasts until the end of their next turn."
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Refresh:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "This stance refreshes automatically at the start of your turns."
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Parzival:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "An allied character gains flying and cover from all directions.",
+                                    "glossary": [{"val": "flying", "id": "gl_flying"}, {"val": "cover", "id": "gl_cover"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Leon:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "An allied character gains dodge and the ability to move diagonally.",
+                                    "glossary": [{"val": "dodge", "id": "gl_dodge"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Angrboda:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "An allied character gains sturdy, and their attacks gain true strike and shove 1.",
+                                    "glossary": [{"val": "sturdy", "id": "gl_sturdy"}, {"val": "true strike", "id": "gl_truestrike"}, {"val": "shove", "id": "gl_shove"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Farnese:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "An ally gains 1 blessing and +1 boon on all attacks and saves.",
+                                    "glossary": [{"val": "+1 boon", "id": "gl_boon"}]
+                                }]
+            }
+        ]
+    },
+    {
+        "id": "lb_deathsentence",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": "free",
+            "resolve": 3
+        },
+        "eventtags": {},
+        "name": "Death Sentence",
+        "ultimate": ["ul_soulbloom"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "A flash of the scythe, and the line between life and death is blurred."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You slash an adjacent foe with your weapon, knocking their soul out of their body. Draw a line 4 area effect from your foe facing directly away from you and summon the soul in the last available space.",
+                                    "glossary": [{"val": "area effect", "id": "gl_areaeffect"}]
+                }]
+            },
+            {
+                "tags": {"desc_type" : "textsummon"},
+                "content": "sm_severedsoul"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The soul lasts until the end of your next turn, or until the affected character is defeated."
+            }
+                        ]
+    },
+    {
+        "id": "lb_passagetotheafterlife",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 2,
+            "resolve": 5,
+            "type": "attack",
+            "Divine": true,
+            "+1 Boon": true
+        },
+        "eventtags": {},
+        "name": "Passage to the Afterlife",
+        "ultimate": ["ul_reachheaventhroughviolence"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "You unleash the supreme Sealer war art, inflicting ten thousand blows and shattering the connections of your foe’s vital energy to their body, hurrying on the transmigration of immortal souls."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Attack:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "On Hit:",
+                                    "subcontent":   [{
+                                                        "tags": {"desc_type" : "desc"},
+                                                        "content": "[D] + fray, three times.",
+                                                        "glossary": [{"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}]
+                                                    }]
+                                },
+                                {
+                                    "tags": {"desc_type": "subeffect"},
+                                    "content": "Miss:",
+                                    "subcontent":   [{
+                                                        "tags": {"desc_type" : "desc"},
+                                                        "content": "Once."
+                                                    }]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Exceed:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Deal [D] + fray two more times.",
+                                    "glossary": [{"val": "Exceed", "id": "gl_exceed"}, {"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You may teleport adjacent to the target before the attack if they’re in range 3. Every ally in range 3 of the target can also teleport adjacent to your target, or as close as possible. Your target then takes 2 additional divine damage, once, per adjacent ally.",
+                                    "glossary": [{"val": "teleport", "id": "gl_teleport"}, {"val": "divine", "id": "gl_divine"}]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "lb_highprophecy",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": "free",
+            "resolve": 3,
+            "Aura": true
+        },
+        "eventtags": {},
+        "name": "High Prophecy",
+        "ultimate": ["ul_thoth"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "A burning third eye of pure etheric energy appears on your forehead. Possibilities unfurl before you, laid out like infinite gleaming threads."
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Aura:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Until the start of your next turn, you gain aura 2. Every d6 any character in the aura rolls for boons, curses, or gambling is either a 6 or a 1 (you choose).",
+                                    "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "boons", "id": "gl_boon"}, {"val": "curses", "id": "gl_curse"}, {"val": "gambling", "id": "gl_gamble"}]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "lb_gigaflare",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 2,
+            "resolve": 4,
+            "Divine": true,
+            "Unerring": true,
+            "True Strike": true
+        },
+        "eventtags": {},
+        "name": "Gigaflare",
+        "ultimate": ["ul_meteor"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "I, who stand at the apex of things, Thou, who are in the deepest pits of despair, Let thy very bones become ash!. O Flame, let the air become death! Ignite, and be banished to Hell!"
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You summon the eldflame, the primeval force of creation, dealing [D]+fray divine damage to every character, on the battlefield, ignoring line of sight. Characters in range 2 of you are exempt from this ability.",
+                                    "glossary": [{"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}, {"val": "divine", "id": "gl_divine"}, {"val": "gambling", "id": "gl_gamble"}]
+                }]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_tetraflare"
+            }
+                        ]
+    },
+    {
+        "id": "lb_cataclysm",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 1,
+            "resolve": 3,
+            "Divine": true
+        },
+        "eventtags": {},
+        "name": "Cataclysm",
+        "ultimate": ["ul_moltencore"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "I, protected by the holy trigram, Summon the ten thousand molten metal kings. Run amok with thy furies, and rend the immortal stone, Turn Heaven and Earth!"
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "End your turn. You dive into the earth and off the battlefield. Remove yourself from play. Target a line area 3 spaces wide from one side of the battlefield to the next. Then gain Delay: Your next turn must be slow. At the start of that turn, you cause a rolling wave of earth to sweep across this area, from one side to the next. Characters within take [D] + fray as an effect and are shoved 1 in the direction of the line.",
+                                    "glossary": [{"val": "End your turn", "id": "gl_endturn"}, {"val": "Delay", "id": "gl_delay"}, {"val": "next turn must be slow", "id": "gl_slowturn"}, {"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}, {"val": "shove", "id": "gl_shove"}]
+                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "After the first effect resolves, all objects in the area release an explosion for a medium blast area effect centered on them, dealing [D]+fray as an area effect. Characters hit by two or more explosions take 2[D]+fray instead.",
+                                    "glossary": [{"val": "blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}]
+                }]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When this ability resolves, place yourself in any unoccupied space in the area."
+            }
+                        ]
+    },
+    {
+        "id": "lb_granlevincross",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": 2,
+            "resolve": 4,
+            "Divine": true
+        },
+        "eventtags": {},
+        "name": "Gran Levincross",
+        "ultimate": ["ul_gotterdammerung"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "I summon thee, bloody gods of the cutting art, Let the might of the divine realm crash upon the piteous earth, Strike eighty thousand blows at once, And split the air asunder!"
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Your blade extends and you make two massive cuts across the map, splitting the walls between worlds. Draw a cross section across the map, splitting it into four sections of any size. Deal [D]+fray divine damage to all characters caught in the cross, then remove all characters out of the affected area and place them in the nearest free space of your choice. Characters can pass a save to choose which side they end up on.",
+                                    "glossary": [{"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}, {"val": "divine", "id": "gl_divine"}]
+                }]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The affected area becomes a crackling wall of lightning that does not block line of sight, but blocks all movement except teleporting. This effect ends at the end of the next round. Allies can use a free action to teleport across the wall from an adjacent space, placing them on the closest adjacent space on the other side.",
+                "glossary": [{"val": "teleporting", "id": "gl_teleport"}, {"val": "teleport", "id": "gl_teleport"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If any version of this ability has no valid space in which teleport a character to, still deal damage, but this ability doesn’t create the lightning wall.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            },
+            {
+                "tags": {"desc_type" : "addon"},
+                "content": "ad_ragnarok"
+            }
+                        ]
+    },
+    {
+        "id": "lb_elemental",
+        "type": "LimitBreak",
+        "source": "core",
+        "tags": {
+            "action": "free",
+            "resolve": 3
+        },
+        "eventtags": {},
+        "name": "Elemental",
+        "ultimate": ["ul_shieldofthefourwinds"],
+        "blurb": [{
+            "tags": {"desc_type" : "subeffect"},
+            "content": "On account of the magic that is in my body, Turn aside, detested of Sea and Storm, Thou wretch, go with thy face diverted! I call the elements into the temple of my body. Be scattered like dust, and feed the wind!"
+        }],
+        "description": [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "You take on a fearsome elemental form, gaining the following benefits for the rest of combat:"
+                }]
+            },
+            { "tags": {"desc_type" : "gap"}, "content": "", "glossary": [] },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While you are an Elemental:"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• You gain flying and phasing.",
+                "glossary": [{"val": "flying", "id": "gl_flying"}, {"val": "phasing", "id": "gl_phasing"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• You release aura 2 around you. The area is a terrain effect that moves with you that is difficult and dangerous terrain for foes, and allies gain cover from all directions in the area.",
+                "glossary": [{"val": "aura 2", "id": "gl_aura"}, {"val": "difficult", "id": "gl_difficultterrain"}, {"val": "dangerous", "id": "gl_dangerousterrain"}, {"val": "cover", "id": "gl_cover"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "• You can share space with characters. You have resistance to any character sharing your space, and allies have resistance while sharing your space.",
+                "glossary": [{"val": "resistance", "id": "gl_resistance"}]
+            }
+                        ]
+    }
+]

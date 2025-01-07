@@ -1,0 +1,3501 @@
+[
+    {
+        "id": "tb_thegreatwheel",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Index", "Arcana", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Index"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Arcana"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_fool",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Fool"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally must dash 3 spaces in a straight line before using the ability.",
+                    "glossary": [{"val": "dash", "id": "gl_dash"}]
+                }]
+            },
+            {
+                "id": "ti_scepter",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Scepter"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Teleport your ally to an adjacent space to you after the action resolves.",
+                    "glossary": [{"val": "Teleport", "id": "gl_teleport"}]
+                }]
+            },
+            {
+                "id": "ti_ewer",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Ewer"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Bless all allies in a small blast area centered on your ally.",
+                    "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "area", "id": "gl_areaeffect"}]
+                }]
+            },
+            {
+                "id": "ti_devil",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Devil"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "If the ability forces saves, foes get +2 curses to save against them.",
+                    "glossary": [{"val": "+2 curses", "id": "gl_curse"}]
+                }]
+            },
+            {
+                "id": "ti_sword",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Sword"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ability gains pierce.",
+                    "glossary": [{"val": "pierce", "id": "gl_piercing"}]
+                }]
+            },
+            {
+                "id": "ti_death",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "7"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Death"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally gains Defiance.",
+                    "glossary": [{"val": "Defiance", "id": "gl_defiance"}]
+                }]
+            },
+            {
+                "id": "ti_chariot",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "8"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Chariot"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally becomes unstoppable and immune to all damage while moving during the ability.",
+                    "glossary": [{"val": "unstoppable", "id": "gl_unstoppable"}, {"val": "immune", "id": "gl_immune"}]
+                }]
+            },
+            {
+                "id": "ti_papessa",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "9"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Papessa"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally becomes pacified but is cured after the ability resolves.",
+                    "glossary": [{"val": "pacified", "id": "gl_pacified"}, {"val": "cured", "id": "gl_cure"}]
+                }]
+            },
+            {
+                "id": "ti_emperor",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "10"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Emperor"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally gains stealth after the ability resolves.",
+                    "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+                }]
+            },
+            {
+                "id": "ti_star",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "J"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Star"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally makes all attacks and saves with +1 Boon until the start of their next turn, including with the triggering ability.",
+                    "glossary": [{"val": "+1 Boon", "id": "gl_boon"}]
+                }]
+            },
+            {
+                "id": "ti_moon",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Q"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Moon"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally gains Evasion until the start of their next turn.",
+                    "glossary": [{"val": "Evasion", "id": "gl_evasion"}]
+                }]
+            },
+            {
+                "id": "ti_sun",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "K"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The Sun"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally gains Counter and Sturdy, but cannot gain or benefit from stealth or evasion until the start of their next turn.",
+                    "glossary": [{"val": "Counter", "id": "gl_counter"}, {"val": "Sturdy", "id": "gl_sturdy"}, {"val": "stealth", "id": "gl_stealth"}, {"val": "evasion", "id": "gl_evasion"}]
+                }]
+            },
+            {
+                "id": "ti_world",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "A"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The World"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Ally becomes Unstoppable until the start of their next turn.",
+                    "glossary": [{"val": "Unstoppable", "id": "gl_unstoppable"}]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_saddleborn",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_saddlebornchapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Animals or Vehicles"
+                }]
+            },
+            {
+                "id": "ti_saddlebornchapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Monsters"
+                }]
+            },
+            {
+                "id": "ti_saddlebornchapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "An entire herd of animals or monsters."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_cookingpot",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Result"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_cookingpot1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Burnt Meal - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "No Effect!"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_cookingpot2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Nutritious meal - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Ignore difficult terrain.",
+                            "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}]
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_cookingpot3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Refreshing Meal - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Saves are successful on an 9+ instead of a 10+"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_cookingpot4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Invigorating Meal - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Deal bonus damage in the first round of combat.",
+                            "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}]
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_cookingpot5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Healthy Meal - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Start that combat with 2 vigor, or +2 vigor if you already start with Vigor.",
+                            "glossary": [
+                                {"val": "vigor", "id": "gl_vigor"},
+                                {"val": "Vigor", "id": "gl_vigor"}
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_cookingpot6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Hearty Meal - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Gain resistance to all damage in the first round of combat.",
+                            "glossary": [
+                                {"val": "resistance", "id": "gl_resistance"}
+                            ]
+                        }
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_fishingpole",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Result"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_fishingpole1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Line Snapped - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "No result!"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpole2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Got away - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "No result. Next time you fish, add +1d to your roll."
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpole3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3-5"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Common Fish - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Collect 2 of these fish and they can be sold at market for 1 dust. Dungeon guppies, cave carp, and Arkentrout are all pretty common examples."
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpole6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Rare Fish!: Roll 1d6. Can be sold at market for 1 dust."
+                        },
+                        {
+                            "tags": {"desc_type" : "table"},
+                            "content": "tb_fishingpoleresult6"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpole66",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6,6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Super Rare Fish!: This super hard to catch fist can be sold for 3 dust at market. Roll 1d6."
+                        },
+                        {
+                            "tags": {"desc_type" : "table"},
+                            "content": "tb_fishingpoleresult66"
+                        }
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_fishingpoleresult6",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Result"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_fishingpoleresult6result1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Glibfish - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Eat to gain +1D and improve effect on all command and charm rolls for a scene."
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpoleresult6result2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Musclefish - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Eat to gain +1D and increased effect on Endure and Smash actions for a scene."
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpoleresult6result3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Wrightfish - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Ask the fish for advice. If you follow it, gain +1D and improved effect on your next narrative action."
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpoleresult6result4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Elixer Fish - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Can be drunk to gain a vigor surge.",
+                            "glossary": [
+                                {"val": "vigor surge", "id": "gl_vigorsurge"}
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpoleresult6result5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Panaflounder - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Eat as free action to end all statuses and foe’s marks.",
+                            "glossary": [
+                                {"val": "marks", "id": "gl_mark"}
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpoleresult6result6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Golden Gizzet - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Can be sold at market for 3 dust."
+                        }
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_fishingpoleresult66",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Result"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_fishingpoleresult66result1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1-3"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Wishfish - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "The fish is infused with reality warping Aether. You can use the fish to perform one action roll as superpowered, expending it.",
+                            "glossary": [
+                                {"val": "superpowered", "id": "gl_superpowered"}
+                            ]
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_fishingpoleresult66result4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4-6"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Godfish - ",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "This magnificent specimen sells for 5 dust at market. Alternately, its scales are so tough it can be used as a shield. At the start of combat, expend the fish to give a character 10 vigor, which could put them over their maximum.",
+                            "glossary": [
+                                {"val": "vigor", "id": "gl_vigor"}
+                            ]
+                        }
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_horizonsweeper",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_horizonsweeperchapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Darkness or time of day"
+                }]
+            },
+            {
+                "id": "ti_horizonsweeperchapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Weather or visibility"
+                }]
+            },
+            {
+                "id": "ti_horizonsweeperchapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Distance of any kind"
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_heartsight",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_heartsightchapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Close by, within shouting distance"
+                }]
+            },
+            {
+                "id": "ti_heartsightchapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Within a few miles"
+                }]
+            },
+            {
+                "id": "ti_heartsightchapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Anywhere in Arden Eld"
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_argus",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_arguschapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Hidden objects, paths, tracks, or traps"
+                }]
+            },
+            {
+                "id": "ti_arguschapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Hidden people, monsters, or ambushes"
+                }]
+            },
+            {
+                "id": "ti_arguschapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Invisible or metaphysical objects or forces, such as the flow of magic."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_darkclarity",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_darkclaritychapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One person close by"
+                }]
+            },
+            {
+                "id": "ti_darkclaritychapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One person or monster close by"
+                }]
+            },
+            {
+                "id": "ti_darkclaritychapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "All people or monsters close by"
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_geist",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_geistchapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Until the end of the scene"
+                }]
+            },
+            {
+                "id": "ti_geistchapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Until the end of the expedition"
+                }]
+            },
+            {
+                "id": "ti_geistchapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Indefinitely"
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_fastfriends",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_fastfriendschapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1 minute"
+                }]
+            },
+            {
+                "id": "ti_fastfriendschapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "An hour"
+                }]
+            },
+            {
+                "id": "ti_fastfriendschapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "A whole day"
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_habituallinestepper",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_habituallinestepperchapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Nearby"
+                }]
+            },
+            {
+                "id": "ti_habituallinestepperchapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Within two or three hundred paces."
+                }]
+            },
+            {
+                "id": "ti_habituallinestepperchapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Within a mile."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_abetterway",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Chapter", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_abetterwaychapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "One person or a small object."
+                }]
+            },
+            {
+                "id": "ti_abetterwaychapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Two"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "A whole group of people or a large object."
+                }]
+            },
+            {
+                "id": "ti_abetterwaychapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Three"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "A whole town, or a massive object such as a train, huge machine, etc."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_mender",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Result"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_menderresult0",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "0-3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Characters can spend 1 effort to heal 1 strain."
+                }]
+            },
+            {
+                "id": "ti_menderresult4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4-5"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Character heals 1 strain."
+                }]
+            },
+            {
+                "id": "ti_menderresult6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Character heals 2 strain."
+                }]
+            },
+            {
+                "id": "ti_menderresult66",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6,6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Character heals 4 strain."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_reputation",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_reputationchapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Any town."
+                }]
+            },
+            {
+                "id": "ti_reputationchapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Any city or small village."
+                }]
+            },
+            {
+                "id": "ti_reputationchapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Anywhere."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_gaiacompass",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_gaiacompasschapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Village"
+                }]
+            },
+            {
+                "id": "ti_gaiacompasschapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Town"
+                }]
+            },
+            {
+                "id": "ti_gaiacompasschapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Settlement of any kind."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_improvise",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Chapter"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti_improvisechapter1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Small, like a vase or stool."
+                }]
+            },
+            {
+                "id": "ti_improvisechapter2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Large, like a piece of furniture or a door."
+                }]
+            },
+            {
+                "id": "ti_improvisechapter3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Massive, like a horse cart or boulder."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_mightofthewild",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Might of the Wild", "Description"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_mightofthewildresult1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Toxic"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_toxiccloud"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Thick Hide"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_harden"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Spines"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_sanguinebarb"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Horned"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_primalcharge"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Brutal Strength"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_stonetoss"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Burrowing"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foetrait"},
+                            "content": "tf_beast_apex_earthglide"
+                        },
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_seismicgeyser"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult7",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "7"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Chameleonic"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foetrait"},
+                            "content": "tf_beast_apex_blendin"
+                        },
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_primalambush"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult8",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "8"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Winged"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foetrait"},
+                            "content": "tf_beast_apex_winged"
+                        },
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_talonsnatch"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult9",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "9"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Lashing Tail"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_tailsweep"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult10",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "10"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Carrion Eater"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_carrionstash"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult11",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "11"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Sonic Shriek"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_shriek"
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_mightofthewildresult12",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "12"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Element Breath"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "foeability"},
+                            "content": "af_beast_apex_primalelements"
+                        }
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_bloodrune_trophy",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Blood Bound Blessing"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_bloodrune_trophyresult1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_boots"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_fixer"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_filth"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_cats"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_sharkie"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_pale"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult7",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "7"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_sharp"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult8",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "8"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_fanatic"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult9",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "9"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_broker"
+                }]
+            },
+            {
+                "id": "ti_bloodrune_trophyresult10",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "10"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_scavenger_bloodboundband_blessing_monger"
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_lowlander_fetididol_manifestations",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Manifestation", "Effect"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_lowlander_fetididol_manifestationsresult1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1-2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Blight Geyser"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Create a pit. At the end of each round, the pit erupts. Characters in a medium blast area effect centered on it take 6 piercing damage.",
+                    "glossary": [{"val": "pit", "id": "gl_pit"},{"val": "medium blast", "id": "gl_blast"},{"val": "piercing", "id": "gl_piercing"}]
+                }]
+            },
+            {
+                "id": "ti_lowlander_fetididol_manifestationsresult2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3-4"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Spewing Mouth"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Summon a height 1 Spewing Growth object."
+                        },{
+                            "tags": {"desc_type" : "foesummon"},
+                            "content": "sm_lowlander_fetididol_spewinggrowth"
+                        }
+                    ]
+                }
+                ]
+            },
+            {
+                "id": "ti_lowlander_fetididol_manifestationsresult3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5-6"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Pillar of Filth"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Create a height 3 pillar. Destructible (10 hp), and when destroyed, or when a character collides with it, falls over.",
+                            "glossary": [{"val": "collides", "id": "gl_collide"}]
+                        },
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Create a line 3 area effect next to it in a direction chosen by the character that destroyed it. Characters inside must save or take 2[D]+fray and be stunned, or [D]+fray on a successful save. The area becomes difficult terrain for the rest of combat.",
+                            "glossary": [
+                                {"val": "area effect", "id": "gl_areaeffect"},
+                                {"val": "[D]", "id": "gl_damagedice"},
+                                {"val": "fray", "id": "gl_fray"},
+                                {"val": "difficult terrain", "id": "gl_difficultterrain"}
+                            ]
+                        }
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_rule_advancement_combat",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Lv", "Ch", "Benefit"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_rule_advancement_combat_level0",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "0"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Choose a Job and two Abilities."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain 2 Ability Points and unlock Limit Break."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Relic."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Mastery Point."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Choose one of the following"
+                    },{
+                        "tags": {"desc_type" : "list"},
+                        "content": "",
+                        "subcontent": [{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Gain a second Job and 2 Ability Points."
+                        },{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Gain a Mastery Point."
+                        }
+
+                        ]
+                    }
+
+                    ]
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain 1 Ability Point."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Relic."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level7",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "7"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Mastery Point."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level8",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "8"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Choose one of the following"
+                    },{
+                        "tags": {"desc_type" : "list"},
+                        "content": "",
+                        "subcontent": [{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Gain a third Job and 2 Ability Points."
+                        },{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Gain a Mastery Point."
+                        }
+
+                        ]
+                    }
+
+                    ]
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level9",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "9"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Relic."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level10",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "10"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Mastery Point."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level11",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "11"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain 1 Ability Point."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_combat_level12",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "12"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Mastery Point."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_rule_advancement_narrative",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Lv", "Ch", "Benefit"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_rule_advancement_narrative_level0",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "0"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Choose a Culture and Kin type."
+                        },
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Choose a Bond and gain 2 dots in a bond-specific action, and a Bond power"
+                        },
+                        {
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Gain 4 extra dots to improve actions. None can be taken past 3 at level 0."
+                        }
+                    ]
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Bond Power and improve an action."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Bond Power and improve an action."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Bond Power."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Choose one of the following"
+                    },{
+                        "tags": {"desc_type" : "list"},
+                        "content": "",
+                        "subcontent": [{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Improve two actions."
+                        },{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Gain a Bond power."
+                        }
+
+                        ]
+                    }
+
+                    ]
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Improve an action."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Bond power."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level7",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "7"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Improve an action."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level8",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "8"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "",
+                    "subcontent": [{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Choose one of the following"
+                    },{
+                        "tags": {"desc_type" : "list"},
+                        "content": "",
+                        "subcontent": [{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Improve two actions."
+                        },{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Gain a Bond power."
+                        }
+
+                        ]
+                    }
+
+                    ]
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level9",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "9"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Bond power."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level10",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "10"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Improve an action."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level11",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "11"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Improve an action."
+                }]
+            },
+            {
+                "id": "ti_rule_advancement_narrative_level12",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "12"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain a Bond power."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_jotunn_leader_strangebrew",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Effect"],
+        "description": [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Result"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Effect"
+            }
+        ],
+        "items": [
+            {
+                "id": "ti__jotunn_leader_strangebrew_1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The brew explodes, stunning the ally.",
+                    "glossary": [{"val": "stunning", "id": "gl_stunned"}]
+                }]
+            },
+            {
+                "id": "ti_jotunn_leader_strangebrew_2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The ally increases in size by +1 for the rest of combat, up to a max of size 3. Characters in the area when the ally increases in size are removed and placed adjacent to it."
+                }]
+            },
+            {
+                "id": "ti_jotunn_leader_strangebrew_3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The ally gains Defiance.",
+                    "glossary": [{"val": "Defiance", "id": "gl_defiance"}]
+                }]
+            },
+            {
+                "id": "ti_jotunn_leader_strangebrew_4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The ally is teleported 2.",
+                    "glossary": [{"val": "teleported", "id": "gl_teleport"}]
+                }]
+            },
+            {
+                "id": "ti_jotunn_leader_strangebrew_5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The ally gains 6 more vigor.",
+                    "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+                }]
+            },
+            {
+                "id": "ti_jotunn_leader_strangebrew_6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The ally immediately clears all statuses and marks.",
+                    "glossary": [{"val": "marks", "id": "gl_mark"}]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_gazer_behold",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Result", "Effect", "Description"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_gazer_behold_result1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Scour Gravity"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The target gains flying, but at the end of their turn, they fall, shattering them.",
+                    "glossary": [
+                        {"val": "flying", "id": "gl_flying"},
+                        {"val": "shattering", "id": "gl_shattered"}
+                    ]
+                }]
+            },
+            {
+                "id": "ti_gazer_behold_result2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Scour Friction"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The target doubles its speed, but must move maximum speed when moving and cannot only move in one direction for each action.",
+                    "glossary": [
+                    ]
+                }]
+            },
+            {
+                "id": "ti_gazer_behold_result3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Scour Force"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The target cannot deal damage, but also becomes immune to all damage for the duration.",
+                    "glossary": [
+                        {"val": "immune", "id": "gl_immune"}
+                    ]
+                }]
+            },
+            {
+                "id": "ti_gazer_behold_result4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Scour Scale"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The target increases its size to 3. It can share space with foes and objects during this effect.",
+                    "glossary": [
+                    ]
+                }]
+            },
+            {
+                "id": "ti_gazer_behold_result5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Scour Time"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The target immediately rolls a d20 and their class damage die. All of their results for any of those dice rolled during this turn become the respective rolled result (so, for example, if a 13 was rolled on the d20, all d20 rolls on their turn would be 13).",
+                    "glossary": [
+                        {"val": "class damage die", "id": "gl_damagedice"}
+                    ]
+                }]
+            },
+            {
+                "id": "ti_gazer_behold_result6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },{
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Scour Space"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "The target may teleport to any space for 1 action. However, for the duration, all characters may teleport to any space adjacent to this character for 1 action.",
+                    "glossary": [
+                        {"val": "teleport", "id": "gl_teleport"}
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_lesseremissary_decree",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["Decree", "Description"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_lesseremissary_decree_result1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                {
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Decree of Anger"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Attack this round.",
+                    "glossary": [
+                    ]
+                }]
+            },
+            {
+                "id": "ti_lesseremissary_decree_result2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                {
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Decree of Selfishness"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Do not use abilities that target allies this round.",
+                    "glossary": [
+                    ]
+                }]
+            },
+            {
+                "id": "ti_lesseremissary_decree_result3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                {
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Decree of Paranoia"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "End turn without being adjacent to any other characters.",
+                    "glossary": [
+                    ]
+                }]
+            },
+            {
+                "id": "ti_lesseremissary_decree_result4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                {
+                    "tags": {"desc_type" : "effect"},
+                    "content": "Decree of Rashness"
+                },{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "End turn adjacent to a foe.",
+                    "glossary": [
+                    ]
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_majestydemon_decree",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Decree", "Description"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_majestydemon_decree_result1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "1"
+                    },
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "Decree of Penance"
+                    },{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "All foes deal 10 damage twice, to themselves as an effect at the end of the round.",
+                        "glossary": []
+                    }
+                ]
+            },
+            {
+                "id": "ti_majestydemon_decree_result2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "2"
+                    },
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "Decree of Obeisance"
+                    },{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Foes must end their turn adjacent to one of the summons from Court of the Covenant, or else take 10 damage twice.",
+                        "glossary": []
+                    }
+                ]
+            },
+            {
+                "id": "ti_majestydemon_decree_result3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "3"
+                    },
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "Decree of Pain"
+                    },{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Player characters cannot be reduced below 1 hp this round. Player characters at exactly 1 hp when the round ends regain hp to put them at 50% of maximum. Player characters not at exactly 1 hp become pacified, sealed, and stunned at the start of next round.",
+                        "glossary": [
+                            {"val": "pacified", "id": "gl_pacified"},
+                            {"val": "sealed", "id": "gl_sealed"},
+                            {"val": "stunned", "id": "gl_stunned"}
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "ti_majestydemon_decree_result4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "4"
+                    },
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "Decree of Annihilation"
+                    },{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "One foe (chosen by the demon) takes 10 damage four times as an effect at the end of the round.",
+                        "glossary": []
+                    }
+                ]
+            },
+            {
+                "id": "ti_majestydemon_decree_result5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "5"
+                    },
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "Decree of Glory"
+                    },{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Flagellant knights deal and take double damage this round.",
+                        "glossary": []
+                    }
+                ]
+            },
+            {
+                "id": "ti_majestydemon_decree_result6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "6"
+                    },
+                    {
+                        "tags": {"desc_type" : "effect"},
+                        "content": "Decree of Haste"
+                    },{
+                        "tags": {"desc_type" : "desc"},
+                        "content": "All movement and shoves are doubled this round.",
+                        "glossary": [
+                            {"val": "shoves", "id": "gl_shove"}
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tb_keeperoftheeldflame_forgeweapon",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Weapon"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_keeperoftheeldflame_forgeweapon_result1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "foeability"},
+                    "content": "af_jotunn_keeperoftheeldflame_hammer"
+                }]
+            },
+            {
+                "id": "ti_keeperoftheeldflame_forgeweapon_result2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "foeability"},
+                    "content": "af_jotunn_keeperoftheeldflame_spear"
+                }]
+            },
+            {
+                "id": "ti_keeperoftheeldflame_forgeweapon_result3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "foeability"},
+                    "content": "af_jotunn_keeperoftheeldflame_sword"
+                }]
+            },
+            {
+                "id": "ti_keeperoftheeldflame_forgeweapon_result4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },
+                {
+                    "tags": {"desc_type" : "foeability"},
+                    "content": "af_jotunn_keeperoftheeldflame_curvedsword"
+                }]
+            },
+            {
+                "id": "ti_keeperoftheeldflame_forgeweapon_result5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },
+                {
+                    "tags": {"desc_type" : "foeability"},
+                    "content": "af_jotunn_keeperoftheeldflame_bow"
+                }]
+            },
+            {
+                "id": "ti_keeperoftheeldflame_forgeweapon_result6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },
+                {
+                    "tags": {"desc_type" : "foeability"},
+                    "content": "af_jotunn_keeperoftheeldflame_axe"
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_keeperoftheeldflame_forgemail",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Armour"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_keeperoftheeldflame_forgemail_result12",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1-2"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_jotunn_keeperoftheeldflame_shield"
+                }]
+            },
+            {
+                "id": "ti_keeperoftheeldflame_forgemail_result34",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3-4"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_jotunn_keeperoftheeldflame_helm"
+                }]
+            },
+            {
+                "id": "ti_keeperoftheeldflame_forgemail_result56",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5-6"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_jotunn_keeperoftheeldflame_breastplate"
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_summerflameaesi_soberup",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Effect"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_summerflameaesi_soberup_result1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_summerflameaesi_soberup_nonstopsinging"
+                }]
+            },
+            {
+                "id": "ti_summerflameaesi_soberup_result2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_summerflameaesi_soberup_stagger"
+                }]
+            },
+            {
+                "id": "ti_summerflameaesi_soberup_result3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_summerflameaesi_soberup_standandblink"
+                }]
+            },
+            {
+                "id": "ti_summerflameaesi_soberup_result4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_summerflameaesi_soberup_clingy"
+                }]
+            },
+            {
+                "id": "ti_summerflameaesi_soberup_result5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_summerflameaesi_soberup_takeanap"
+                }]
+            },
+            {
+                "id": "ti_summerflameaesi_soberup_result6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "No extra effects."
+                }]
+            }
+        ]
+    },
+    {
+        "id": "tb_fallingleafaesi_faethief",
+        "type": "Table",
+        "source": "core",
+        "tags": {},
+        "eventtags": {},
+        "colnames": ["D6", "Effect"],
+        "description": [
+        ],
+        "items": [
+            {
+                "id": "ti_fallingleafaesi_faethief_result1",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "1"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_fallingleafaesi_faethief_friendship"
+                }]
+            },
+            {
+                "id": "ti_fallingleafaesi_faethief_result2",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "2"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_fallingleafaesi_faethief_sight"
+                }]
+            },
+            {
+                "id": "ti_fallingleafaesi_faethief_result3",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "3"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_fallingleafaesi_faethief_luck"
+                }]
+            },
+            {
+                "id": "ti_fallingleafaesi_faethief_result4",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "4"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_fallingleafaesi_faethief_heart"
+                }]
+            },
+            {
+                "id": "ti_fallingleafaesi_faethief_result5",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "5"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_fallingleafaesi_faethief_grace"
+                }]
+            },
+            {
+                "id": "ti_fallingleafaesi_faethief_result6",
+                "type": "TableItem",
+                "source": "core",
+                "tags": {},
+                "eventtags": {},
+                "description": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "6"
+                },
+                {
+                    "tags": {"desc_type" : "foetrait"},
+                    "content": "tf_hob_fallingleafaesi_faethief_youth"
+                }]
+            }
+        ]
+    }
+]

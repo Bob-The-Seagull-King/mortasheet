@@ -1,0 +1,4952 @@
+[
+    {
+        "id": "tl_heracule_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Heracule’s shoves can be in any direction.",
+                "glossary": [{"val": "shoves", "id": "gl_shove"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_heracule_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Heracule’s second effect triggers +1 more time."
+            }
+                        ]
+    },
+    {
+        "id": "tl_batteringram_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may rush 1 before using Battering Ram.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "+1 curse", "id": "gl_curse"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_batteringram_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can also shove objects with Battering Ram. The object triggers collide effects on the first character it collides with.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}, {"val": "collide", "id": "gl_collide"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_landwaster_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If Land Waster’s effect shockwave shoves 3 or more foes or allies, it shoves +1 and stuns your target.",
+                "glossary": [{"val": "shoves", "id": "gl_shove"}, {"val": "stuns", "id": "gl_stunned"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_landwaster_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If Land Waster’s effect shockwave shoves 2 or more foes or allies, cure yourself.",
+                "glossary": [{"val": "shoves", "id": "gl_shove"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_valiant_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Collide: Become unstoppable for the rest of your turn.",
+                "glossary": [{"val": "collide", "id": "gl_collide"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_valiant_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you only shove one foe, they gain hatred of you after this ability resolves.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_endlessbattlement_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While you are in the aura, attacks against your ally gain +1 curse.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "+1 curse", "id": "gl_curse"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_endlessbattlement_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You and your ally both have have counter while you are in the aura.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "counter", "id": "gl_counter"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_catapult_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Your shield becomes a valid target for allied abilities. You can expend this interrupt to grant them rebound.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_catapult_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Catapult can also be triggered on foes. When triggered on foes, the effect becomes effect: shove 1. Collide: you may rush 1.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}, {"val": "Collide", "id": "gl_collide"}, {"val": "rush", "id": "gl_rush"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_perseus_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You gain 4 vigor the first time in a round this ability triggers.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_perseus_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can extend the area as a line 5 area effect instead of an aura.",
+                "glossary": [{"val": "area effect", "id": "gl_areaeffect"}, {"val": "aura", "id": "gl_aura"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_rook_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You also have counter while Rook’s aura is active.",
+                "glossary": [{"val": "counter", "id": "gl_counter"}, {"val": "aura", "id": "gl_aura"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_rook_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can also inflict hatred on a foe that triggers Rook’s effect, but no more than once a round."
+            }
+                        ]
+    },
+    {
+        "id": "tl_greatgiorgios_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You gain phasing while rushing. Foes you passed through take 2 damage after your movement resolves, and are shoved 1 to either side of your movement.",
+                "glossary": [{"val": "rushing", "id": "gl_rush"}, {"val": "shoved", "id": "gl_shove"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_greatgiorgios_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies adjacent to you during any part of this rush are shoved 1 in any direction after this ability resolves.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "shoved", "id": "gl_shove"}]
+            }
+                        ]
+    },
+    {
+        "id": "tl_demoncutter_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Exceed: Gain 6 vigor.",
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+                        ]
+    },
+	{
+        "id": "tl_demoncutter_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can rush 1 before using Demon Cutter. Charge: rush 3 instead.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_comet_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you end your turn adjacent to your thrown weapon, gain vigilance +1.",
+                "glossary": [{"val": "vigilance", "id": "gl_vigilance"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_comet_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Yourself and allies that end their turn adjacent to your weapon gain 2 vigor.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_drakencross_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Exceed:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Deal fray damage again to all characters in any area created by this ability.",
+                    "glossary": [{"val": "area", "id": "gl_areaeffect"}]
+                }],
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_drakencross_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Charge:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Increase range to 5, and all areas may be increased to medium blasts instead.",
+                    "glossary": [{"val": "areas", "id": "gl_areaeffect"}, {"val": "medium blasts", "id": "gl_blast"}]
+                }],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_righteousdisdain_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can rush 1 before triggering this ability, and your ally may rush 1 afterwards.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_righteousdisdain_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Shove the triggering foe and ally each 1 space in any direction after this ability resolves.",
+                "glossary": [{"val": "Shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_demonclaw_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Instead of any rush from Demon Claw, you can gain 2 vigor.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_demonclaw_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After the second rush, you can shove an adjacent character 2 spaces.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_gatesofhell_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain 2 vigor after any time Gates of Hell’s second effect activates.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_gatesofhell_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Vigilance’s range increases by +1 while Gates of Hell is active.",
+                "glossary": [{"val": "Vigilance's", "id": "gl_vigilance"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_soulblade_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may also increase the area of any line or arc effects by +1 in Soul Blade, including from this stance.",
+                "glossary": [{"val": "stance", "id": "gl_stance"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_soulblade_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While in Soul Blade, your attacks gain ",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "subeffect"},
+                                    "content": "exceed: ",
+                                    "glossary": [{"val": "exceed", "id": "gl_exceed"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "tick the die up by 1."
+            }
+        ]
+    },
+    {
+        "id": "tl_sixhellstrigram_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You have counter and are sturdy while inside the area.",
+                "glossary": [{"val": "counter", "id": "gl_counter"}, {"val": "sturdy", "id": "gl_sturdy"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_sixhellstrigram_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies inside the area reduce all damage by 2, as if from armor.",
+                "glossary": [{"val": "armor", "id": "gl_armor"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_wickedsheath_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Also shove your foe 1 for every charge on the die. Collide: Your foe is stunned.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}, {"val": "Collide", "id": "gl_collide"}, {"val": "stunned", "id": "gl_stunned"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_wickedsheath_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Exceed:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Draw a line 4 area effect that includes your target. Characters inside other than your target take 2 damage, once, for every charge on the die.",
+                    "glossary": [{"val": "area effect", "id": "gl_areaeffect"}]
+                }],
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_valkyrie_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Valkyrie gains range 4."
+            }
+        ]
+    },
+	{
+        "id": "tl_valkyrie_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Exceed:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "You are unstoppable and immune to all damage while flying with Valkyrie.",
+                    "glossary": [{"val": "unstoppable", "id": "gl_unstoppable"}, {"val": "immune", "id": "gl_immune"}, {"val": "flying", "id": "gl_flying"}]
+                }],
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Charge:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "You may fly 3 instead.",
+                    "glossary": [{"val": "fly", "id": "gl_flying"}]
+                }],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_upheaval_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The boulder bounces before landing, dealing 2 damage in a small blast area effect anywhere in range.",
+                "glossary": [{"val": "Large blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Charge:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Large blast.",
+                    "glossary": [{"val": "Large blast", "id": "gl_blast"}]
+                }],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_upheaval_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The boulder bounces before landing, creating a pit anywhere in free space in range.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_dropkick_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Comeback:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Hit your foe so hard that you create 2 spaces of difficult terrain in adjacent spaces after this ability resolves.",
+                    "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}]
+                }],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_dropkick_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Shove your foe 1, then shove yourself 1 away from your foe.",
+                "glossary": [{"val": "Shove", "id": "gl_shove"}]
+            },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Charge:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Increase shoves to 2.",
+                    "glossary": [{"val": "shoves", "id": "gl_shove"}]
+                }],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_massiveoverhead_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Attack gains Exceed: Also create a height 1 boulder object adjacent to your foe.",
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_massiveoverhead_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Attack gains Exceed: The pit also becomes dangerous terrain.",
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}, {"val": "pit", "id": "gl_pit"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_takedown_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may rush 2 or fly 2 before using Takedown.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "fly", "id": "gl_flying"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_takedown_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can also choose to shove your target 2, then shove yourself 2.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}]
+            },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Collide:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Deal fray damage.",
+                    "glossary": [{"val": "fray", "id": "gl_fray"}]
+                }],
+                "glossary": [{"val": "Collide", "id": "gl_collide"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_greatsuplex_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "This ability deals bonus damage to your target if you land them in a pit.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "pit", "id": "gl_pit"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_greatsuplex_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can use this ability on allies. If you do, reduce its action cost to 1, they are immune to its damage and statuses, and both of you can rush 1 after it resolves.",
+                "glossary": [{"val": "immune", "id": "gl_immune"}, {"val": "rush", "id": "gl_rush"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_gigatonwhip_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If your target collides with another character, you may also shove that character 1 and deal 2 damage to them.",
+                "glossary": [{"val": "collides", "id": "gl_collide"}, {"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_gigatonwhip_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Fly 2 instead.",
+                "glossary": [{"val": "Fly", "id": "gl_flying"}]
+            },
+            {
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Charge:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Shove 3 and fly 3.",
+                    "glossary": [{"val": "Shove", "id": "gl_shove"}, {"val": "fly", "id": "gl_flying"}]
+                }],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_ragingwolf_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can voluntarily reduce yourself to 1 hp before using Raging Wolf."
+            }
+        ]
+    },
+	{
+        "id": "tl_ragingwolf_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While you’re at 1 hp, increase flight to 3.",
+                "glossary": [{"val": "flight", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_boilingblood_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While Defy Death is active, all abilities also trigger all exceed effects.",
+                "glossary": [{"val": "exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_boilingblood_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can rush or fly 1 before using any ability while Defy Death is active.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "fly", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_lowblow_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Deals bonus damage if your foe is suffering from a status.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "status", "id": "gl_status"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_lowblow_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Comeback:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain vigilance +1.",
+                    "glossary": [{"val": "vigilance", "id": "gl_vigilance"}]
+                }],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_provoke_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If this ability only affects one foe, they gain hatred of you.",
+                "glossary": [{"val": "hatred", "id": "gl_hatred"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_provoke_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can sacrifice 2 after this ability resolves to deal 2 damage again to all adjacent foes.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_revenge_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While this ability’s effect is active, attacks against adjacent allies gain +1 curse.",
+                "glossary": [{"val": "+1 curse", "id": "gl_curse"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_revenge_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can sacrifice 4 to gain or lose a combo token after using any version of this ability.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}, {"val": "combo", "id": "gl_combo"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_riposte_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can also sacrifice 2 to roll 1 more d6 while gambling.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}, {"val": "gambling", "id": "gl_gamble"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_riposte_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Comeback:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain vigilance +1 after Riposte resolves.",
+                    "glossary": [{"val": "vigilance", "id": "gl_vigilance"}]
+                }],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_darkknight_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may rush 2 towards your hated foe at the start of their turn, but only once a round.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}, {"val": "hated", "id": "gl_hatred"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_darkknight_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While in this stance, you have regeneration.",
+                "glossary": [{"val": "regeneration", "id": "gl_regeneration"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_strongarm_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Comeback:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "this ability gains range 2. Remove your target and place them into adjacency before activating this effect."
+                }],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_strongarm_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "During the spin, you can cause your target to take damage and phase through objects the same way as characters, though those objects are not shoved.",
+                "glossary": [{"val": "phase", "id": "gl_phasing"}, {"val": "shoved", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_intimidate_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Comeback:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Rush 2 instead.",
+                    "glossary": [{"val": "Rush", "id": "gl_rush"}]
+                }],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_intimidate_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Your foe also takes 2 damage, once, for every status they are afflicted by when Intimidate’s stun triggers, up to a maximum of three times.",
+                "glossary": [{"val": "status", "id": "gl_status"}, {"val": "stun", "id": "gl_stunned"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_suckerpunch_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can sacrifice 2 after using this interrupt to immediately regain it.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}, {"val": "interrupt", "id": "gl_interrupt"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_suckerpunch_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Comeback:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "This ability is interrupt 2.",
+                    "glossary": [{"val": "interrupt", "id": "gl_interrupt"}]
+                }],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_bleakmercy_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Against characters at 25% hp or lower, this ability cannot miss (turn any miss into a hit)."
+            }
+        ]
+    },
+	{
+        "id": "tl_bleakmercy_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "This ability gains range 2 against characters 25% hp or lower and you may rush 2 before using it against those characters.",
+                "glossary": [{"val": "rush", "id": "gl_rush"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_cavaliere_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you pass through an ally or summon during this movement, deal bonus damage.",
+                "glossary": [{"val": "summon", "id": "gl_summon"}, {"val": "bonus damage", "id": "gl_bonusdamage"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_cavaliere_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies you pass through during this movement can dash 1.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_carnevale_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Fly 1 after summoning each bomb instead.",
+                "glossary": [{"val": "Fly", "id": "gl_flying"}, {"val": "summoning", "id": "gl_summon"}]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Charge:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Fly 2 instead.",
+                    "glossary": [{"val": "Fly", "id": "gl_flying"}]
+                }],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_carnevale_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can allow any ally in range 2 to dash 1 before summoning a bomb instead.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}, {"val": "summoning", "id": "gl_summon"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_spinningtop_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can always choose to dash 3 spaces with Spinning Top after seeing your gamble result.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}, {"val": "gamble", "id": "gl_gamble"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_spinningtop_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Charge:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Spinning Top becomes fly instead.",
+                    "glossary": [{"val": "fly", "id": "gl_flying"}]
+                }],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_death_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If there’s a bloodied character in the area, roll 1 more d6 and choose any result.",
+                "glossary": [{"val": "bloodied", "id": "gl_bloodied"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_death_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Charge:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "create a pit under your target, and summon a",
+                    "glossary": [{"val": "pit", "id": "gl_pit"}]
+                },
+                {
+                    "tags": {"desc_type" : "textsummon"},
+                    "content": "sm_bomb"
+                },
+                {
+                    "tags": {"desc_type" : "desc"},
+                    "content": "in the pit."
+                }],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_gallowshumor_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gallows Humor instantly ticks up to maximum if an ally is defeated anywhere."
+            }
+        ]
+    },
+	{
+        "id": "tl_gallowshumor_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "The empowered ability gains"
+                    },
+                    {
+                        "tags": {"desc_type" : "subeffect"},
+                        "content": "effect:",
+                        "subcontent": [{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "deal 4 damage again to any target at 25% hp or lower."
+                        }]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_partyfavor_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Increase flight on yourself to 3.",
+                "glossary": [{"val": "flight", "id": "gl_flying"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_partyfavor_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Dazed or blinded foes activate the Finishing Blow effect.",
+                "glossary": [{"val": "Dazed", "id": "gl_dazed"}, {"val": "blinded", "id": "gl_blinded"}, {"val": "Finishing Blow", "id": "gl_finishingblow"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_masquerade_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you haven't acted yet this round, gain evasion after swapping until the end of your next turn.",
+                "glossary": [{"val": "evasion", "id": "gl_evasion"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_masquerade_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Fly 1, then summon a",
+                        "glossary": [{"val": "Fly", "id": "gl_flying"}, {"val": "summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_bomb"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "after swapping."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_diablo_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "If you catch 2 or more foes or allies in the end spaces of the cross, summon a",
+                        "glossary": [{"val": "summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_bomb"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "in the center space if it is free."
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "id": "tl_diablo_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Allies in the area can fly 1.",
+                        "glossary": [{"val": "fly", "id": "gl_flying"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "subeffect"},
+                        "content": "Charge:",
+                        "subcontent": [{
+                            "tags": {"desc_type" : "desc"},
+                            "content": "Allies in the area can fly 3.",
+                            "glossary": [{"val": "fly", "id": "gl_flying"}]
+                        }],
+                        "glossary": [{"val": "Charge", "id": "gl_charge"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_chronotemper_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "This dash gains phasing and ignores movement penalties from terrain.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}, {"val": "phasing", "id": "gl_phasing"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_chronotemper_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Before and after the dash, fly 1.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}, {"val": "fly", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_strafeshot_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Exceed:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain evasion until the start of your next turn.",
+                    "glossary": [{"val": "evasion", "id": "gl_evasion"}]
+                }],
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_strafeshot_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Exceed:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Dash 3 again.",
+                    "glossary": [{"val": "Dash", "id": "gl_dash"}]
+                }],
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_exorcism_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While this mark is active, your attacks gain:",
+                "glossary": [{"val": "mark", "id": "gl_mark"}]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Exceed:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "tick the die up by 1."
+                }],
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_exorcism_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If your target is defeated while marked by Exorcism, the projectiles scatter, dealing 2 damage, once, per charge on the die to all foes in a large blast area effect centered on the foe.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "large blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_trickshot_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When Trick shot rebounds off an ally or summon, you may teleport them 2.",
+                "glossary": [{"val": "rebounds", "id": "gl_rebound"}, {"val": "summon", "id": "gl_summon"}, {"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_trickshot_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Trick shot rebounds, it causes phantom projectiles to split off, dealing 2 unerring damage to all foes at exactly range 3 from its rebound target.",
+                "glossary": [{"val": "rebounds", "id": "gl_rebound"}, {"val": "unerring", "id": "gl_unerring"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_astralchain_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While marked, gain evasion against your marked foe while they are in range 3.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "evasion", "id": "gl_evasion"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_astralchain_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While marked, all attacks from you or allies against your marked foe may gain rebound and deal bonus damage if they are rebounded.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "rebound", "id": "gl_rebound"}, {"val": "bonus damage", "id": "gl_bonusdamage"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_deusexmachina_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies and summons can be teleported up to 4 spaces instead.",
+                "glossary": [{"val": "summons", "id": "gl_summon"}, {"val": "teleported", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_deusexmachina_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Using this interrupt on a foe dazes or blinds them (your choice).",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}, {"val": "dazes", "id": "gl_dazed"}, {"val": "blinds", "id": "gl_blinded"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_ace_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If your attack target is at exactly range 3, they explode with a medium blast area effect centered on them. Foes inside are dazed.",
+                "glossary": [{"val": "medium blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "dazed", "id": "gl_dazed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_ace_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If your attack target is at exactly range 3, you may also teleport them 2 after the attack resolves.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_showdown_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Each time you deal damage with Showdown, you may teleport 1.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_showdown_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you activate Showdown, gain stealth.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_wardingbolts_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can consume the area as a free action to disperse the bolts, dealing 2 unerring damage to all foes at exactly range 3 from the center space of the area, and ending the effect.",
+                "glossary": [{"val": "unerring", "id": "gl_unerring"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_wardingbolts_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Marked foes take 2 damage, twice, instead.",
+                "glossary": [{"val": "Marked", "id": "gl_mark"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_soulshot_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or greater, Soul Shot considers all characters in the line to be at exactly range 3."
+            }
+        ]
+    },
+	{
+        "id": "tl_soulshot_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or greater, Soul Shot becomes Line 6."
+            }
+        ]
+    },
+    {
+        "id": "tl_umbra_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Slay:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Gain defiance.",
+                    "glossary": [{"val": "defiance", "id": "gl_defiance"}]
+                }],
+                "glossary": [{"val": "Slay", "id": "gl_slay"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_umbra_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "You can sacrifice 2 or consume a",
+                        "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "in range 2 of you to gain a combo token after using this move.",
+                        "glossary": [{"val": "combo", "id": "gl_combo"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_harrow_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At the start of your turn, you may teleport to any space in range 2 of your target",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_harrow_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "You can also sacrifice 2 or consume a",
+                        "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "in range 2 of you when marking a foe to also create a pit under them.",
+                        "glossary": [{"val": "pit", "id": "gl_pit"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_deathblossom_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Finishing Blow:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Teleport all characters in the area 1.",
+                    "glossary": [{"val": "Teleport", "id": "gl_teleport"}]
+                }],
+                "glossary": [{"val": "Finishing Blow", "id": "gl_finishingblow"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_deathblossom_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Slay:",
+                "subcontent": [{
+                    "tags": {"desc_type" : "desc"},
+                    "content": "Teleport 2, then throw knives, dealing 2 damage to up to three foes in range 3.",
+                    "glossary": [{"val": "Teleport", "id": "gl_teleport"}]
+                }],
+                "glossary": [{"val": "Slay", "id": "gl_slay"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_nightmare_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When you summon a",
+                        "glossary": [{"val": "summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "you or an ally or allied summon in range 2 may teleport 1.",
+                        "glossary": [{"val": "summon", "id": "gl_summon"}, {"val": "teleport", "id": "gl_teleport"}]
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "id": "tl_nightmare_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "While Umbra’s effect is active, you or allies can rebound abilities off",
+                        "glossary": [{"val": "rebound", "id": "gl_rebound"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "in the aura. Doing so consumes the shadow, removing it.",
+                        "glossary": [{"val": "aura", "id": "gl_aura"}]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_shadowplay_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you swap two foes, you may then teleport them 1 after this ability resolves.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_shadowplay_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you swap two allies, one of them can gain evasion until the start of their next turn.",
+                "glossary": [{"val": "evasion", "id": "gl_evasion"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_umbralecho_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While in this stance, your abilities gain",
+                "glossary": [{"val": "stance", "id": "gl_stance"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "slay:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Summon a",
+                        "glossary": [{"val": "Summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "This effect can only trigger once a round."
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "id": "tl_umbralecho_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "While in Umbral Echo, you have phasing and entering the space of",
+                        "glossary": [{"val": "phasing", "id": "gl_phasing"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_shadow"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "always costs a maximum of 1 movement."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_assassinate_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you’re in stealth, increase all ranges by +2, and doesn’t break stealth.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_assassinate_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While you’re holding Assassinate, you have evasion.",
+                "glossary": [{"val": "evasion", "id": "gl_evasion"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_nocturne_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While Nocturne is active, you may teleport up to 2 spaces in or out of the area as a free action.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_nocturne_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may sacrifice 2 when the area is created to increase the size of the area to medium blast, or sacrifice 4 to increase it to large blast.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}, {"val": "blast", "id": "gl_blast"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_incubus_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Incubus gains range 3. If you make it from stealth, gains range 5.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_incubus_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Incubus deals bonus damage for every ally of your target adjacent to your target.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_apex_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Terrain Effect:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "You can replace any"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_beast"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "you summon with a space of dangerous terrain instead.",
+                        "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "id": "tl_apex_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you attack a foe at exactly range 3, this ability gains unerring and you may shove your foe 1 in any direction after this ability resolves.",
+                "glossary": [{"val": "unerring", "id": "gl_unerring"}, {"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_gwynt_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If made from stealth, increase the dashes and range of this ability by +1.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}, {"val": "dashes", "id": "gl_dash"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_gwynt_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You and your ally or summon may each shove your target 1 space.",
+                "glossary": [{"val": "summon", "id": "gl_summon"}, {"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_circletheoak_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies you pass through with Circle the Oak may dash 1 after this ability resolves.",
+                "glossary": [{"val": "dash", "id": "gl_dash"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_circletheoak_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you passed through two or more allies or allied summons, also gain evasion until the end of your next turn.",
+                "glossary": [{"val": "summons", "id": "gl_summon"}, {"val": "evasion", "id": "gl_evasion"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_miststrider_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Once a round, when you enter or exit the area, you can gain stealth.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_miststrider_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes in the area count all characters as having evasion.",
+                "glossary": [{"val": "evasion", "id": "gl_evasion"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_stampede_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you trigger a finishing blow on a foe, you may transfer the mark to them as a free action.",
+                "glossary": [{"val": "finishing blow", "id": "gl_finishingblow"}, {"val": "mark", "id": "gl_mark"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_stampede_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If the beast passes through two or more characters before reaching your foe it deals 4 damage and shoves them 2 instead.",
+                "glossary": [{"val": "shoves", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_strengthofthepack_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you first enter this stance, increase the dash granted to 4.",
+                "glossary": [{"val": "stance", "id": "gl_stance"}, {"val": "dash", "id": "gl_dash"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_strengthofthepack_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While you have three or more summons in this aura, you have evasion.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "summons", "id": "gl_summon"}, {"val": "evasion", "id": "gl_evasion"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_underway_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While you have stealth, you can create a third underway at any point during your turn as a free action. This underway is replaced if created again.",
+                "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_underway_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you create an underway, you may create up to three spaces of leafy difficult terrain in adjacent spaces. Allies adjacent to underways have cover.",
+                "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}, {"val": "cover", "id": "gl_cover"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_morrigan_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While holding Morrigan, you have cover and ranged attacks against you take +1 curse.",
+                "glossary": [{"val": "cover", "id": "gl_cover"}, {"val": "+1 curse", "id": "gl_curse"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_morrigan_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Morrigan resolves, some of the winged creatures linger, creating two spaces of dangerous terrain in range 2.",
+                "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_sidhe_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Also create a space of dangerous terrain adjacent to your foe after the effect expires.",
+                "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_sidhe_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When the effect expires, your foe explodes with a medium blast area effect, dealing 2 damage to all other characters within.",
+                "glossary": [{"val": "medium blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_holy_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Hades resolves, gamble, then all pits in the area explode for a medium blast area effect, centered on them.",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}, {"val": "pits", "id": "gl_pit"}, {"val": "medium blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Area Effect:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "characters in at least one area take damage equal to half the gamble result."
+                    }
+                ],
+                "glossary": [{"val": "Area Effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_holy_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may fly 1 before using Holy, or 3 when charged.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}, {"val": "charged", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_felicity_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When an ally ends any movement from this ability, they can shove all adjacent characters 1.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_felicity_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can fly 1, then shove an adjacent character 1 when granting movement from this ability.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}, {"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_pandaemonium_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Pandaemonium resolves, gamble. Shove all characters affected 1 space in any direction. On a 4+, shove them 1 again. On a 6, shove them 1 again.",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}, {"val": "Shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_pandaemonium_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Purgatorio’s damage does not break pacified and its effect causes pits to appear under every pacified foe.",
+                "glossary": [{"val": "pacified", "id": "gl_pacified"}, {"val": "pits", "id": "gl_pit"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_aria_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may fly 1 when Aria’s special effect triggers.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_aria_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If Aria’s special effect triggers twice, gain defiance and also become unstoppable until the start of your turn.",
+                "glossary": [{"val": "defiance", "id": "gl_defiance"}, {"val": "unstoppable", "id": "gl_unstoppable"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_dervish_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "A swirling aura 1 of winds surrounds you after taking this ability until the start of your next turn, granting you and allies inside counter.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "counter", "id": "gl_counter"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_dervish_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Before you use this ability, you can cause a wind blast, shoving all adjacent foes 1 and dealing 2 damage to them.",
+                "glossary": [{"val": "shoving", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_symphony_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When motes explode, they deal 2 damage again to all foes inside and shove them 1 away from the center space if at least one other mote was already exploded this turn.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_symphony_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies are cured after detonating their second mote in the same turn.",
+                "glossary": [{"val": "cured", "id": "gl_cure"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_gentleness_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Yourself and allies inside the aura also have counter in this stance.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "counter", "id": "gl_counter"}, {"val": "stance", "id": "gl_stance"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_gentleness_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Characters cannot critically hit or be critical hit inside Gentleness’ aura, and also cannot gain, deal, or take bonus damage.",
+                "glossary": [{"val": "critical hit", "id": "gl_criticalhit"}, {"val": "aura", "id": "gl_aura"}, {"val": "bonus damage", "id": "gl_bonusdamage"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_monogatari_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can cause the effect to also apply to foes. Foes that fulfill the condition are sealed.",
+                "glossary": [{"val": "sealed", "id": "gl_sealed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_monogatari_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can spend any number of blessings on characters in range 2 to roll 1 extra d6 per blessing spent when gambling.",
+                "glossary": [{"val": "gambling", "id": "gl_gamble"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_chastise_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While either effect from this ability is active, your foe takes 1 divine damage after using any ability that damages another character.",
+                "glossary": [{"val": "divine", "id": "gl_divine"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_chastise_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While either effect from this ability is active, if your foe defeats any character, they take 1 divine damage three times.",
+                "glossary": [{"val": "divine", "id": "gl_divine"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_sow_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Effect:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "If Sow’s marked foe is defeated, it can be transferred to a different foe in range 3 from that foe."
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "id": "tl_sow_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Reap’s Slay effect triggers.",
+                        "glossary": [{"val": "Slay", "id": "gl_slay"}]
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_growingseason_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Abilities used against a character marked by Growing Season gain",
+                "glossary": [{"val": "marked", "id": "gl_mark"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "slay:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "create an Eden vine terrain effect in an adjacent space. The vine is difficult terrain and a pit and creates a",
+                        "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}, {"val": "pit", "id": "gl_pit"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_plant"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "in its space at the start of the round if there isn't already a plant there."
+                    }
+                ],
+                "glossary": [{"val": "slay", "id": "gl_slay"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_growingseason_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Abilities used against a character marked by Growing Season gain",
+                "glossary": [{"val": "marked", "id": "gl_mark"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "slay:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "create a height 1 blood tree object in adjacent space. The tree creates a"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_plant"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "on top of it at the start of the round if there isn't already a plant there."
+                    }
+                ],
+                "glossary": [{"val": "slay", "id": "gl_slay"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_gravebirth_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When you end your turn, all"
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_thrall"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "of your choice burrow, removing them from the battlefield, then you may place them in free space in your aura.",
+                        "glossary": [{"val": "aura", "id": "gl_aura"}]
+                    }
+                ]
+            }
+        ]
+    },
+	{
+        "id": "tl_gravebirth_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "At the end of your turn, you may sacrifice 2 to summon an additional",
+                        "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}, {"val": "summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_thrall"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_harvest_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies in the area also gain 2 vigor, or 4 vigor if Harvest’s Slay effect triggers.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}, {"val": "Slay", "id": "gl_slay"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_harvest_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "Gains Range 2."
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Range 5."
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_bloodgrove_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "All spaces of the area cost 0 movement for thralls to enter."
+            }
+        ]
+    },
+	{
+        "id": "tl_bloodgrove_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "Once on your turn you, while inside the area, you can sacrifice 2 to extend the area by 2 spaces, adding to its total area on any edge.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_rot_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "Characters marked by Regenerate gain",
+                "glossary": [{"val": "marked", "id": "gl_mark"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "summon a",
+                        "glossary": [{"val": "summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_plant"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "in an adjacent space at the start of their turn."
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_rot_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes that start their turn adjacent to a character marked by Rot take 2 piercing damage.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_crimsonbloom_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "If Crimson Bloom’s damage would reduce an ally to 1 hp or below, they also gain defiance.",
+                "glossary": [{"val": "defiance", "id": "gl_defiance"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_crimsonbloom_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes at 25% hp or lower sacrifice 10 instead.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_fairyring_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes cannot gain vigor inside of the ring, and lose all vigor if they start their turn there.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_fairyring_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "desc"},
+                "content": "You can use Spirit Away on allies. If you do, it doesn’t seal them.",
+                "glossary": [{"val": "seal", "id": "gl_sealed"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_darksliver_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Deal bonus damage and increase all ranges by +1.",
+                        "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}]
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_darksliver_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Sacrifice 2:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Ability gains range 6."
+                    }
+                ],
+                "glossary": [{"val": "Sacrifice", "id": "gl_sacrifice"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_godhand_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "All versions of this ability gain"
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Exceed:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Gain evasion until the end of your next turn.",
+                        "glossary": [{"val": "evasion", "id": "gl_evasion"}]
+                    }
+                ],
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_godhand_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Increase teleports to 2, and all version of this ability gain",
+                "glossary": [{"val": "teleports", "id": "gl_teleport"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Slay:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "gain or lose a combo token.",
+                        "glossary": [{"val": "combo", "id": "gl_combo"}]
+                    }
+                ],
+                "glossary": [{"val": "Slay", "id": "gl_slay"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_grandseal_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bloodied foes gain +1 curse on saves while marked.",
+                "glossary": [{"val": "Bloodied", "id": "gl_bloodied"}, {"val": "+1 curse", "id": "gl_curse"}, {"val": "marked", "id": "gl_mark"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_grandseal_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bloodied foes are also pacified+ while marked.",
+                "glossary": [{"val": "Bloodied", "id": "gl_bloodied"}, {"val": "pacified", "id": "gl_pacified"}, {"val": "+", "id": "gl_ongoing"}, {"val": "marked", "id": "gl_mark"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_matsuri_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Increase teleports by +1 and gains",
+                "glossary": [{"val": "teleports", "id": "gl_teleport"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Slay:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Repeat the teleport effect.",
+                        "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+                    }
+                ],
+                "glossary": [{"val": "Slay", "id": "gl_slay"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_matsuri_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bloodied foes take bonus damage and must also save or be stunned.",
+                "glossary": [{"val": "Bloodied", "id": "gl_bloodied"}, {"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "stunned", "id": "gl_stunned"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_spiritshrine_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you or an ally ends their turn inside the Shrine’s aura and didn’t attack, they are blessed and gain 2 vigor.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_spiritshrine_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes that use any ability inside the shrine’s aura can be teleported 1 after the triggering ability resolves.",
+                "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "teleported", "id": "gl_teleport"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_sanctify_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bloodied foes must save if they attempt to enter the area. On a failed save, they cannot voluntarily enter the area until the start of their next turn.",
+                "glossary": [{"val": "Bloodied", "id": "gl_bloodied"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_sanctify_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bloodied allies inside gain 4 vigor for ending their turn inside instead.",
+                "glossary": [{"val": "Bloodied", "id": "gl_bloodied"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_grandbanishment_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Your chosen character treats you and any allies in range 2 of you as having cover.",
+                "glossary": [{"val": "cover", "id": "gl_cover"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_grandbanishment_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bloodied foes can be teleported 2 at the end of any turn this ability’s damage activates.",
+                "glossary": [{"val": "Bloodied", "id": "gl_bloodied"}, {"val": "teleported", "id": "gl_teleport"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_divineaegis_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If your ally is at 25% hp or lower when marked, marking them becomes a free action.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_divineaegis_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If your ally is at 25% hp or lower when marked, they also gain defiance.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "defiance", "id": "gl_defiance"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_justice_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies affected by either interrupt gain 2 vigor.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}, {"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_justice_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can teleport 1 space before and after triggering either interrupt.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}, {"val": "interrupt", "id": "gl_interrupt"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_openthegates_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may teleport an ally in range 2 instead of teleporting yourself with any of this ability’s teleports.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_openthegates_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Both versions of this ability gains a range equal to the round number."
+            }
+        ]
+    },
+    {
+        "id": "tl_sleightofhand_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "This ability does not break the pacified condition and deals 2 damage again to any pacified foes in the area.",
+                "glossary": [{"val": "pacified", "id": "gl_pacified"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_sleightofhand_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After this ability resolves, roll 1 more d6 the next time you gamble this turn.",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Charge:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "2 more d6s."
+                    }
+                ],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_chaostarot_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can consume any number of blessings on character in Chaos Tarot’s area before gambling to roll 1 extra d6 per blessing consumed.",
+                "glossary": [{"val": "gambling", "id": "gl_gamble"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_chaostarot_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can move Chaos Tarot’s area up to 2 spaces in any direction before applying the gamble effect.",
+                "glossary": [{"val": "gamble", "id": "gl_gamble"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Charge:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "4 spaces."
+                    }
+                ],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_astra_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Any version of this ability explodes with meteor showers when used, creating two spaces of difficult terrain in the area.",
+                "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Charge:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Also create a height 1 meteor object in any part of the area, dealing 2 damage to adjacent foes when it lands."
+                    }
+                ],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_astra_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If two or more allies are caught in the area of this ability, increase all medium blasts to large blasts, and this ability deals bonus damage.",
+                "glossary": [{"val": "medium blasts", "id": "gl_blast"}, {"val": "large blasts", "id": "gl_blast"}, {"val": "bonus damage", "id": "gl_bonusdamage"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_polaris_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can cause one of your Polaris to follow a character as a mark instead of a space.",
+                "glossary": [{"val": "mark", "id": "gl_mark"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_polaris_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Create a space of difficult terrain under the center space of each Polaris space after it resolves. On a gamble result of 4+, create either a height 1 meteor object or a pit instead.",
+                "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}, {"val": "gamble", "id": "gl_gamble"}, {"val": "pit", "id": "gl_pit"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_sisyphus_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If they’re bloodied, foes gain +1 curse on the save, and are also pacified after being returned to their starting location.",
+                "glossary": [{"val": "bloodied", "id": "gl_bloodied"}, {"val": "+1 curse", "id": "gl_curse"}, {"val": "pacified", "id": "gl_pacified"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_sisyphus_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Allies are"
+            },
+            {
+                "tags": {"desc_type" : "texttrait"},
+                "content": "tr_bless"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "after being moved with Sisyphus and gain 2 vigor. If they’re at 25% hp or lower, they can also be cured.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}, {"val": "cured", "id": "gl_cure"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_granreversa_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Your power die from this ability starts at d6, with 6 charges.",
+                "glossary": [{"val": "power die", "id": "gl_powerdie"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_granreversa_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If your ally was bloodied, instantly regain a tick on this die after this ability resolves.",
+                "glossary": [{"val": "bloodied", "id": "gl_bloodied"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_eclipse_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If Eclipse explodes, create a fiery pit in its center space. The pit is also dangerous terrain. Characters adjacent to the pit are sealed when it is created.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "sealed", "id": "gl_sealed"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_eclipse_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If Eclipse explodes, it creates a shower of bolides, dealing 3 damage again to up to three characters in its area effect.",
+                "glossary": [{"val": "area effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_wish_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If your ally is bloodied, they are also",
+                "glossary": [{"val": "bloodied", "id": "gl_bloodied"}]
+            },
+            {
+                "tags": {"desc_type" : "texttrait"},
+                "content": "tr_bless"
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "after this interrupt resolves and may dash 2.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}, {"val": "dash", "id": "gl_dash"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_wish_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If this damage would have reduced your ally to 0 hp, also cure yourself after this ability resolves.",
+                "glossary": [{"val": "cure", "id": "gl_cure"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_thetower_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Roll an extra 1d6 when gambling for this ability.",
+                "glossary": [{"val": "gambling", "id": "gl_gamble"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Charge:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Also gains range 10."
+                    }
+                ],
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_thetower_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The meteor scatters debris when landing, creating two spaces of difficult terrain in the area, which could also be created under characters.",
+                "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_pyre_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Allies are immune to damage from this ability.",
+                        "glossary": [{"val": "immune", "id": "gl_immune"}]
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_pyre_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Exceed:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "You may shove all characters in the area 2 spaces.",
+                        "glossary": [{"val": "shove", "id": "gl_shove"}]
+                    }
+                ],
+                "glossary": [{"val": "Exceed", "id": "gl_exceed"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_eldenrune_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can teleport up to 3 spaces into an Elden Rune space as a free action.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_eldenrune_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While standing in an Elden Rune, the infuse cost of your spells are reduce by 1, to a minimum of 1."
+            }
+        ]
+    },
+    {
+        "id": "tl_lance_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When this ability passes through an object, it released a soul ember, dealing 1 piercing damage to a character in range 3 of that object. Each character can only be struck by one ember by a single use of this ability.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_lance_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you are at 1 hp or lower, this ability deals maximum base damage (before critical hits).",
+                "glossary": [{"val": "critical hit", "id": "gl_criticalhit"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_soulburn_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If a foe is struck by two or more soul embers from this ability in the same turn, they become vulnerable.",
+                "glossary": [{"val": "vulnerable", "id": "gl_vulnerable"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_soulburn_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes that end their turn adjacent to you while Soul Burn is active take 1 piercing damage and are shoved 1.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}, {"val": "shoved", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_blazingbond_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While marked, you can teleport yourself or your ally 2 spaces at the end of your turn, as long as you end closer to each other.",
+                "glossary": [{"val": "marked", "id": "gl_mark"}, {"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_blazingbond_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Grant both you and your ally defiance when taking this action.",
+                        "glossary": [{"val": "defiance", "id": "gl_defiance"}]
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_aethershard_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you take any action that spends Aether, you can first remove one of your aethershards, then place it in any free space up to range 2 from its original location."
+            }
+        ]
+    },
+	{
+        "id": "tl_aethershard_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Your abilities gain pierce against characters adjacent to Aethershards.",
+                "glossary": [{"val": "pierce", "id": "gl_piercing"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_implode_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Any character in the center space is also shattered when this ability activates.",
+                "glossary": [{"val": "shattered", "id": "gl_shattered"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_implode_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The center space also becomes a pit.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_pyroclast_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Also cause a magma eruption adjacent to your target, creating 2 spaces of dangerous terrain.",
+                "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_pyroclast_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may sacrifice 2 to immediately shatter your target as part of this ability.",
+                "glossary": [{"val": "sacrifice", "id": "gl_sacrifice"}, {"val": "shatter", "id": "gl_shattered"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_blackstar_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If Blackstar's special effect triggers, capture your fleeing soul aether and gain 1 aether after this ability resolves."
+            }
+        ]
+    },
+	{
+        "id": "tl_blackstar_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If Blackstar's special effect triggers, gain 5 vigor after this ability resolves.",
+                "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_bio_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may also cause pits, objects you created, and difficult terrain caught in the area to become dangerous terrain.",
+                "glossary": [{"val": "pits", "id": "gl_pit"}, {"val": "difficult terrain", "id": "gl_difficultterrain"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_bio_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may cause existing dangerous terrain spaces in the area to boil with poison after this ability resolves. Characters in or adjacent to one or more of those spaces take 2 piercing damage as an area effect.",
+                "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_dragondive_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gain"
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Collide:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Character is vulnerable.",
+                        "glossary": [{"val": "vulnerable", "id": "gl_vulnerable"}]
+                    }
+                ],
+                "glossary": [{"val": "Collide", "id": "gl_collide"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_dragondive_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may burst out of the ground and fly 3 after Dragon Dive's delay effect resolves.",
+                "glossary": [{"val": "fly", "id": "gl_flying"}, {"val": "delay", "id": "gl_delay"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_geo_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When a boulder or pit is created with this ability, you may shove all adjacent characters 1 away from it.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}, {"val": "shove", "id": "gl_shove"}]
+            },
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Collide:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "character has a space of difficult terrain created under them.",
+                        "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}]
+                    }
+                ],
+                "glossary": [{"val": "Collide", "id": "gl_collide"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_geo_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Boulders can be created under characters, and you may choose to make characters you create boulders under immune to damage from this ability.",
+                "glossary": [{"val": "immune", "id": "gl_immune"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_helixheel_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When Helix Heel bounces off an object, you can shove it 1 in any direction before extending the line.",
+                "glossary": [{"val": "shove", "id": "gl_shove"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_helixheel_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After Helix Heel resolves, fly 1 or teleport 1 space for each bounce (up to three times).",
+                "glossary": [{"val": "fly", "id": "gl_flying"}, {"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_terraforming_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Charge Effects can also be placed in any space adjacent to the area.",
+                "glossary": [{"val": "Charge", "id": "gl_charge"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_terraforming_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can also create up to 3 spaces of dangerous terrain in the area as a choosable effect.",
+                "glossary": [{"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_obsidianflesh_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If this ability ticks over, it doesn't end until the end of the current turn."
+            }
+        ]
+    },
+	{
+        "id": "tl_obsidianflesh_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When this ability ends, you may have the shell explode off you, dealing 2 piercing damage in a range 2, burst 1 area effect and shoving characters inside 1.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}, {"val": "burst 1", "id": "gl_burst"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "shoving", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_realignment_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Characters in the area take piercing fray damage again one more time if your target is bloodied.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}, {"val": "fray", "id": "gl_fray"}, {"val": "bloodied", "id": "gl_bloodied"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_realignment_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Create a space of dangerous or difficult terrain in the area for each effect purged.",
+                "glossary": [{"val": "dangerous", "id": "gl_dangerousterrain"}, {"val": "difficult terrain", "id": "gl_difficultterrain"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_midas_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When your chosen character is returned, their statue remains on the battlefield as a broken shell object. Place them in an adjacent space to it instead."
+            }
+        ]
+    },
+	{
+        "id": "tl_midas_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When your chosen character returns, the shell explodes off them, shoving all adjacent characters 1. If that character was at 25% hp or lower, also deal piercing fray damage to all characters in a burst 1 area centered on them as an area effect.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}, {"val": "fray", "id": "gl_fray"}, {"val": "burst 1", "id": "gl_burst"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "shoving", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_quakingpalm_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While Quaking Palm's effect is active, after that character uses any ability that moves them, create a difficult terrain space in any free space adjacent to them.",
+                "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_quakingpalm_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While Quaking Palm's effect is active, after that character uses any ability that moves them, deal 1 piercing damage to all foes adjacent to that character.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_blitz_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When used against a bloodied foe, blitz creates two lightning dangerous terrain spaces in free space in range 2 of them.",
+                "glossary": [{"val": "bloodied", "id": "gl_bloodied"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_blitz_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You can grant Blitz's first effect to any ally in range 2 instead."
+            }
+        ]
+    },
+    {
+        "id": "tl_odinforce_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you end a turn without attacking, gain +2 more Odinforce bolts."
+            }
+        ]
+    },
+	{
+        "id": "tl_odinforce_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Odinforce gains 4 bolts instead of 2 on refresh."
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_nothung_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When used against a bloodied foe, Nothung deals bonus damage, and deals 1 piercing damage again to its target on hit.",
+                "glossary": [{"val": "bloodied", "id": "gl_bloodied"}, {"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_nothung_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Increase teleport to 4.",
+                        "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_atherwand_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When you use this ability again, it doesn't replace the old area, but extends it, as long as at least once space of the new area is adjacent to the old."
+            }
+        ]
+    },
+	{
+        "id": "tl_atherwand_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At the start of your turn, you can move the area 1 space in any direction. If it moves into the space of a character, it shoves them 1.",
+                "glossary": [{"val": "shoves", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_fulminate_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When marking a character, you can increase the area to 3, and the teleport to 2, but it only affects allies.",
+                "glossary": [{"val": "marking", "id": "gl_mark"}, {"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_fulminate_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When marking a character, you can condense the aura to 1, but increase the teleport to 2 spaces instead.",
+                "glossary": [{"val": "marking", "id": "gl_mark"}, {"val": "aura", "id": "gl_aura"}, {"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_bifrost_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The teleport from Bifröst can interrupt other actions and does not stop movement.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_bifrost_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Bifröst areas grow by 2 spaces, added anywhere to the total area in any pattern, at the end of each round. When they grow, deal 1 piercing damage to all characters inside.",
+                "glossary": [{"val": "areas", "id": "gl_areaeffect"}, {"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_rampantnail_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "While the nail is active, a small blast area centered on the nail is dangerous terrain.",
+                "glossary": [{"val": "area", "id": "gl_areaeffect"}, {"val": "small blast", "id": "gl_blast"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_rampantnail_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At the start of your turn, tick the power die up by 1 for every bloodied foe or ally in the area.",
+                "glossary": [{"val": "power die", "id": "gl_powerdie"}, {"val": "bloodied", "id": "gl_bloodied"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_sturmreiten_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may teleport one adjacent ally with you to any free adjacent space after this interrupt resolves.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}, {"val": "interrupt", "id": "gl_interrupt"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_sturmreiten_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {   
+                "tags": {"desc_type" : "subeffect"},
+                "content": "Comeback:",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "You may extend Sturmreiten's area by another line 3 area, drawn in a different direction."
+                    }
+                ],
+                "glossary": [{"val": "Comeback", "id": "gl_comeback"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_driftingleaf_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Drifting Leaf deals bonus damage against bloodied foes, and its interrupt deals 1 piercing damage, twice to them instead.",
+                "glossary": [{"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "bloodied", "id": "gl_bloodied"}, {"val": "interrupt", "id": "gl_interrupt"}, {"val": "piercing", "id": "gl_piercing"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_driftingleaf_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "You may teleport your foe to any space adjacent to you instead of teleporting yourself 1 when this interrupt triggers.",
+                "glossary": [{"val": "teleport", "id": "gl_teleport"}, {"val": "interrupt", "id": "gl_interrupt"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_rime_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If the end space of Rime hits a pit or object, the weapon bounces back and deals 1 piercing damage, twice as an area effect to all affected characters again.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_rime_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "If the end space of Rime hits a pit or object, it explodes into a shower of icicles, dealing 1 piercing damage to one or two characters as an area effect in range 3 of that pit or object, and summoning a",
+                        "glossary": [{"val": "pit", "id": "gl_pit"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "summoning", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_saltsprite"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "adjacent to each of those characters."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_tsunami_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Tsunami creates a pit in its center space after completing its movement. The pit remains even if Tsunami moves on.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_tsunami_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes inside Tsunami take +1 curse on saves.",
+                "glossary": [{"val": "+1 curse", "id": "gl_curse"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_cryo_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, this ability generates +1 Aether when used."
+            }
+        ]
+    },
+	{
+        "id": "tl_cryo_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "At round 4 or later, this ability shatters all characters in its area.",
+                "glossary": [{"val": "shatters", "id": "gl_shattered"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_geyser_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Increase the height of all geysers by +1 at the start of your turn. Allies standing on a geyser have cover from all directions.",
+                "glossary": [{"val": "cover", "id": "gl_cover"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_geyser_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Once a round, when a character collides with a geyser, summon a",
+                        "glossary": [{"val": "collides", "id": "gl_collide"}, {"val": "summon", "id": "gl_summon"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "textsummon"},
+                        "content": "sm_saltsprite"
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "in range 2 from them."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "tl_gust_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Gust can be used for cover by allies as if it were height 1 terrain.",
+                "glossary": [{"val": "cover", "id": "gl_cover"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_gust_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Yourself and allies that are shoved by gust can fly 2 after stopping instead of being shoved.",
+                "glossary": [{"val": "shoved", "id": "gl_shove"}, {"val": "fly", "id": "gl_flying"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_heaveho_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If only one foe is caught in the area of wave, also create a pit underneath them.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_heaveho_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If you don't use this interrupt, stock up another use of it at the start of your turn. You can stock it up to interrupt 3.",
+                "glossary": [{"val": "interrupt", "id": "gl_interrupt"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_deepwrath_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Marked allies gain +1 boon on saves in pits, and foes don't gain any height advantage.",
+                "glossary": [{"val": "Marked", "id": "gl_mark"}, {"val": "+1 boon", "id": "gl_boon"}, {"val": "pits", "id": "gl_pit"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_deepwrath_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Marked foes take bonus damage from all sources and are shattered+ while inside pits.",
+                "glossary": [{"val": "Marked", "id": "gl_mark"}, {"val": "bonus damage", "id": "gl_bonusdamage"}, {"val": "shattered", "id": "gl_shattered"}, {"val": "+", "id": "gl_ongoing"}, {"val": "pits", "id": "gl_pit"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_waterspout_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "After characters are spit out, they are shoved 1 away from the waterspout.",
+                "glossary": [{"val": "shoved", "id": "gl_shove"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_waterspout_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If only one for or ally is inside the waterspout, it can move 3 spaces instead, and leaves a space of difficult terrain in one space that it vacates.",
+                "glossary": [{"val": "difficult terrain", "id": "gl_difficultterrain"}]
+            }
+        ]
+    },
+    {
+        "id": "tl_eyeofthestorm_1",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 1",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "If there is no character in the center space, create a pit there. The pit is also dangerous terrain.",
+                "glossary": [{"val": "pit", "id": "gl_pit"}, {"val": "dangerous terrain", "id": "gl_dangerousterrain"}]
+            }
+        ]
+    },
+	{
+        "id": "tl_eyeofthestorm_2",
+        "type": "Talent",
+        "source": "core",
+        "tags": { },
+        "eventtags": {},
+        "name": "Talent 2",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "The center character may also take 1 piercing damage, once, for every foe or ally in the area effect, up to three times.",
+                "glossary": [{"val": "piercing", "id": "gl_piercing"}, {"val": "area effect", "id": "gl_areaeffect"}]
+            }
+        ]
+    }
+]

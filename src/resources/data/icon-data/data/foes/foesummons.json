@@ -1,0 +1,2323 @@
+[
+    {
+        "id": "sm_chronicler_bellwarden_templebell",
+        "type": "Summon",
+        "source": "core",
+        "tags": { 
+            "size": 1,
+            "object": true
+        },
+        "eventtags": {},
+        "name": "Temple Bell",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When summoned, or when a character collides with it, releases a massive ringing. All characters in range 2 except the Bell Warden must save or become weakened. Weakened characters take fray damage twice instead of saving. This effect can’t trigger more than once a round. Multiple bells can be summoned at once.",
+                        "glossary": [{"val": "collides", "id": "gl_collide"}, {"val": "weakened", "id": "gl_weakened"}, {"val": "fray", "id": "gl_fray"}]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "colour": "red",
+        "limit": 0
+    },
+    {
+        "id": "sm_churner_deepfarmer_mushroom",
+        "type": "Summon",
+        "source": "core",
+        "tags": { 
+            "size": 1,
+            "object": true
+        },
+        "eventtags": {},
+        "name": "Mushroom",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Aura 1. Characters in the spore-filled aura other than the Deep Farmer choke and are weakened.",
+                        "glossary": [{"val": "Aura", "id": "gl_aura"}, {"val": "weakened", "id": "gl_weakened"}]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "colour": "red",
+        "limit": 0
+    },
+    {
+        "id": "sm_churner_shopkeep_shop",
+        "type": "Summon",
+        "source": "core",
+        "tags": { 
+            "size": 1,
+            "object": true,
+            "immobile": true
+        },
+        "eventtags": {},
+        "name": "Shop",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "No fighting in the shop. Aura 1. Characters in the area other than the shopkeep are pacified+.",
+                        "glossary": [{"val": "Aura", "id": "gl_aura"}, {"val": "pacified", "id": "gl_pacified"},  {"val": "+", "id": "gl_ongoing"}]
+                    }
+                ]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "While the shop is active, any character in the aura can use the Rummage action, which ignores pacified.",
+                        "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "pacified", "id": "gl_pacified"}]
+                    }
+                ]
+            },
+            {
+                "tags": {"desc_type" : "foeability"},
+                "content": "af_churner_shopkeep_rummage"
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_guilder_aerothurge_portal",
+        "type": "Summon",
+        "source": "core",
+        "tags": { 
+            "size": 1,
+            "object": true
+        },
+        "eventtags": {},
+        "name": "Portal",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Any character adjacent to a portal can spend 2 spaces of movement to teleport adjacent to the other linked portal, or vice versa.",
+                        "glossary": [{"val": "teleport", "id": "gl_teleport"}]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_islander_cook_flapjack",
+        "type": "Summon",
+        "source": "core",
+        "tags": { 
+            "size": 1,
+            "summon": true,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Flapjack",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "A character other than the cook moving into the flapjack’s space can pick it up, removing it. That character gains defiance. A character that already has defiance gains 6 vigor. A character with vigor becomes unstoppable until the end of their next turn.",
+                        "glossary": [{"val": "defiance", "id": "gl_defiance"}, {"val": "vigor", "id": "gl_vigor"}, {"val": "unstoppable", "id": "gl_unstoppable"}]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_leggio_monsterrider_tamemonster",
+        "type": "Summon",
+        "source": "core",
+        "tags": { 
+            "size": 1,
+            "summon": true
+        },
+        "eventtags": {},
+        "name": "Tame Monster",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "During the rider’s turn, can dash 4, then either shove a character 1 space or deal 2 damage to them.",
+                        "glossary": [{"val": "dash", "id": "gl_dash"}, {"val": "shove", "id": "gl_shove"}]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_leggio_firedancer_bomb",
+        "type": "Summon",
+        "source": "core",
+        "tags": { 
+            "summon": true
+        },
+        "eventtags": {},
+        "name": "Bomb",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When any character enters its space, it explodes for a small blast area effect explosion. Characters within become vulnerable, then must save or take 2 piercing damage twice, or just 2 piercing damage on a successful save.",
+                        "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "vulnerable", "id": "gl_vulnerable"}, {"val": "piercing", "id": "gl_piercing"}]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_yeokin_shinobi_shadowclone",
+        "type": "Summon",
+        "source": "core",
+        "tags": { 
+            "summon": true,
+            "size": 1
+        },
+        "eventtags": {},
+        "name": "Shadow Clone",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Foes adjacent to a shadow clone at the start of their turn take 3 damage from the clone. The Shinobi and any of its allies may gain stealth if they end their turn adjacent to a clone. Clones disappear at the end of combat or if the Shinobi is defeated.",
+                        "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "colour": "yellow",
+        "limit": 0
+    },
+    {
+        "id": "sm_relict_artillery_soulspark",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Soul Spark",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Foes adjacent to Soul Sparks are vulnerable+, and all damage deal to them becomes piercing.",
+                                    "glossary": [{"val": "vulnerable", "id": "gl_vulnerable"},{"val": "+", "id": "gl_ongoing"}, {"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Area Effect:",
+                "glossary": [{"val": "Area Effect", "id": "gl_areaeffect"}],
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "If a foe ends their turn adjacent to a spark, it releases a small blast pulse centered on it, dealing 1 piercing damage twice to all foes.",
+                                    "glossary": [{"val": "small blast", "id": "gl_blast"}, {"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The wraith can target the spark with Chain Lightning. If they do, it gains rebound and the spark triggers its area effect.",
+                                    "glossary": [{"val": "rebound", "id": "gl_rebound"},{"val": "area effect", "id": "gl_areaeffect"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_general_judge_shrineofsanctuary",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "hp": 10,
+            "defense": 0
+        },
+        "eventtags": {},
+        "name": "Shrine of Sanctuary",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "While adjacent to the shrine, allies have resistance and gain +1 boon on attacks.",
+                                    "glossary": [{"val": "resistance", "id": "gl_resistance"},{"val": "+1 boon", "id": "gl_boon"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_relict_artillery_soulspark_ch3",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Soul Spark",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Foes adjacent to Soul Sparks are vulnerable+, and all damage deal to them becomes piercing.",
+                                    "glossary": [{"val": "vulnerable", "id": "gl_vulnerable"},{"val": "+", "id": "gl_ongoing"}, {"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Area Effect:",
+                "glossary": [{"val": "Area Effect", "id": "gl_areaeffect"}],
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "If a foe ends their turn adjacent to a spark, it releases a large blast pulse centered on it, dealing 1 piercing damage twice to all foes.",
+                                    "glossary": [{"val": "large blast", "id": "gl_blast"}, {"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The wraith can target the spark with Chain Lightning. If they do, it gains rebound and the spark triggers its area effect.",
+                                    "glossary": [{"val": "rebound", "id": "gl_rebound"},{"val": "area effect", "id": "gl_areaeffect"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_scavenger_artillery_scrapturret",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Scrap Turret",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once a turn, when a foe in range 3 from the turret takes damage from the Scrapper, the turret deals 1 piercing damage twice to them.",
+                                    "glossary": [{"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_demon_artillery_cocoon",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "height": 1,
+            "object": true,
+            "hp": 1
+        },
+        "eventtags": {},
+        "name": "Cocoon",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Cocoon also is destroyed if a character collides with it. When the Cocoon is destroyed or removed, summon two",
+                                    "glossary": [{"val": "collides", "id": "gl_collide"}]
+                                },
+                                {
+                                    "tags": {"desc_type" : "textfoe"},
+                                    "content": "fj_demon_mob_natal"
+                                },
+                                {
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "in or adjacent to its space."
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_demon_artillery_cocoon_ch3",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "height": 1,
+            "object": true,
+            "hp": 1
+        },
+        "eventtags": {},
+        "name": "Cocoon",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Cocoon also is destroyed if a character collides with it. When the Cocoon is destroyed or removed, summon three",
+                                    "glossary": [{"val": "collides", "id": "gl_collide"}]
+                                },
+                                {
+                                    "tags": {"desc_type" : "textfoe"},
+                                    "content": "fj_demon_mob_natal"
+                                },
+                                {
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "in or adjacent to its space."
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_scavenger_hoarder_junkgolem",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Junk Golem",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When summoned, or once on the hoarder’s turn, the golem can move 3 spaces, then shove an adjacent foe 1. If that foe collides, they take 2 piercing damage and are vulnerable.",
+                                    "glossary": [{"val": "shove", "id": "gl_shove"}, {"val": "collides", "id": "gl_collide"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "vulnerable", "id": "gl_vulnerable"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When the golem enters the space of a valuables token, it absorbs it. It’s speed, shove, and collide damage all increase by +1 for the rest of combat.",
+                                    "glossary": [{"val": "collide", "id": "gl_collide"}, {"val": "shove", "id": "gl_shove"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_scavenger_churnbaron_crony",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "hp": 10,
+            "defense": 8,
+            "speed": 4,
+            "dash": 2
+        },
+        "eventtags": {},
+        "name": "Crony",
+        "description":  [
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "When created, or on the baron’s turn, may use its standard move to move 4 spaces, then makes one of the following attacks:"
+            },
+            {
+                "tags": {"desc_type" : "foeability"},
+                "content": "af_scavenger_crony_blunderbuss"
+            },
+            {
+                "tags": {"desc_type" : "foeability"},
+                "content": "af_scavenger_crony_arkentechexplosives"
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_scavenger_twinblades_twirlingblade",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Twirling Blade",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Foes that collide with a blade or start their turn adjacent to a blade take 2 piercing damage.",
+                                    "glossary": [{"val": "collide", "id": "gl_collide"},{"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "If a blade collides with a character, it also deals 2 piercing damage to them. Characters can be damaged by multiple blades at once.",
+                                    "glossary": [{"val": "collides", "id": "gl_collide"},{"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 1
+    },
+    {
+        "id": "sm_scavenger_midan_volatilegem",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "height": 1,
+            "object": true,
+            "hp": 1
+        },
+        "eventtags": {},
+        "name": "Volatile Gem",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Explodes when taking damage from any ability (including the Midan’s), destroying them. When destroyed, each object deals 1 piercing damage, once, to all adjacent foes for every net worth, then increases their net worth by 1.",
+                                    "glossary": [{"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_scavenger_midan_aurelianbomb",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "height": 1,
+            "object": true,
+            "hp": 10
+        },
+        "eventtags": {},
+        "name": "Aurelian Bomb",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When the Midan summons a bomb, it may choose to detonate any Aurelian bombs that it didn’t place this turn. Bombs explode with a medium blast area effect centered on them, shattering all foes inside, dealing piercing fray damage four times to all foes and objects inside, then increasing all foes net worth by 2 in the area.",
+                                    "glossary": [{"val": "medium blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "shattering", "id": "gl_shattered"}, {"val": "piercing", "id": "gl_piercing"}, {"val": "fray", "id": "gl_fray"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_hob_wissan_deeproot",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "height": 1,
+            "object": true,
+            "immobile": true
+        },
+        "eventtags": {},
+        "name": "Deep Root",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The roots have aura 1. Foes in the aura are vulnerable+. All roots must be accessible to characters and placed within range 6 of another root.",
+                                    "glossary": [
+                                        {"val": "aura", "id": "gl_aura"}, 
+                                        {"val": "vulnerable", "id": "gl_vulnerable"}, 
+                                        {"val": "+", "id": "gl_ongoing"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Roots are considered to be the Wissan for purposes of targeting and each has 25% of its max hp. When a root is destroyed, remove it."
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_hob_wissan_lesseroot",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "intangible": true
+        },
+        "eventtags": {},
+        "name": "Lesser Root",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The root emits aura 1 around it. Foes in the aura are vulnerable+.",
+                                    "glossary": [
+                                        {"val": "aura", "id": "gl_aura"}, 
+                                        {"val": "vulnerable", "id": "gl_vulnerable"}, 
+                                        {"val": "+", "id": "gl_ongoing"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When a root is summoned, deal 1 damage, once, to one foe in range 2 for every lesser root or deep root in range 2 of that character, including this one."
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_hob_summerflameaesi_keg",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "Keg",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The object has aura 1. Characters in the aura are weakened+, and if they start their turn there, they increase their  intoxication by +1.",
+                                    "glossary": [
+                                        {"val": "aura", "id": "gl_aura"}, 
+                                        {"val": "weakened", "id": "gl_weakened"}, 
+                                        {"val": "+", "id": "gl_ongoing"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_hob_fallingleafaesi_memory",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "intangible": true
+        },
+        "eventtags": {},
+        "name": "Memory",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Can share space with all characters. Characters can end any thievery effects on them by passing over and picking up a memory (any memory will do). This consumes the memory, removing it.",
+                                    "glossary": [
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_hob_fallingleafaesi_thornywall",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "Thorny Wall",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The wall is considered dangerous terrain, but only for foes. Foes that collide with it take 2 piercing damage.",
+                                    "glossary": [
+                                        {"val": "dangerous terrain", "id": "gl_dangerousterrain"},
+                                        {"val": "collide", "id": "gl_collide"},
+                                        {"val": "piercing", "id": "gl_piercing"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_hob_deepsnowaesi_icicle",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "destructable": true,
+            "hp": 8
+        },
+        "eventtags": {},
+        "name": "Icicle",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The icicle has aura 1. The aura has the following effects:",
+                                    "glossary": [
+                                        {"val": "aura", "id": "gl_aura"}
+                                    ]
+                                }]
+            },                                      
+            {
+                "tags": {"desc_type" : "list"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Foes that start their turn in the aura take 2 piercing damage.",
+                        "glossary": [
+                            {"val": "aura", "id": "gl_aura"},
+                            {"val": "piercing", "id": "gl_piercing"}
+                        ]
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "Foes are vulnerable+ while in the aura.",
+                        "glossary": [
+                            {"val": "aura", "id": "gl_aura"},
+                            {"val": "vulnerable", "id": "gl_vulnerable"},
+                            {"val": "+", "id": "gl_ongoing"}
+                        ]
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "The aura is difficult terrain.",
+                        "glossary": [
+                            {"val": "aura", "id": "gl_aura"},
+                            {"val": "difficult terrain", "id": "gl_difficultterrain"}
+                        ]
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_veridianweapon_combatautomaton",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "defense": 5,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "Combat Automaton",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once a round, during the Aft Turret’s turn (including when summoned) the automaton can move 3 spaces, then make the following attack:"
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "foeability"},
+                "content": "af_imperial_veridianweapon_combatautomaton_automatongun"
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_lowlander_thresher_pitworm",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "summon": true
+        },
+        "eventtags": {},
+        "name": "Pit Worm",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When summoned, or during the Thresher’s turn, the worm can teleport to any free pit space, then deal 3 damage to a foe in range 3.",
+                                    "glossary": [{"val": "teleport", "id": "gl_teleport"}, {"val": "pit", "id": "gl_pit"}, {"val": "+", "id": "gl_ongoing"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "yellow",
+        "limit": 2
+    },
+    {
+        "id": "sm_lowlander_priestoftheherb_herbalcenser",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "height": 1,
+            "object": true
+        },
+        "eventtags": {},
+        "name": "Herbal Censer",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Object Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The censer has aura 1. Allies that end their turn inside the censer’s aura may end a status or mark of their choice.",
+                                    "glossary": [{"val": "aura", "id": "gl_aura"}, {"val": "status", "id": "gl_status"}, {"val": "mark", "id": "gl_mark"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_lowlander_mycowright_mushroom",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "immobile": true,
+            "hp": 1
+        },
+        "eventtags": {},
+        "name": "Mushroom",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When a character collides with a mushroom, it explodes for a small blast blast area effect. Characters inside must save or become pacified, then take [D]+fray piercing damage, or just fray damage on a successful save. The character that collided automatically fails the save.",
+                                    "glossary": [{"val": "collides", "id": "gl_collide"}, {"val": "small blast", "id": "gl_blast"}, {"val": "area effect", "id": "gl_areaeffect"}, {"val": "pacified", "id": "gl_pacified"}, {"val": "[D]", "id": "gl_damagedice"}, {"val": "fray", "id": "gl_fray"}, {"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_lowlander_artillery_attackinsect",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Attack Insect",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Ability:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When summoned, or once on the Apiarist’s turn thereafter, the insect may fly up to 3 spaces, then deal 1 piercing damage, twice, to an adjacent foe.",
+                                    "glossary": [{"val": "fly", "id": "gl_flying"},{"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 2
+    },
+    {
+        "id": "sm_lowlander_artillery_attackinsect_ch2",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Attack Insect",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Ability:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When summoned, or once on the Apiarist’s turn thereafter, the insect may fly up to 3 spaces, then deal 1 piercing damage, twice, to an adjacent foe.",
+                                    "glossary": [{"val": "fly", "id": "gl_flying"},{"val": "piercing", "id": "gl_piercing"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When an attack insect flies, the Apiarist or an ally can latch on and fly with it, mirroring its movement.",
+                                    "glossary": [{"val": "fly", "id": "gl_flying"},{"val": "flies", "id": "gl_flying"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 2
+    },
+    {
+        "id": "sm_lowlander_artillery_attackinsect_ch3",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Attack Insect",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Ability:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When summoned, or once on the Apiarist’s turn thereafter, the insect may fly up to 3 spaces, then deal 1 piercing damage, twice, to an adjacent foe, or 2 piercing damage, twice, if the foe is bloodied.",
+                                    "glossary": [{"val": "fly", "id": "gl_flying"},{"val": "piercing", "id": "gl_piercing"},{"val": "bloodied", "id": "gl_bloodied"}]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When an attack insect flies, the Apiarist or an ally can latch on and fly with it, mirroring its movement.",
+                                    "glossary": [{"val": "fly", "id": "gl_flying"},{"val": "flies", "id": "gl_flying"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 2
+    },
+    {
+        "id": "sm_lowlander_sagesnail_pearlescentbubble",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "summon": true
+        },
+        "eventtags": {},
+        "name": "Pearlescent Bubble",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When a character enters the bubble’s space for any reason, it pops, destroying it. Foes are pacified then, shoved 3 in any direction. Allies gain vigor 3.",
+                                    "glossary": [{"val": "pacified", "id": "gl_pacified"}, {"val": "shoved", "id": "gl_shove"}, {"val": "vigor", "id": "gl_vigor"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_lowlander_wrangler_trainedbeasts",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "defense": 5,
+            "hp": 20
+        },
+        "eventtags": {},
+        "name": "Trained Beast",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Unlike other summons, these summons have defense and health and lack intangible (so they can take damage and effects). When defeated, the summons disappear as normal, and they do not cause obstruction or engagement.",
+                                    "glossary": [{"val": "intangible", "id": "gl_intangible"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 3
+    },
+    {
+        "id": "sm_lowlander_fetididol_choice",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "defense": 5,
+            "hp": 20
+        },
+        "eventtags": {},
+        "name": "Trained Beasts",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Unlike other summons, these summons have defense and health and lack intangible (so they can take damage and effects). When defeated, the summons disappear as normal, and they do not cause obstruction or engagement.",
+                                    "glossary": [{"val": "intangible", "id": "gl_intangible"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "yellow",
+        "limit": 2
+    },
+    {
+        "id": "sm_lowlander_fetididol_spewinggrowth",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "defense": 0,
+            "hp": 10,
+            "object": true,
+            "height": 1
+        },
+        "eventtags": {},
+        "name": "Spewing Growth",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The area around it is difficult terrain. During the Idol’s turn, the Idol can use the Disorienting Vomit ability:"
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "foeability"},
+                "content": "af_lowlander_fetididol_manifestations_spewinggrowth_disorientingvomit"
+            }
+        ],
+        "blurb":  [],
+        "colour": "icon",
+        "limit": 0
+    },
+    {
+        "id": "sm_jotunn_leader_cauldron_ch1",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "height": 1
+        },
+        "eventtags": {},
+        "name": "Cauldron",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Cauldron has aura 1. The troll and any of its allies in the aura gain +1 boon on saves, and foes gain +1 curse on saves in the aura.",
+                                    "glossary": [{"val": "aura", "id": "gl_aura"},{"val": "boon", "id": "gl_boon"}, {"val": "curse", "id": "gl_curse"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_jotunn_leader_cauldron_ch2",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "height": 1
+        },
+        "eventtags": {},
+        "name": "Cauldron",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Cauldron has aura 2. The troll and any of its allies in the aura gain +1 boon on saves, and foes gain +1 curse on saves in the aura.",
+                                    "glossary": [{"val": "aura", "id": "gl_aura"},{"val": "boon", "id": "gl_boon"}, {"val": "curse", "id": "gl_curse"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_jotunn_leader_cauldron_ch3",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "height": 1
+        },
+        "eventtags": {},
+        "name": "Cauldron",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The Cauldron has aura 2. The troll and any of its allies in the aura gain +1 boon on saves, and foes do not save against conditions at the end of their turn while in the aura.",
+                                    "glossary": [{"val": "aura", "id": "gl_aura"},{"val": "boon", "id": "gl_boon"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_general_master_rallypoint",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "hp": 10,
+            "object": true
+        },
+        "eventtags": {},
+        "name": "Rally Point",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Aura 1. Minions in the aura sare immune to all damage and Press the Assault against characters in the area deals maximum damage.",
+                                    "glossary": [{"val": "Aura", "id": "gl_aura"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 2
+    },
+    {
+        "id": "sm_relict_immortalist_sarcophagusofiz",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "hp": 10,
+            "object": true
+        },
+        "eventtags": {},
+        "name": "Sarcophagus of Iz",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Shares space with a character. While sharing space with the sarcophagus, they must sacrifice 3 at the start of their turn and are immobile, but can otherwise be targeted normally. The Sarcophagus takes no damage from Relict and only 1 damage maximum from any ability from a foe inside of it.",
+                                    "glossary": [
+                                        {"val": "sacrifice", "id": "gl_sacrifice"},
+                                        {"val": "immobile", "id": "gl_immobile"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_relict_immortalist_pillarofiz",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "height": 2,
+            "hp": 5,
+            "object": true
+        },
+        "eventtags": {},
+        "name": "Pillar of Iz",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Aura 1. Inside the aura, relict characters have resistance and foes are sealed+.",
+                                    "glossary": [
+                                        {"val": "Aura", "id": "gl_aura"},
+                                        {"val": "aura", "id": "gl_aura"},
+                                        {"val": "resistance", "id": "gl_resistance"},
+                                        {"val": "sealed", "id": "gl_sealed"},
+                                        {"val": "+", "id": "gl_ongoing"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_relict_arkenlich_soulfragment",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "immobile": true,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Soul Fragment",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Each soul fragment is tied to a specific character. Characters adjacent to any soul fragment are vulnerable+. Additionally, fragments can be affected by the Lich’s round actions Annihilation of the Wicked and Utterances of the Crawling Dead.",
+                                    "glossary": [
+                                        {"val": "vulnerable", "id": "gl_vulnerable"},
+                                        {"val": "+", "id": "gl_ongoing"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "green",
+        "limit": 0
+    },
+    {
+        "id": "sm_relict_dreadlords_wailingsoul",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Wailing Soul",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Foes adjacent to souls are vulnerable+ and all damage dealt to them becomes piercing. If a foe collides with a soul, they release a large blast shriek area effect centered on them, dealing 2 piercing damage to all foes inside, then removing the soul.",
+                                    "glossary": [
+                                        {"val": "vulnerable", "id": "gl_vulnerable"},
+                                        {"val": "+", "id": "gl_ongoing"},
+                                        {"val": "piercing", "id": "gl_piercing"},
+                                        {"val": "collides", "id": "gl_collide"},
+                                        {"val": "large blast", "id": "gl_blast"},
+                                        {"val": "area effect", "id": "gl_areaeffect"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 0
+    },
+    {
+        "id": "sm_demon_abyssspike",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true,
+            "height": 2
+        },
+        "eventtags": {},
+        "name": "Abyss Spike",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The spike releases an aura 1 of dark energy while it’s active. Foes in the aura are weakened, and take 2 damage if they end their turn there.",
+                                    "glossary": [
+                                        {"val": "aura", "id": "gl_aura"},
+                                        {"val": "+", "id": "gl_ongoing"},
+                                        {"val": "weakened", "id": "gl_weakened"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "red",
+        "limit": 0
+    },
+    {
+        "id": "sm_demon_decoy",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "immobile": true,
+            "hp": 1,
+            "defense": 1
+        },
+        "eventtags": {},
+        "name": "Decoy",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The GM secretly picks one of the decoys that is actually the Mimic. When that decoy is targeted by an ability, before the ability is made, replace the decoy with the mimic and retarget the attack to the mimic. This reveals the mimic.",
+                                    "glossary": [
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "yellow",
+        "limit": 0
+    },
+    {
+        "id": "sm_demon_crawlingmass",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Crawling Mass",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The mass counts as a pit and dangerous terrain to all characters but the demon. A character can destroy a crawling mass by spending the interact action while adjacent to it.",
+                                    "glossary": [
+                                        {"val": "pit", "id": "gl_pit"},
+                                        {"val": "dangerous terrain", "id": "gl_dangerousterrain"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_demon_bladeofagony",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Blade of Agony",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Foes may pass through the space of a blade, but treat them as difficult terrain.",
+                                    "glossary": [
+                                        {"val": "difficult terrain", "id": "gl_difficultterrain"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Whenever a blade is summoned, all blades, including the one that was just summoned, slash every space adjacent to them, dealing 1 divine damage to all foes. A character can hit by multiple blades at once.",
+                                    "glossary": [
+                                        {"val": "divine", "id": "gl_divine"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Blade Consume X:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Certain actions must consume X blades of agony to be used. Blades are consumed at the start of the action and must be in range 3 of the demon to be valid. This destroys the blades, removing them from the battlefield.",
+                                    "glossary": [
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_majestydemon_sycophant",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "The Sycophant",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Counts as an ally for player abilities. Projects aura 2 around it. The aura reduces all damage to to player characters to 1 while it is inside. At the end of any turn in which the aura was used to reduce damage, the Sycophant is destroyed.",
+                                    "glossary": [
+                                        {"val": "aura", "id": "gl_aura"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_majestydemon_scepterbearer",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "flying": true,
+            "defense": 5,
+            "hp": 10
+        },
+        "eventtags": {},
+        "name": "The Scepter Bearer",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Ability:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When summoned, and on each of the Majesty Demon’s turns, flies 1. Cannot move unless it’s within range 4 of a player character.",
+                                    "glossary": [
+                                        {"val": "flies", "id": "gl_flying"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When defeated, drops its scepter in its space as a terrain effect. Any character standing in the scepter space other than the Majesty Demon deals double damage with abilities (double all damage after rolling and totaling up all damage). The scepter disappears when this summon is re-summoned.",
+                                    "glossary": [
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_majestydemon_shroudedlady",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "flying": true,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "The Shrouded Lady",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Ability:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Teleports 4 spaces when summoned, and at the start of each round towards the closest player character.",
+                                    "glossary": [
+                                        {"val": "Teleports", "id": "gl_teleport"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "At the end of the round, deals 40 damage to all adjacent characters other than the Majesty Demon.",
+                                    "glossary": [
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_majestydemon_maiden",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "defense": 5,
+            "hp": 10
+        },
+        "eventtags": {},
+        "name": "The Maiden",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Has aura 2. Characters other than the Maiden in the aura are pacified+, but have resistance.",
+                                    "glossary": [
+                                        {"val": "aura", "id": "gl_aura"},
+                                        {"val": "pacified", "id": "gl_pacified"},
+                                        {"val": "+", "id": "gl_ongoing"},
+                                        {"val": "resistance", "id": "gl_resistance"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_majestydemon_flagellantknight",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "defense": 5,
+            "hp": 40
+        },
+        "eventtags": {},
+        "name": "Flagellant Knight",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Ability:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once a round on the demon’s turn, one flagellant knight may rush 2 towards the nearest foe and and use the following ability on them:",
+                                    "glossary": [
+                                        {"val": "rush", "id": "gl_rush"}
+                                    ]
+                                }]
+            },{
+                "tags": {"desc_type" : "foeability"},
+                "content": "af_majestydemon_flagellantknight_wickedblade"
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When any character takes damage adjacent to the knight that wasn’t dealt by a knight, the knight reduces it by 5, as if by armor, then takes 5 damage.",
+                                    "glossary": [
+                                        {"val": "armor", "id": "gl_armor"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_thannir_lonelysoul",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "intangible": true
+        },
+        "eventtags": {},
+        "name": "Lonely Soul",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When summoned, or once a round on the Thannir’s turn thereafter, may move 3 spaces and deal 2 piercing damage to an adjacent foe. If that foe is sealed or marked, the soul can also then shove the foe 1.",
+                                    "glossary": [
+                                        {"val": "piercing", "id": "gl_piercing"},
+                                        {"val": "sealed", "id": "gl_sealed"},
+                                        {"val": "marked", "id": "gl_mark"},
+                                        {"val": "shove", "id": "gl_shove"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_baletroll_looselimb",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "intangible": true
+        },
+        "eventtags": {},
+        "name": "Loose Limbs",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "At the start of the Troll’s turn, may rush 1 space, then deal 2 damage to an adjacent foe.",
+                                    "glossary": [
+                                        {"val": "rush", "id": "gl_rush"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_keeperoftheeldflame_everforge",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 2,
+            "destructable": true,
+            "height": 2
+        },
+        "eventtags": {},
+        "name": "Everforge",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon HP:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "10 + 10 Per Player",
+                                    "glossary": [
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "This massive forge sparks with godly power. Character standing on the forge when it is summoned are pushed up on top of it, and foes adjacent are shoved 1 away from it. The forge has aura 2. While in the aura, the smith is immune to being shoved, teleported, or removed from the battlefield and can use the forge actions below. When the Keeper uses a Forge action, the area on and adjacent to the forge explodes for a 2 piercing damage area effect, and the forge takes 10 damage, potentially destroying it.",
+                                    "glossary": [
+                                        {"val": "shoved", "id": "gl_shove"},
+                                        {"val": "aura", "id": "gl_aura"},
+                                        {"val": "teleported", "id": "gl_teleport"},
+                                        {"val": "piercing", "id": "gl_piercing"}
+                                    ]
+                                }]
+            },                                      
+            {
+                "tags": {"desc_type" : "list"},
+                "content": "",
+                "subcontent": [
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "The Keeper can only keep one of each unique effect active at once, including the forge itself."
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When the Keeper uses a forge effect, it gains 10 vigor.",
+                        "glossary": [{"val": "vigor", "id": "gl_vigor"}]
+                    },
+                    {
+                        "tags": {"desc_type" : "desc"},
+                        "content": "When a Forge effect ends, create a space of quicksilver adjacent to the Keeper."
+                    }
+                ]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_wardenoftheaeongate_starseed",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "phasing": true
+        },
+        "eventtags": {},
+        "name": "Star Seed",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The seed is keyed to a specific character. At the start of that character’s turn, or after that character uses any ability and the ability resolves, the seed moves 1 space towards them. If the seed would enter the space of any foe, it explodes for a large blast area effect, destroying it. Foes inside must save or take 6 divine damage, twice, or just 2 divine damage twice on a successful save. The star-seed persists for the rest of combat, but if it it caught in the area of Primal Polaris or an adjacent space to an Eternal star, it fizzles out and is destroyed.",
+                                    "glossary": [
+                                        {"val": "large blast", "id": "gl_blast"},
+                                        {"val": "area effect", "id": "gl_areaeffect"},
+                                        {"val": "divine", "id": "gl_divine"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_wisp_dancinglight",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "intangible": true
+        },
+        "eventtags": {},
+        "name": "Dancing Light",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When a foe starts or ends a turn adjacent to the light, it explodes in a medium blast area effect centered on it. Characters inside must save or take fray damage twice, or once on a successful save. If the light is destroyed, it fizzles out without exploding.",
+                                    "glossary": [
+                                        {"val": "medium blast", "id": "gl_blast"},
+                                        {"val": "area effect", "id": "gl_areaeffect"},
+                                        {"val": "fray", "id": "gl_fray"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_bonfirespirit_bonfire",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "height": 1
+        },
+        "eventtags": {},
+        "name": "Bonfire",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The area on top of the object is dangerous terrain, and the object emits aura 1. Allies in the aura gain the charged effects of all abilities, even on normal turns.",
+                                    "glossary": [
+                                        {"val": "dangerous terrain", "id": "gl_dangerousterrain"},
+                                        {"val": "aura", "id": "gl_aura"},
+                                        {"val": "charged", "id": "gl_charge"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_beast_kinfisher_lure",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Lure",
+        "description":  [
+        ],
+        "blurb":  [],
+        "colour": "blue"
+    },
+    {
+        "id": "sm_general_master_rallypoint_ph2",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "hp": 10,
+            "object": true
+        },
+        "eventtags": {},
+        "name": "Rally Point",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Aura 2. Minions in the aura sare immune to all damage and Press the Assault against characters in the area deals maximum damage.",
+                                    "glossary": [{"val": "Aura", "id": "gl_aura"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 2
+    },
+    {
+        "id": "sm_beast_floatfish_pearlsecentbubble",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "terrain_effect": true
+        },
+        "eventtags": {},
+        "name": "Pearlsecent Bubble",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "When a character enters the bubble’s space, it pops, shattering them, shoving them 3 in any direction, and creating a space of difficult terrain.",
+                                    "glossary": [
+                                        {"val": "shattering", "id": "gl_shattered"},
+                                        {"val": "shoving", "id": "gl_shove"},
+                                        {"val": "difficult terrain", "id": "gl_difficultterrain"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Collide: ",
+                "glossary": [{"val": "Collide", "id": "gl_collide"}],
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Character also takes fray damage twice.",
+                                    "glossary": [{"val": "fray", "id": "gl_fray"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "blue",
+        "limit": 2
+    },
+    {
+        "id": "sm_imperial_imperialshinobi_shadowclone",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Shadow Clone",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Foes adjacent to a shadow clone at the start of their turn take 3 damage from the clone. The Shinobi and any of its allies may gain stealth if they end their turn adjacent to a clone. Clones disappear at the end of combat or if the Shinobi is defeated.",
+                                    "glossary": [{"val": "stealth", "id": "gl_stealth"}]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "colour": "yellow",
+        "limit": 6
+    },
+    {
+        "id": "sm_imperial_battlewagon_torpedo",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "intangible": true
+        },
+        "eventtags": {},
+        "name": "Torpedo",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "At the end of the next player turn, the torpedo submerges, burrows, and detonates under the closest foe for a small blast area effect, destroying it. If multiple foes are equidistant, the wagon can choose.",
+                                    "glossary": [
+                                        {"val": "small blast", "id": "gl_blast"},
+                                        {"val": "area effect", "id": "gl_areaeffect"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "gap"},
+                "content": ""
+            },
+            {
+                "tags": {"desc_type" : "desc"},
+                "content": "Foes in the area must save or take [D]+fray, or fray damage on a successful save. Then, create a pit under the foe. Foes standing on an object succeed the save automatically, but all objects under them are removed instead of creating a pit.",
+                "glossary": [
+                    {"val": "area", "id": "gl_areaeffect"},
+                    {"val": "[D]", "id": "gl_damagedice"},
+                    {"val": "fray", "id": "gl_fray"},
+                    {"val": "pit", "id": "gl_pit"}
+                ]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_centurion_imperialstandard",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "intangible": true
+        },
+        "eventtags": {},
+        "name": "Imperial Standard",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Aura 1. Self and Allies in the aura gain +1 boon on attacks and saves, and if they start their turn in the aura they are cured. Foes in the aura gain +1 curse on attacks and saves, and if they start their turn in the area, they lose all vigor. The centurion can only plant one of these banners at a time.",
+                                    "glossary": [
+                                        {"val": "small blast", "id": "gl_blast"},
+                                        {"val": "area effect", "id": "gl_areaeffect"},
+                                        {"val": "Aura", "id": "gl_aura"},
+                                        {"val": "aura", "id": "gl_aura"},
+                                        {"val": "+1 boon", "id": "gl_boon"},
+                                        {"val": "cured", "id": "gl_cure"},
+                                        {"val": "+1 curse", "id": "gl_curse"},
+                                        {"val": "vigor", "id": "gl_vigor"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 1
+    },
+    {
+        "id": "sm_imperial_crimsonweapon_munition",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Munition",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "If a foe ends their turn adjacent to a munition, it explodes for a large blast area effect. Characters inside, including the weapon, must save or take 2[D]+fray and be stunned, or just [D]+fray on a successful save.",
+                                    "glossary": [
+                                        {"val": "large blast", "id": "gl_blast"},
+                                        {"val": "area effect", "id": "gl_areaeffect"},
+                                        {"val": "[D]", "id": "gl_damagedice"},
+                                        {"val": "fray", "id": "gl_fray"},
+                                        {"val": "stunned", "id": "gl_stunned"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_azurianweapon_targetingreticle",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Targeting Reticle",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The reticle can share space with other characters. It moves 1 space towards the chosen character at the start of that character’s turn, then 1 space after they use any ability, including their standard move and interrupts. When the reticle enters any foe’s space, the Weapon deals 3 piercing damage to that character a number of times equal to the round number.",
+                                    "glossary": [
+                                        {"val": "interrupts", "id": "gl_interrupt"},
+                                        {"val": "piercing", "id": "gl_piercing"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_azurianweapon_torpedo",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "Intangible": true
+        },
+        "eventtags": {},
+        "name": "Torpedo",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "At the end of the next player turn, the torpedo submerges, burrows, and detonates under the closest foe for a medium blast area effect, destroying it. If multiple foes are equidistant, the Weapon can choose. Foes in the area must save or take [D] +fray and become stunned, or just fray damage on a successful save. Then, create a pit under the foe. Foes standing on an object succeed the save automatically, but all objects under them are removed instead of creating a pit. Foes standing in a pit fail the save automatically.",
+                                    "glossary": [
+                                        {"val": "medium blast", "id": "gl_blast"},
+                                        {"val": "area effect", "id": "gl_areaeffect"},
+                                        {"val": "[D]", "id": "gl_damagedice"},
+                                        {"val": "fray", "id": "gl_fray"},
+                                        {"val": "stunned", "id": "gl_stunned"},
+                                        {"val": "pit", "id": "gl_pit"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_azurianweapon_arkentechsupermine",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "Arkentech Super Mine",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The mine arms at the the end of the next player turn, after all other Weapon abilities and effects have resolved. If any foe ends their turn adjacent to the mine while armed or collides with it, it explodes in a burst 1 (self) area effect, dealing 3 piercing damage to foes within and shattering them. If destroyed or removed, the mine fizzles out.",
+                                    "glossary": [
+                                        {"val": "collides", "id": "gl_collide"},
+                                        {"val": "area effect", "id": "gl_areaeffect"},
+                                        {"val": "burst", "id": "gl_burst"},
+                                        {"val": "piercing", "id": "gl_piercing"},
+                                        {"val": "shattering", "id": "gl_shattered"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_azurianweapon_seismicthumper",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "hp": 10
+        },
+        "eventtags": {},
+        "name": "Seismic Thumper",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Adjacent spaces to the thumper are difficult terrain. Foes that start their turn there take 4 damage.",
+                                    "glossary": [
+                                        {"val": "difficult terrain", "id": "gl_difficultterrain"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_veridianweapon_overclockpiston",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "hp": 10
+        },
+        "eventtags": {},
+        "name": "Overclock Piston",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "All engine sections and automata gain +1 boon on all attacks per overlock piston active. If three or more are active at the end of the round, also increase the Megabomb counter by 1.",
+                                    "glossary": [
+                                        {"val": "+1 boon", "id": "gl_boon"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_veridianweapon_repairautomaton",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "Repair Automaton",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "At the end of the round, the engine grants 3 vigor to any section per active repair automata. It can only repair one section at a time this way.",
+                                    "glossary": [
+                                        {"val": "vigor", "id": "gl_vigor"}
+                                    ]
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_veridianweapon_turretautomaton",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "Turret Automaton",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "While undefeated, also counts as a height 1 object and can be moved on or used as cover by other characters",
+                                    "glossary": [
+                                        {"val": "cover", "id": "gl_cover"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once a round on the forward turret’s turn, including when summoned, the automaton can deal 2 damage twice to a character in range 4"
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_veridianweapon_shieldautomaton",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "Shield Automaton",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Effect:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "The automata has aura 1. Foes in the aura gain cover from all directions, but automata in the aura reduce all damage taken to 1.",
+                                    "glossary": [
+                                        {"val": "cover", "id": "gl_cover"},
+                                        {"val": "aura", "id": "gl_aura"}
+                                    ]
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once a round, during the Aft Turret’s turn (including when summoned) the automaton can move 3 spaces."
+                                }]
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    },
+    {
+        "id": "sm_imperial_veridianweapon_combatautomaton",
+        "type": "Summon",
+        "source": "core",
+        "tags": {
+            "size": 1,
+            "object": true,
+            "hp": 5
+        },
+        "eventtags": {},
+        "name": "Combat Automaton",
+        "description":  [
+            {
+                "tags": {"desc_type" : "effect"},
+                "content": "Summon Action:",
+                "subcontent":   [{
+                                    "tags": {"desc_type" : "desc"},
+                                    "content": "Once a round, during the Aft Turret’s turn (including when summoned) the automaton can move 3 spaces, then make the following attack:"
+                                }]
+            },
+            {
+                "tags": {"desc_type" : "foeability"},
+                "content": "af_imperial_veridianweapon_aftturret_automatongun"
+            }
+        ],
+        "blurb":  [],
+        "limit": 0
+    }
+]
