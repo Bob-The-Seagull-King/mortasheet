@@ -2,10 +2,10 @@ import { CollectionsListPage } from "./../viewmodel/pages/CollectionListPage"
 
 class ControllerController {
    
-    AbilitiesCollectionController;
+    GlossaryCollectionController;
 
     constructor () {
-        this.AbilitiesCollectionController = new CollectionsListPage('abilities')
+        this.GlossaryCollectionController = new CollectionsListPage('glossary')
     }
 }
 

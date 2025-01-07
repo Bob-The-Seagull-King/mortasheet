@@ -1,11 +1,8 @@
 import { byPropertiesOf } from "../../../utility/functions";
 import { ViewCollectionsModel } from "./ViewCollectionsModel";
-import { IPlayerAbility } from "../../feature/abilities/Ability";
-import { AbilityFactory } from "../../../factories/features/AbilityFactory";
 import { ViewTableItem } from "./ViewTableItem";
 import { getColour } from "../../../utility/functions";
-import { IPlayerSummon } from "../../feature/summons/Summon";
-import { SummonFactory } from "../../../factories/features/SummonFactory";
+import { IGlossaryRule, GlossaryRule } from "../../feature/glossary/Glossary";
 
 export interface CollectionType {
     searchId      : string,
@@ -17,34 +14,18 @@ export interface CollectionType {
 export interface CollectionDataTable {[moveid: Lowercase<string>]: CollectionType}
 
 export const CollectionDataDex : CollectionDataTable = {
-    abilities: {
-        searchId: 'abilities', 
-        pageName: 'Abilities',
-        sort: ["chapter", "source", "class_id", "job_id"],
+    glossary: {
+        searchId: 'glossary', 
+        pageName: 'Glossary',
+        sort: ["name", "id"],
         postSearch(model : ViewCollectionsModel) {
             model.CleanupItems();
             model.CleanupCollection();
             let i = 0;
-            model.dataresults.sort(byPropertiesOf<IPlayerAbility>(['class_id', 'job_id', 'name', 'source', 'id']))
+            model.dataresults.sort(byPropertiesOf<IGlossaryRule>(["name", "id"]))
             for (i = 0; i < model.dataresults.length; i++) {
-                const abilityNew = AbilityFactory.CreateAbility(model.dataresults[i]);
-                const ItemNew = new ViewTableItem(abilityNew, getColour(abilityNew.Class));
-                model.itemcollection.push(ItemNew);
-            }
-        }
-    },
-    summons: {
-        searchId: 'summons', 
-        pageName: 'Summons',
-        sort: ["colour", "name", "id"],
-        postSearch(model : ViewCollectionsModel) {
-            model.CleanupItems();
-            model.CleanupCollection();
-            let i = 0;
-            model.dataresults.sort(byPropertiesOf<IPlayerSummon>(["colour", "name", "id"]))
-            for (i = 0; i < model.dataresults.length; i++) {
-                const summonNew = SummonFactory.CreateSummon(model.dataresults[i]);
-                const ItemNew = new ViewTableItem(summonNew, getColour(summonNew.Colour));
+                const summonNew = new GlossaryRule(model.dataresults[i]);
+                const ItemNew = new ViewTableItem(summonNew, getColour('icon'));
                 model.itemcollection.push(ItemNew);
             }
         }

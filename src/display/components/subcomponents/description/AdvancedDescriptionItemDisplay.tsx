@@ -6,26 +6,19 @@ import React from 'react'
 import { getTagValue, getTagSetValue} from '../../../../utility/functions'
 import { ConvertContentWithGlossary } from '../../../../utility/util'
 import { AdvancedDescription} from '../../../../classes/AdvancedDescription'
-import { PlayerAbility } from '../../../../classes/feature/abilities/Ability'
-import { AddonFactory } from '../../../../factories/features/AddonFactory'
-import { PlayerAddon } from '../../../../classes/feature/addons/Addon'
-import { SummonFactory } from '../../../../factories/features/SummonFactory'
-import { PlayerSummon } from '../../../../classes/feature/summons/Summon'
 import { PlayerTable } from '../../../../classes/feature/table/tablebody'
 import { TableFactory } from '../../../../factories/features/TableFactory'
 
 // Components
 import GenericDisplay from '../../../../display/components/generics/GenericDisplay'
-import AddonDisplay from '../../../../display/components/features/addons/AddonDisplay'
 import TableDisplay from '../../../../display/components/features/table/TableDisplay'
-import SummonDisplay from '../../../../display/components/features/summons/SummonDisplay'
 import GenericHover from '../../../../display/components/generics/GenericHover'
 import EmptyDisplay from '../../../../display/components/generics/EmptyDisplay'
 import GenericPopup from '../../../../display/components/generics/GenericPopup'
 
 const AdvancedDescriptionItemDisplay = (props: any) => {
     const description: AdvancedDescription = props.data
-    const parentItem: PlayerAbility = props.parent
+    const parentItem = props.parent
 
     /**
      * Takes a description and combines all tags, subcomponents,
@@ -76,71 +69,6 @@ const AdvancedDescriptionItemDisplay = (props: any) => {
                 return (
                     <span>
                         <span>{ConvertContentWithGlossary((item.Glossary), item.Content?.toString() || "")} </span>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </span>
-                )
-            }
-            case "addon": {
-                return (
-                    <div style={{width:"100%"}}>
-                        <div className='addonbox'>{findAddon(item.Content?.toString() || "")}</div>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </div>
-                )
-            }
-            case "foeability": {
-                return (
-                    <div style={{width:"100%"}}>
-                        <div className='addonbox'>{findFoeAddon(item.Content?.toString() || "")}</div>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </div>
-                )
-            }
-            case "summon": {
-                return (
-                    <div style={{width:"100%"}}>
-                        <div className='addonbox'>{findSummon(item.Content?.toString() || "")}</div>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </div>
-                )
-            }
-            case "foesummon": {
-                return (
-                    <div style={{width:"100%"}}>
-                        <div className='addonbox'>{findFoeSummon(item.Content?.toString() || "")}</div>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </div>
-                )
-            }
-            case "textsummon": {
-                return (
-                    <span>
-                        <span className=''>{findTextSummon(item.Content?.toString() || "")}</span>
                         <span>
                             {item.SubContent?.map((subitem) => (
                                <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
@@ -212,33 +140,6 @@ const AdvancedDescriptionItemDisplay = (props: any) => {
      * @param id The ID of the addon
      * @returns Display component with the Addon
      */
-    function findAddon(id: string) {
-        let addon: PlayerAddon | null = null;
-        
-        addon = AddonFactory.CreateNewAddon(id, "addons", parentItem.Class)
-
-        return (
-            <GenericDisplay d_colour={parentItem.Class} d_name={addon.Name} d_type={"sub"} d_method={() => <AddonDisplay data={addon} />}/>
-        )
-    }
-    /**
-     * returns a component showing an Addon display
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
-    function findFoeAddon(id: string) {
-        let addon: PlayerAddon | null = null;
-        addon = AddonFactory.CreateNewAddon(id, "foeabilities", parentItem.Class)
-        return (
-            <GenericDisplay d_colour={parentItem.Class} d_name={addon.Name} d_type={"sub"} d_method={() => <AddonDisplay data={addon} />}/>
-        )
-    }
-
-    /**
-     * returns a component showing an Addon display
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
     function findTable(id: string) {
         let table: PlayerTable | null = null;
 
@@ -246,51 +147,6 @@ const AdvancedDescriptionItemDisplay = (props: any) => {
 
         return (
             <EmptyDisplay d_colour={parentItem.Class} d_name={table.Name} d_type={"sub"} d_method={() => <TableDisplay d_colour={parentItem.Class} d_type={"sub"} data={table} />}/>
-        )
-    }
-
-    /**
-     * returns a component showing an Addon display
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
-    function findSummon(id: string) {
-        let summon: PlayerSummon | null = null;
-
-        summon = SummonFactory.CreateNewSummon(id, "summons")
-
-        return (
-            <GenericDisplay d_colour={parentItem.Class} d_name={summon.Name} d_type={"sub"} d_method={() => <SummonDisplay data={summon} />}/>
-        )
-    }
-
-    /**
-     * returns a component showing an Addon display
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
-    function findFoeSummon(id: string) {
-        let summon: PlayerSummon | null = null;
-
-        summon = SummonFactory.CreateNewSummon(id, "foesummons")
-
-        return (
-            <GenericDisplay d_colour={parentItem.Class} d_name={summon.Name} d_type={"sub"} d_method={() => <SummonDisplay data={summon} />}/>
-        )
-    }
-
-    /**
-     * returns a component showing a Summon display when hovered over
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
-    function findTextSummon (id: string) {
-        let summon: PlayerSummon | null = null;
-
-        summon = SummonFactory.CreateNewSummon(id, "summons")
-
-        return (
-            <GenericHover d_colour={'icon'} d_name={summon.Name} titlename={summon.Name} d_type={""} d_method={() => <SummonDisplay data={summon} />}/>
         )
     }
 

@@ -1,7 +1,7 @@
 import { FilterManager } from "../../classes/viewmodel/collections/filters/FilterManager"
 import {FilterTagItem, FilterTextItem, FilterMiscItem} from "../components/subcomponents/filters/FilterItems"
-import AbilityDisplay from "../components/features/abilities/AbilityDisplay"
 import GenericDisplay from "../components/generics/GenericDisplay"
+import GlossaryDisplay from "../components/features/glossary/GlossaryDisplay"
 
 export interface DisplayCollectionType {
     searchId      : string,
@@ -15,12 +15,12 @@ export interface DisplayCollectionDataTable {[moveid: Lowercase<string>]: Displa
 type NoneToNoneFunction = () => void;
 
 export const DisplayCollectionDataDex : DisplayCollectionDataTable = {
-    abilities: {
-        searchId: 'abilities',
+    glossary: {
+        searchId: 'glossary',
         width: 7,
         returnDisplay(item: any) {
             return (
-                <GenericDisplay  d_colour={item.Class} d_name={item.Name} d_type={""} d_method={() => <AbilityDisplay data={item} />}/>
+                <GenericDisplay  d_colour={item.ID} d_name={item.Name} d_type={""} d_method={() => <GlossaryDisplay data={item} />}/>
             )
         },
         returnFilterSelect(manager : FilterManager, update : NoneToNoneFunction, close : NoneToNoneFunction) {
@@ -44,35 +44,11 @@ export const DisplayCollectionDataDex : DisplayCollectionDataTable = {
                                 ))}
                             </div>
                         </div>
-                        <div className="separator"><h3>CHAPTERS</h3></div>
-                        <div className="row">
-                            <div className='filterbox centerPosition'>
-                                {manager.ReturnMiscFilters().filter((value) => (value.Group == "chapter")).map((item) => (
-                                    <FilterMiscItem key={"miscchapter"+item.Name} data={item} updatefunction={update}/>
-                                ))}
-                            </div>
-                        </div>
                         <div className="separator"><h3>SOURCES</h3></div>
                         <div className="row">
                             <div className='filterbox centerPosition'>
                                 {manager.ReturnMiscFilters().filter((value) => (value.Group == "source")).map((item) => (
                                     <FilterMiscItem key={"miscsource"+item.Name} data={item} />
-                                ))}
-                            </div>
-                        </div>
-                        <div className="separator"><h3>CLASSES</h3></div>
-                        <div className="row">
-                            <div className='filterbox centerPosition'>
-                                {manager.ReturnMiscFilters().filter((value) => (value.Group == "class_id")).map((item) => (
-                                    <FilterMiscItem key={"misclass"+item.Name} data={item} />
-                                ))}
-                            </div>
-                        </div>
-                        <div className="separator"><h3>JOBS</h3></div>
-                        <div className="row">
-                            <div className='filterbox centerPosition'>
-                                {manager.ReturnMiscFilters().filter((value) => (value.Group == "job_id")).map((item) => (
-                                    <FilterMiscItem key={"miscjob"+item.Name} data={item} />
                                 ))}
                             </div>
                         </div>

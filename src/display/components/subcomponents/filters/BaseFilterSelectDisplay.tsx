@@ -16,7 +16,6 @@ const BaseFilterSelectDisplay = (prop: any) => {
     const ViewPageController: CollectionsListPage = prop.controller
     const FilterManager: FilterManager = ViewPageController.FilterManager;
     const DisplayPage: DisplayCollectionType = DisplayCollectionDataDex[ViewPageController.TypeName]
-
     const updatesearch = prop.runfunction;
 
     // States

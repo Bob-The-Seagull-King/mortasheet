@@ -1,7 +1,5 @@
 import { byPropertiesOf } from "../../../../utility/functions";
 import { ViewCollectionsModel } from "./../ViewCollectionsModel";
-import { IPlayerAbility } from "../../../feature/abilities/Ability";
-import { AbilityFactory } from "../../../../factories/features/AbilityFactory";
 import { ViewTableItem } from "./../ViewTableItem";
 import { getColour } from "../../../../utility/functions";
 import { FilterItem, FilterTag, FilterText, IFilterItem, IFilterTag, IFilterText } from "./FilterInterfaces";
@@ -17,11 +15,11 @@ export interface FilterType {
 export interface FilterDataTable {[moveid: Lowercase<string>]: FilterType}
 
 export const FitlerDataDex : FilterDataTable = {
-    abilities: {
-        searchId: 'abilities',
+    glossary: {
+        searchId: 'glossary',
         findTags() {
             const tempTags: FilterTag[] = []
-            const foundTags = (Requester.MakeRequest({ searchtype: 'tags', searchparam: { type: 'abilities' } })).sort();
+            const foundTags = (Requester.MakeRequest({ searchtype: 'tags', searchparam: { type: 'glossary' } })).sort();
     
             let i = 0;
             for (i = 0; i < foundTags.length; i++) {
@@ -36,12 +34,12 @@ export const FitlerDataDex : FilterDataTable = {
         },
         findMisc() {
             const tempMisc: FilterItem[] = []
-            const keytypes = ["source", "chapter", "class_id", "job_id"]
+            const keytypes = ["source"]
             keytypes.sort();
     
             let i = 0;
             for (i = 0; i < keytypes.length; i ++) {
-                const foundVals = Requester.MakeRequest({ searchtype: 'keyvalues', searchparam: { type: 'abilities' , id: keytypes[i]} }).sort();
+                const foundVals = Requester.MakeRequest({ searchtype: 'keyvalues', searchparam: { type: 'trophies' , id: keytypes[i]} }).sort();
                 
                 let j = 0;
                 for (j = 0; j < foundVals.length; j++) {

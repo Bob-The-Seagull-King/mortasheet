@@ -1,6 +1,5 @@
 import { FilterManager } from "../../../../classes/viewmodel/collections/filters/FilterManager"
 import {FilterTagItem, FilterTextItem, FilterMiscItem} from "../../../components/subcomponents/filters/FilterItems"
-import AbilityDisplay from "../../../components/features/abilities/AbilityDisplay"
 import GenericDisplay from "../../../components/generics/GenericDisplay"
 import React from 'react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"

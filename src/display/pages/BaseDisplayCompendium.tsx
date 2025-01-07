@@ -16,6 +16,9 @@ const BaseDisplayCompendium = (prop: any) => {
     const ViewPageController: CollectionsListPage = prop.controller
     const CollectionController: ViewCollectionsModel = ViewPageController.Collection;
     const DisplayPage: DisplayCollectionType = DisplayCollectionDataDex[ViewPageController.TypeName]
+    
+    console.log(ViewPageController.TypeName)
+    console.log(DisplayPage)
 
     // Initialize Use State
     const [_activeItems, returnstate] = useState(CollectionController.ObjectList);

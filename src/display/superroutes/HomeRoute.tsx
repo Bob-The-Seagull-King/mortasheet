@@ -52,10 +52,10 @@ const HomeRoute: React.FC = () => {
                     </div>
                     <div className="row row-cols-lg-3 row-cols-md-3 row-cols-sx-1 row-cols-xs-1 row-cols-1">
                         <div className="col" style={{padding:"0.5em"}}>
-                            <div className="pageaccessbox borderstyler subbordericon hovermouse" onClick={() => NavigateHome("compendium/abilities/")}>
+                            <div className="pageaccessbox borderstyler subbordericon hovermouse" onClick={() => NavigateHome("compendium/glossary/")}>
                                 <FontAwesomeIcon icon={faFistRaised} className="pageaccestext"/>
                                 <h1 className="pageaccestext">
-                                    ABILITIES
+                                    GLOSSARY
                                 </h1>
                             </div>
                         </div>

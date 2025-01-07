@@ -1,9 +1,5 @@
 
 // Data File Imports -----------------------------------
-import abilitiesdata from '../data/tactical/abilities.json'
-import addonsdata from '../data/tactical/addons.json'
-import summonsdata from '../data/tactical/summons.json';
-
 import glossarydata from '../data/general/glossary.json'
 import tabledata from '../data/general/table.json'
 import imagedata from '../data/general/images.json'
@@ -64,15 +60,6 @@ class DataResponder {
      */
     private static GetDataType(type: string, data : any[]) {
         switch(type) {
-            case "abilities": {
-                return abilitiesdata.concat(data)
-            }
-            case "addons": {
-                return addonsdata.concat(data)
-            }
-            case "summons": {
-                return summonsdata.concat(data)
-            }
             case "glossary": {
                 return glossarydata.concat(data)
             }
