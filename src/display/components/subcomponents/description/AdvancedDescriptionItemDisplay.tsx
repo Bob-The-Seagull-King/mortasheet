@@ -13,10 +13,6 @@ import { SummonFactory } from '../../../../factories/features/SummonFactory'
 import { PlayerSummon } from '../../../../classes/feature/summons/Summon'
 import { PlayerTable } from '../../../../classes/feature/table/tablebody'
 import { TableFactory } from '../../../../factories/features/TableFactory'
-import { Trait } from '../../../../classes/feature/trait/Trait'
-import { TraitFactory } from '../../../../factories/features/TraitFactory'
-import { FoeJob } from '../../../../classes/feature/foes/FoeJob'
-import { FoeFactory } from '../../../../factories/features/FoeFactory'
 
 // Components
 import GenericDisplay from '../../../../display/components/generics/GenericDisplay'
@@ -24,9 +20,7 @@ import AddonDisplay from '../../../../display/components/features/addons/AddonDi
 import TableDisplay from '../../../../display/components/features/table/TableDisplay'
 import SummonDisplay from '../../../../display/components/features/summons/SummonDisplay'
 import GenericHover from '../../../../display/components/generics/GenericHover'
-import TraitDisplay from '../../../../display/components/features/trait/TraitDisplay'
 import EmptyDisplay from '../../../../display/components/generics/EmptyDisplay'
-import FoeJobDisplay from '../../../../display/components/features/foes/FoeJobDisplay'
 import GenericPopup from '../../../../display/components/generics/GenericPopup'
 
 const AdvancedDescriptionItemDisplay = (props: any) => {
@@ -147,58 +141,6 @@ const AdvancedDescriptionItemDisplay = (props: any) => {
                 return (
                     <span>
                         <span className=''>{findTextSummon(item.Content?.toString() || "")}</span>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </span>
-                )
-            }
-            case "textfoe": {
-                return (
-                    <span>
-                        <span className=''>{findTextFoe(item.Content?.toString() || "")}</span>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </span>
-                )
-            }
-            case "trait": {
-                return (
-                    <div style={{width:"100%"}}>
-                        <div className='addonbox'>{findTrait(item.Content?.toString() || "")}</div>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </div>
-                )
-            }
-            case "foetrait": {
-                return (
-                    <div style={{width:"100%"}}>
-                        <div className='addonbox'>{findFoeTrait(item.Content?.toString() || "")}</div>
-                        <span>
-                            {item.SubContent?.map((subitem) => (
-                               <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
-                            ))}
-                        </span>
-                        <span>{" "}</span>
-                    </div>
-                )
-            }
-            case "texttrait": {
-                return (
-                    <span>
-                        <span className=''>{findTextTrait(item.Content?.toString() || "")}</span>
                         <span>
                             {item.SubContent?.map((subitem) => (
                                <AdvancedDescriptionItemDisplay key="descriptionsubitem" data={subitem} parent={parentItem}/>
@@ -338,36 +280,6 @@ const AdvancedDescriptionItemDisplay = (props: any) => {
     }
 
     /**
-     * returns a component showing an Addon display
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
-    function findTrait(id: string) {
-        let trait: Trait | null = null;
-
-        trait = TraitFactory.CreateNewTrait(id, "traits", parentItem.Class)
-
-        return (
-            <GenericDisplay d_colour={parentItem.Class} d_name={trait.Name} d_type={"sub"} d_method={() => <TraitDisplay data={trait} />}/>
-        )
-    }
-
-    /**
-     * returns a component showing an Addon display
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
-    function findFoeTrait(id: string) {
-        let trait: Trait | null = null;
-
-        trait = TraitFactory.CreateNewTrait(id, "foetraits", parentItem.Class)
-
-        return (
-            <GenericDisplay d_colour={parentItem.Class} d_name={trait.Name} d_type={"sub"} d_method={() => <TraitDisplay data={trait} />}/>
-        )
-    }
-
-    /**
      * returns a component showing a Summon display when hovered over
      * @param id The ID of the addon
      * @returns Display component with the Addon
@@ -379,36 +291,6 @@ const AdvancedDescriptionItemDisplay = (props: any) => {
 
         return (
             <GenericHover d_colour={'icon'} d_name={summon.Name} titlename={summon.Name} d_type={""} d_method={() => <SummonDisplay data={summon} />}/>
-        )
-    }
-
-    /**
-     * returns a component showing a Summon display when hovered over
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
-    function findTextFoe (id: string) {
-        let summon: FoeJob | null = null;
-
-        summon = FoeFactory.CreateNewFoeJob(id,0)
-
-        return (
-            <GenericPopup titlename={summon.Name} d_colour={'icon'} d_name={summon.Name} d_type={""} d_method={() => <FoeJobDisplay data={summon} />}/>
-        )
-    }
-
-    /**
-     * returns a component showing a Summon display when hovered over
-     * @param id The ID of the addon
-     * @returns Display component with the Addon
-     */
-    function findTextTrait (id: string) {
-        let trait: Trait | null = null;
-
-        trait = TraitFactory.CreateNewTrait(id, "traits", parentItem.Class)
-
-        return (
-            <GenericHover d_colour={'icon'} d_name={trait.Name} titlename={trait.Name} d_type={""} d_method={() => <TraitDisplay data={trait} />}/>
         )
     }
 

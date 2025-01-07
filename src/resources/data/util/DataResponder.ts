@@ -3,38 +3,10 @@
 import abilitiesdata from '../data/tactical/abilities.json'
 import addonsdata from '../data/tactical/addons.json'
 import summonsdata from '../data/tactical/summons.json';
-import talentsdata from '../data/tactical/talents.json';
-import masteriesdata from '../data/tactical/masteries.json';
-import limitbreaksdata from '../data/tactical/limitbreaks.json'
-import traitsdata from '../data/tactical/traits.json'
-import jobsdata from '../data/tactical/jobs.json'
-import classesdata from '../data/tactical/classes.json'
-import relicsdata from '../data/tactical/relics.json'
-import trophydata from '../data/tactical/trophy.json'
-
-import powerdata from '../data/narrative/powers.json'
-import actiondata from '../data/narrative/actions.json'
-import bonddata from '../data/narrative/bonds.json'
-import geardata from '../data/narrative/gear.json'
-import secondwinddata from '../data/narrative/secondwind.json'
-import specialabilitydata from '../data/narrative/specialability.json'
 
 import glossarydata from '../data/general/glossary.json'
 import tabledata from '../data/general/table.json'
-import kindata from '../data/general/kins.json'
-import culturedata from '../data/general/cultures.json'
-import campitemdata from '../data/general/campitems.json'
-import campupgradedata from '../data/general/campupgrades.json'
-import rulesetdata from '../data/general/rules.json'
 import imagedata from '../data/general/images.json'
-
-import foetraitsdata from '../data/foes/foetraits.json'
-import foeabilitiesdata from '../data/foes/foeabilities.json'
-import foesummonsdata from '../data/foes/foesummons.json'
-import foeclassdata from '../data/foes/foeclasses.json'
-import foefactiondata from '../data/foes/foefactions.json'
-import foefactionclassdata from '../data/foes/foefactionclasses.json'
-import foejobdata from '../data/foes/foejobs.json'
 // -----------------------------------------------------
 
 /**
@@ -95,95 +67,17 @@ class DataResponder {
             case "abilities": {
                 return abilitiesdata.concat(data)
             }
-            case "foeabilities": {
-                return foeabilitiesdata.concat(data)
-            }
             case "addons": {
                 return addonsdata.concat(data)
             }
             case "summons": {
                 return summonsdata.concat(data)
             }
-            case "foesummons": {
-                return foesummonsdata.concat(data)
-            }
-            case "talents": {
-                return talentsdata.concat(data)
-            }
-            case "traits": {
-                return traitsdata.concat(data)
-            }
-            case "foetraits": {
-                return foetraitsdata.concat(data)
-            }
-            case "masteries": {
-                return masteriesdata.concat(data)
-            }
-            case "jobs": {
-                return jobsdata.concat(data)
-            }
-            case "classes": {
-                return classesdata.concat(data)
-            }
-            case "limitbreaks": {
-                return limitbreaksdata.concat(data)
-            }
-            case "relics": {
-                return relicsdata.concat(data)
-            }
-            case "trophies": {
-                return trophydata.concat(data)
-            }
             case "glossary": {
                 return glossarydata.concat(data)
             }
             case "table": {
                 return tabledata.concat(data)
-            }
-            case "powers": {
-                return powerdata.concat(data)
-            }
-            case "actions": {
-                return actiondata.concat(data)
-            }
-            case "foeclass": {
-                return foeclassdata.concat(data)
-            }
-            case "bonds": {
-                return bonddata.concat(data)
-            }
-            case "gears": {
-                return geardata.concat(data)
-            }
-            case "secondwinds": {
-                return secondwinddata.concat(data)
-            }
-            case "specialabilities": {
-                return specialabilitydata.concat(data)
-            }
-            case "kins": {
-                return kindata.concat(data)
-            }
-            case "cultures": {
-                return culturedata.concat(data)
-            }
-            case "campitems": {
-                return campitemdata.concat(data)
-            }
-            case "campupgrades": {
-                return campupgradedata.concat(data)
-            }
-            case "rules": {
-                return rulesetdata.concat(data)
-            }
-            case "foefaction": {
-                return foefactiondata.concat(data)
-            }
-            case "foefactionclass": {
-                return foefactionclassdata.concat(data)
-            }
-            case "foejobs": {
-                return foejobdata.concat(data)
             }
             case "images": {
                 return imagedata.concat(data)

@@ -17,7 +17,7 @@ class ContentPackManager {
      * the manager's array of Content Packs.
      */
     public SetStorage() {
-        localStorage.setItem('contentpackstorageiconpendium', JSON.stringify(this.PackList));
+        localStorage.setItem('contentpackstoragemortasheet', JSON.stringify(this.PackList));
     }
 
     /**

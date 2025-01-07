@@ -16,7 +16,7 @@ export const useContentPackStore = create<ContentPackStore>((set) => ({
 
 function GrabContentPack() {
     const TempList: ContentPack[] = [];  
-    const data = localStorage.getItem('contentpackstorageiconpendium');  
+    const data = localStorage.getItem('contentpackstoragemortasheet');  
     try {
         const ContentList: ContentPack[] = JSON.parse(data || "");
         return ContentList;
