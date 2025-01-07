@@ -1,6 +1,6 @@
 # Glossary / Rules
 
-Glossary data covers various game rules that are assumed knowledge for reading abilities, traits, etc. These include anything that could be in the combat glossary of the ICON playbook, as well as rules that are important for tactical combat and not specified as a part of any specific trait/class mechanic/etc.
+Glossary data covers various game rules that are assumed knowledge for reading.
 
 ## Structure
 
@@ -25,20 +25,19 @@ description : []
 ## Example
 
 ```
-"id": "gl_fray",
-"type": "Glossary",
-"source": "core",
-"tags": [{
-        "tag_name": "category",
-        "val": "general"
-        }],
-"name": "Fray",
-"description":  [{
-    "tags": [{
-            "tag_name": "desc_type",
-            "val": "desc"
-            }],
-    "content": "Fixed damage, typically based on your Class. Usually added to all attacks on hit or miss.",
-    "subcontent": []
-    }]
+{
+        "id": "gl_default",
+        "type": "Glossary",
+        "source": "core",
+        "tags": {
+            "category" : "default"
+        },
+        "eventtags": {},
+        "name": "Default",
+        "description":  [{
+            "tags": {"desc_type" : "desc"},
+            "content": "This is a default test item.",
+            "subcontent":   []
+        }]
+    }
 ```

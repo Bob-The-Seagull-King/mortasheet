@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../resources/styles/_icon.scss'
+import '../../../resources/styles/_mainstylesource.scss'
 import React, { useState } from 'react'
 
 // Imports
@@ -32,7 +32,7 @@ const GenericPopup = (props: any) => {
     return (
       <>
           <span>
-            <span className='glossaryPurple hovermouse' onClick={() => handleShow()}>{ruleName}</span>                
+            <span className='glossaryMain hovermouse' onClick={() => handleShow()}>{ruleName}</span>                
           </span>
 
           <Modal data-theme={theme} show={show} size="lg" contentClassName="overcomeBackground" dialogClassName=""  onHide={handleClose} keyboard={true}  centered>

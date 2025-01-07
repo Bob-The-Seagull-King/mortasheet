@@ -1,16 +1,6 @@
 :root {
-  --colour_icon_main: #CA55EF;
-  --colour_icon_secondary: #fb8fff;
-
-  --colour_stalwart_main: #EE220C;
-  --colour_mendicant_main: #61D836;
-  --colour_vagabond_main: #FEAE00;
-  --colour_wright_main: #00A2FF;
-
-  --colour_stalwart_secondary: #FF968D;
-  --colour_mendicant_secondary: #88FA4E;
-  --colour_vagabond_secondary: #FFD932;
-  --colour_wright_secondary: #4CDDFE;
+  --colour_default_main: #f08d2d;
+  --colour_default_secondary: #ca6806;
 
   --colour_red_main: #EE220C;
   --colour_green_main: #61D836;
@@ -32,18 +22,8 @@
 }
 
 [data-theme='light'] {
-  --colour_icon_main: #CA55EF;
-  --colour_icon_secondary: #fb8fff;
-
-  --colour_stalwart_main: #EE220C;
-  --colour_mendicant_main: #61D836;
-  --colour_vagabond_main: #FEAE00;
-  --colour_wright_main: #00A2FF;
-
-  --colour_stalwart_secondary: #FF968D;
-  --colour_mendicant_secondary: #88FA4E;
-  --colour_vagabond_secondary: #FFD932;
-  --colour_wright_secondary: #4CDDFE;
+  --colour_default_main: #f08d2d;
+  --colour_default_secondary: #ca6806;
 
   --colour_red_main: #EE220C;
   --colour_green_main: #61D836;
@@ -70,18 +50,8 @@
 }
 
 [data-theme='dark'] {
-  --colour_icon_main: #CA55EF;
-  --colour_icon_secondary: #6c1a85;
-
-  --colour_stalwart_main: #EE220C;
-  --colour_mendicant_main: #61D836;
-  --colour_vagabond_main: #FEAE00;
-  --colour_wright_main: #00A2FF;
-
-  --colour_stalwart_secondary: #b11200;
-  --colour_mendicant_secondary: #3da318;
-  --colour_vagabond_secondary: #c78903;
-  --colour_wright_secondary: #0073b6;
+  --colour_default_main: #a35d18;
+  --colour_default_secondary: #ca6806;
 
   --colour_red_main: #EE220C;
   --colour_green_main: #61D836;
@@ -127,50 +97,13 @@
   }
 
 
-.backgroundicon { background-color: var(--colour_icon_main) !important;  }
-.coloricon { color: var(--colour_icon_main) !important;  }
-.bordericon { border-color: var(--colour_icon_main) !important; }
+.backgrounddefault { background-color: var(--colour_default_main) !important;  }
+.colordefault { color: var(--colour_default_main) !important;  }
+.borderdefault { border-color: var(--colour_default_main) !important; }
 
-.subbackgroundicon { background-color: var(--colour_icon_secondary) !important;  }
-.subcoloricon { color: var(--colour_icon_secondary) !important;  }
-.subbordericon { border-color: var(--colour_icon_secondary) !important;  }
-
-
-.backgroundstalwart { background-color: var(--colour_stalwart_main) !important;  }
-.colorstalwart { color: var(--colour_stalwart_main) !important;  }
-.borderstalwart { border-color: var(--colour_stalwart_main) !important;  }
-
-.subbackgroundstalwart { background-color: var(--colour_stalwart_secondary) !important;  }
-.subcolorstalwart { color: var(--colour_stalwart_secondary) !important;  }
-.subborderstalwart { border-color: var(--colour_stalwart_secondary) !important;  }
-
-
-.backgroundmendicant { background-color: var(--colour_mendicant_main) !important;  }
-.colormendicant { color: var(--colour_mendicant_main) !important;  }
-.bordermendicant { border-color: var(--colour_mendicant_main) !important;  }
-
-.subbackgroundmendicant { background-color: var(--colour_mendicant_secondary) !important;  }
-.subcolormendicant { color: var(--colour_mendicant_secondary) !important;  }
-.subbordermendicant { border-color: var(--colour_mendicant_secondary) !important;  }
-
-
-.backgroundvagabond { background-color: var(--colour_vagabond_main) !important;  }
-.colorvagabond { color: var(--colour_vagabond_main) !important;  }
-.bordervagabond { border-color: var(--colour_vagabond_main) !important;  }
-
-.subbackgroundvagabond { background-color: var(--colour_vagabond_secondary) !important;  }
-.subcolorvagabond { color: var(--colour_vagabond_secondary) !important;  }
-.subbordervagabond { border-color: var(--colour_vagabond_secondary) !important;  }
-
-
-.backgroundwright { background-color: var(--colour_wright_main) !important;  }
-.colorwright { color: var(--colour_wright_main) !important;  }
-.borderwright { border-color: var(--colour_wright_main) !important;  }
-
-.subbackgroundwright { background-color: var(--colour_wright_secondary) !important;  }
-.subcolorwright { color: var(--colour_wright_secondary) !important;  }
-.subborderwright { border-color: var(--colour_wright_secondary) !important;  }
-
+.subbackgrounddefault { background-color: var(--colour_default_secondary) !important;  }
+.subcolordefault { color: var(--colour_default_secondary) !important;  }
+.subborderdefault { border-color: var(--colour_default_secondary) !important;  }
 
 .backgroundred { background-color: var(--colour_red_main) !important;  }
 .colorred { color: var(--colour_red_main) !important;  }

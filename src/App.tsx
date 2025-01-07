@@ -5,7 +5,7 @@ import { persistor, store } from './store/reducers/store'
 import { useContentPackStore } from './store/contentpacks'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { ROUTES } from './resources/routes-constants'
-import './resources/styles/_icon.scss'
+import './resources/styles/_mainstylesource.scss'
 
 import { ControllerController } from './classes/_high_level_controllers/ControllerController'
 import { ToolsController } from './classes/_high_level_controllers/ToolsController'

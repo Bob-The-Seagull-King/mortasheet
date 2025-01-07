@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../resources/styles/_icon.scss'
+import '../../resources/styles/_mainstylesource.scss'
 import React, { useState } from 'react'
 
 // Classes
@@ -17,9 +17,6 @@ const BaseDisplayCompendium = (prop: any) => {
     const CollectionController: ViewCollectionsModel = ViewPageController.Collection;
     const DisplayPage: DisplayCollectionType = DisplayCollectionDataDex[ViewPageController.TypeName]
     
-    console.log(ViewPageController.TypeName)
-    console.log(DisplayPage)
-
     // Initialize Use State
     const [_activeItems, returnstate] = useState(CollectionController.ObjectList);
     const [_foundItems, returntable] = useState(CollectionController.itemcollection);
@@ -81,7 +78,7 @@ const BaseDisplayCompendium = (prop: any) => {
                                 </div>
                                 <div className="row">
                                     <div className='col-12'>
-                                        <div className='borderstyler bordericon roundBody no-padding '>
+                                        <div className='borderstyler borderdefault roundBody no-padding '>
                                             {_foundItems.length == 0 && 
                                                 <div className="">
                                                     <h1 className="subtletext">No {ViewPageController.Collection.CollectionType.pageName} Found</h1>

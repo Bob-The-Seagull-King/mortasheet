@@ -1,8 +1,5 @@
 
 import React, { useState } from 'react'
-import Image from 'react-bootstrap/Image';
-import { faPenToSquare } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export interface EditListType {
     title      : string,

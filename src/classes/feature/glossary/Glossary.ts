@@ -1,11 +1,11 @@
-import { IIconpendiumItemData, IconpendiumItem, ItemType } from '../../IconpendiumItem'
+import { ICompendiumItemData, CompendiumItem, ItemType } from '../../CompendiumItem'
 import { DescriptionFactory } from '../../../utility/functions';
 
-interface IGlossaryRule extends IIconpendiumItemData {
+interface IGlossaryRule extends ICompendiumItemData {
     description: [] // Additional description field for display
 }
 
-class GlossaryRule extends IconpendiumItem {
+class GlossaryRule extends CompendiumItem {
     public readonly Description;
     
     /**

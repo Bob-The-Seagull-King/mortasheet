@@ -53,7 +53,7 @@ function GetContentPackData(request: IRequest): any {
     const BonusData = [];
 
     let ReturnData: ContentPack[] = [];  
-    const data = localStorage.getItem('contentpackstoragemortasheet');  
+    const data = localStorage.getItem('contentpackstorage_sitename');  
     try {
         ReturnData = JSON.parse(data || "");
     } catch (e) {

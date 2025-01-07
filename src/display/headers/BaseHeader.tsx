@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../resources/styles/_icon.scss'
+import '../../resources/styles/_mainstylesource.scss'
 import React from 'react'
 
 import Button from 'react-bootstrap/Button';
@@ -30,8 +30,8 @@ const BaseHeader = (prop: any) => {
         <>
         <div className='topbarCompendiumBase topbarCompendiumStructure hstack gap-3' style={{justifyContent:"center"}}>
             <span style={{paddingLeft:"0em"}}/>
-            <h1 className='headertext'>ICONPENDIUM</h1>
-            <p className='headersubtext'>v1.6.01a</p>
+            <h1 className='headertext'>COMPENDIUM</h1>
+            <p className='headersubtext'>v0.0.1</p>
             <div className="vr headertext"></div>
             <Button style={{padding:"0em"}} variant="" onClick={() => NavigateHome()}>
                 <FontAwesomeIcon icon={faHouse} style={{fontSize:"2em",color:"white",margin:"0em"}}/>

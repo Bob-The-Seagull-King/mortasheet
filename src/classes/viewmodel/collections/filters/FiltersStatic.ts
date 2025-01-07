@@ -1,7 +1,3 @@
-import { byPropertiesOf } from "../../../../utility/functions";
-import { ViewCollectionsModel } from "./../ViewCollectionsModel";
-import { ViewTableItem } from "./../ViewTableItem";
-import { getColour } from "../../../../utility/functions";
 import { FilterItem, FilterTag, FilterText, IFilterItem, IFilterTag, IFilterText } from "./FilterInterfaces";
 import { Requester } from "../../../../factories/Requester";
 

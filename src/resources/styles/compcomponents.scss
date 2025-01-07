@@ -10,7 +10,7 @@
 .smallbordersubpurple {
     border-style: solid !important;
     border-width: 1px !important;
-    border-color: var(--colour_icon_secondary) !important;
+    border-color: var(--colour_default_secondary) !important;
 }
 
 // Structure
@@ -89,7 +89,7 @@
 .filterboxStructure {
     border-style: solid !important;
     border-width: 2px !important;
-    border-color: var(--colour_icon_main) !important;
+    border-color: var(--colour_default_main) !important;
     border-radius: 0em 0em 0em 0em !important;
     box-shadow: 0 0 5px 1px var(--colour_grey_main);
     width: 100%;
@@ -113,8 +113,8 @@
     padding: 0.1rem;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
-    border-color: var(--colour_icon_secondary) !important;
-    background-color: var(--colour_icon_secondary);
+    border-color: var(--colour_default_secondary) !important;
+    background-color: var(--colour_default_secondary);
 
     &:hover {
         box-shadow: 0 0 5px 1px var(--colour_grey_secondary);
@@ -243,7 +243,7 @@
 
 .topbarCompendiumBase {
     width: 100%;
-    background: var(--colour_icon_main);
+    background: var(--colour_default_main);
     height: 100%;
 
     box-shadow: 0 0 5px 1px var(--colour_grey_secondary);
@@ -365,7 +365,7 @@
 }
 
 .packvr {
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     width: fit-content;

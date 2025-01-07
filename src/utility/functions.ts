@@ -1,4 +1,4 @@
-import { ObjectTag } from "../classes/IconpendiumItem";
+import { ObjectTag } from "../classes/CompendiumItem";
 import { AdvancedDescription } from "../classes/AdvancedDescription";
 
 /**
@@ -21,7 +21,7 @@ export function capitalizeString(stringVal: string) {
  *          individual words capitalized.
  */
 export function makestringpresentable(stringVal: string) {
-    const headers = ['cl', 'jb', 'bd','fc','foe','folk']
+    const headers = ['gl','id']
     if (stringVal === null || stringVal === "") {
         return '-';
     }
@@ -47,22 +47,10 @@ export function makestringpresentable(stringVal: string) {
 export function getColour(name: string){
 
     if (name === undefined) {
-        return 'icon'
+        return 'default'
     }
 
     switch (name.toLowerCase()) {
-        case "cl_vagabond": {
-            return "yellow"
-        }
-        case "cl_stalwart": {
-            return "red"
-        }
-        case "cl_mendicant": {
-            return "green"
-        }
-        case "cl_wright": {
-            return "blue"
-        }
         case "yellow": {
             return "yellow"
         }
@@ -75,14 +63,11 @@ export function getColour(name: string){
         case "blue": {
             return "blue"
         }
-        case "icon": {
-            return "icon"
-        }
         case "grey": {
             return "grey"
         }
         default: {
-            return "icon"
+            return "default"
         }
     }
 }
@@ -133,17 +118,14 @@ export function getTagSetValue(tag:any, value:string) {
 }
 
 export function GetObjectTagSpecialActionVal(tag: ObjectTag) {
-    const Val = getTagValue(tag, 'action')
-    if ((Val === 'round')) {
-        return "(R) "
-    } 
-    if ((Val === 'free')) {
-        return "(F) "
-    } 
+    const Val = getTagValue(tag, 'example_a')
+    if ((Val === 'eg_a')) {
+        return "(A)"
+    }
 
-    const Int = getTagValue(tag, 'interrupt')
+    const Int = getTagValue(tag, 'example_b')
     if (Int != "") {
-        return "(I) "
+        return "(B)"
     }
 
     return "";
@@ -156,14 +138,9 @@ export function GetObjectTagSpecialActionVal(tag: ObjectTag) {
  * @returns A string name for the route endpoint.
  */
 export function getRouteName(_route: string) {
-    if (_route.includes("compendium/abilities")) {
-        return "Abilities"
-    }
-
     if (_route.includes("tools/content")) {
         return "Content Manager"
     }
-
     return ""
 }
 

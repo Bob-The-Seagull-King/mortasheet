@@ -14,7 +14,7 @@ import TagDisplay from '../display/components/subcomponents/TagDisplay';
 import AdvancedDescriptionItemDisplay from '../display/components/subcomponents/description/AdvancedDescriptionItemDisplay';
 import GlossaryDisplay from '../display/components/features/glossary/GlossaryDisplay';
 import { makestringpresentable } from './functions';
-import { ObjectTag } from '../classes/IconpendiumItem';
+import { ObjectTag } from '../classes/CompendiumItem';
 
 /**
  * Takes a string, and an array of string:glossary_id pairs, and turns
@@ -73,7 +73,7 @@ function ArrayItemIntoHtml(content: string, delim: any) {
             if (content == delim[i].val) {
                 const GlossaryData: IGlossaryRule = Requester.MakeRequest( {searchtype: "id", searchparam: {type: "glossary", id: delim[i].id}} ) as IGlossaryRule                
                 const GlossaryObject = new GlossaryRule(GlossaryData)
-                return (<GenericHover d_colour={'icon'} d_name={content} titlename={GlossaryObject.Name} d_type={""} d_method={() => <GlossaryDisplay data={GlossaryObject} />}/>)
+                return (<GenericHover d_colour={'default'} d_name={content} titlename={GlossaryObject.Name} d_type={""} d_method={() => <GlossaryDisplay data={GlossaryObject} />}/>)
             }
         }
         

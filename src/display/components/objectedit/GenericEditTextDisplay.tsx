@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../resources/styles/_icon.scss'
+import '../../../resources/styles/_mainstylesource.scss'
 import React, { useRef, useState } from 'react'
 
 import Modal from 'react-bootstrap/Modal';
@@ -45,7 +45,7 @@ const GenericEditListDisplay = (props: any) => {
             
             <Modal data-theme={theme} onEnterKeyDown={() => handleCloseTextEdit()} show={showTextEdit}  contentClassName="filterboxStructure" dialogClassName="" onHide={handleCloseTextEdit} keyboard={true}  centered>
                 
-                <h1 className={'titleShape titlebody backgroundicon'}>
+                <h1 className={'titleShape titlebody backgrounddefault'}>
                     {EditStaticType.title}
                 </h1>
                 <Modal.Body >

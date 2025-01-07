@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../resources/styles/_icon.scss'
+import '../../resources/styles/_mainstylesource.scss'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import { useNavigate } from "react-router-dom";
@@ -8,11 +8,11 @@ import { useNavigate } from "react-router-dom";
 import { useGlobalState } from './../../utility/globalstate'
 
 // Resource
-import logo from '../../resources/images/iconpendium_logo.png'
+import logo from '../../resources/images/compendium.png'
 
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faFistRaised, faScrewdriverWrench, faLandmark, faAnkh, faList, faTrophy, faMagic, faShapes, faTheaterMasks, faPerson, faCity, faCampground, faBook, faUserGroup, faUserDoctor, faSkull } from '@fortawesome/free-solid-svg-icons'
+import { faList } from '@fortawesome/free-solid-svg-icons'
 import { faFileLines } from '@fortawesome/free-solid-svg-icons'
 
 const HomeRoute: React.FC = () => {
@@ -48,12 +48,12 @@ const HomeRoute: React.FC = () => {
                     </div>
                     <div className='row'><div className='col'><br/></div></div>
                     <div className="row">
-                        <div className="separator"><h3 style={{fontFamily:"Libre Baskerville"}}>Tactical Play</h3></div>
+                        <div className="separator"><h3 style={{fontFamily:"Libre Baskerville"}}>Content</h3></div>
                     </div>
                     <div className="row row-cols-lg-3 row-cols-md-3 row-cols-sx-1 row-cols-xs-1 row-cols-1">
                         <div className="col" style={{padding:"0.5em"}}>
-                            <div className="pageaccessbox borderstyler subbordericon hovermouse" onClick={() => NavigateHome("compendium/glossary/")}>
-                                <FontAwesomeIcon icon={faFistRaised} className="pageaccestext"/>
+                            <div className="pageaccessbox borderstyler subborderdefault hovermouse" onClick={() => NavigateHome("compendium/glossary/")}>
+                                <FontAwesomeIcon icon={faList} className="pageaccestext"/>
                                 <h1 className="pageaccestext">
                                     GLOSSARY
                                 </h1>
@@ -65,7 +65,7 @@ const HomeRoute: React.FC = () => {
                     </div>
                     <div className="row row-cols-lg-1 row-cols-md-1 row-cols-sx-1 row-cols-xs-1 row-cols-1">
                         <div className="col" style={{padding:"0.5em"}}>
-                            <div className="pageaccessbox borderstyler subbordericon hovermouse" onClick={() => NavigateHome("tools/content/")}>
+                            <div className="pageaccessbox borderstyler subborderdefault hovermouse" onClick={() => NavigateHome("tools/content/")}>
                                 <FontAwesomeIcon icon={faFileLines} className="pageaccestext"/>
                                 <h1 className="pageaccestext">
                                     CONTENT MANAGER

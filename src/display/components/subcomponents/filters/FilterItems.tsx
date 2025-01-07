@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../../resources/styles/_icon.scss'
+import '../../../../resources/styles/_mainstylesource.scss'
 import React, { useState } from 'react'
 
 import Form from 'react-bootstrap/Form';
@@ -67,7 +67,7 @@ const FilterTextItem = (prop: any) => {
     return (
         <div className="col">
             <div className="centerPosition">
-                <InputGroup className="mb-3 borderstyler subbordericon filtertextinput">
+                <InputGroup className="mb-3 borderstyler subborderdefault filtertextinput">
                     <Form.Control onChange={e => updateName(ItemFilter, e.target.value)} className='' aria-label="Text input with checkbox" defaultValue={ItemFilter.Val}/>
                     <InputGroup.Text className=''>Exact Match?</InputGroup.Text>
                     <InputGroup.Checkbox checked={_currentstate}  onChange={e => updateStrict(ItemFilter, returnactivetext)}  className='' aria-label="Checkbox for following text input" ></InputGroup.Checkbox>

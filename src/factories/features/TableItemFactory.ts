@@ -1,4 +1,4 @@
-import { ITableItem, PlayerTableItem } from '../../classes/feature/table/tableitem'
+import { ITableItem, TableItem } from '../../classes/feature/table/tableitem'
 
 class TableItemFactory {
 
@@ -8,12 +8,12 @@ class TableItemFactory {
      * @returns A newly created ability
      */
     static CreateTableItem(_item: ITableItem) {
-        const item = new PlayerTableItem(_item)
+        const item = new TableItem(_item)
         return item;
     }
 
     static CreateTableItems(_items : ITableItem[]) {
-        const list : PlayerTableItem[] = []
+        const list : TableItem[] = []
         let i = 0;
 
         for (i = 0; i < _items.length ; i++) {

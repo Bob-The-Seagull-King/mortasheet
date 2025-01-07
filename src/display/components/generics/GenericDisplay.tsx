@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../resources/styles/_icon.scss'
+import '../../../resources/styles/_mainstylesource.scss'
 import { Button, Collapse } from "react-bootstrap";
 import React, { useState } from 'react'
 

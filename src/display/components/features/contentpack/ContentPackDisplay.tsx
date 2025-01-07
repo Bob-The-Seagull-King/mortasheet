@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 // Resources
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../../resources/styles/_icon.scss'
+import '../../../../resources/styles/_mainstylesource.scss'
 
 // Classes
 import { ContentPack } from '../../../../classes/contentpacks/contentpack'
@@ -156,8 +156,8 @@ const ContentPackDisplay = (props: any) => {
             <Modal data-theme={theme}  size="lg" show={show}  contentClassName="overcomeBackground" dialogClassName="" onHide={handleClose} keyboard={true}  centered>    
                 
                 <Modal.Body >
-                <div className={'abilityStructure borderstyler bordericon'}>
-                    <h1 className={'titleShape titlebody backgroundicon'}>
+                <div className={'abilityStructure borderstyler borderdefault'}>
+                    <h1 className={'titleShape titlebody backgrounddefault'}>
                     {PackItem.Name}
                         
                         <div className="row float-end">

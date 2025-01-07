@@ -4,7 +4,7 @@ import { IObjectImage, ObjectImage } from "./ObjectImage";
 /**
  * Basic data package for any Iconpendium Item
  */
-interface IIconpendiumItemData {
+interface ICompendiumItemData {
     id: string, // The id of the item
     type: string, // The type of the item (ability, addon, summon, talent, relic, etc)
     name: string, // The name of the item
@@ -17,14 +17,10 @@ type ObjectTag = {[_name : string] : string | boolean | number | null | []}
 
 enum ItemType {
     None = '',
-    Ability = 'Ability',
-    Addon = 'Addon',
-    GlossaryRule = 'Glossary',
-    Power = 'Power',
-    Action = 'Action'
+    GlossaryRule = 'Glossary'
 }
 
-abstract class IconpendiumItem {
+abstract class CompendiumItem {
     public ItemType;
     public readonly Source;
     public readonly ID;
@@ -37,7 +33,7 @@ abstract class IconpendiumItem {
      * Assigns data values to the parameters of the item
      * @param data The item data
      */
-    public constructor(data?: IIconpendiumItemData)
+    public constructor(data?: ICompendiumItemData)
     {
         this.ItemType = ItemType.None
         if (data) {
@@ -79,4 +75,4 @@ abstract class IconpendiumItem {
     }
 }
 
-export {IIconpendiumItemData, IconpendiumItem, ItemType, ObjectTag}
+export {ICompendiumItemData, CompendiumItem, ItemType, ObjectTag}

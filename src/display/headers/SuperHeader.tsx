@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../resources/styles/_icon.scss'
+import '../../resources/styles/_mainstylesource.scss'
 import React, { useEffect, useRef, useState } from 'react'
 
 import { BrowserRouter as Router, Route, Routes, useLocation  } from 'react-router-dom'

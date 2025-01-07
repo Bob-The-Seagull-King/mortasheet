@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../resources/styles/_icon.scss'
+import '../../../resources/styles/_mainstylesource.scss'
 import React, { useState} from 'react'
 
 import Carousel from "react-multi-carousel";
@@ -25,10 +25,8 @@ const ImageSingleDisplay = (props: any) => {
         </div>
         <Modal show={show} onHide={handleClose}
         aria-labelledby="contained-modal-title-vcenter"
-       
-        
         centered >
-          <div style={{borderWidth:"2px", borderRadius:"0.5rem"}} className='bordericon borderstyler'>
+          <div style={{borderWidth:"2px", borderRadius:"0.5rem"}} className='borderdefault borderstyler'>
           <Image src={ObjectImages.Src} thumbnail fluid  onClick={handleShow}/>
           
           {ObjectImages.Caption.length > 0 &&

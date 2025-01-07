@@ -17,7 +17,7 @@ class ContentPackManager {
      * the manager's array of Content Packs.
      */
     public SetStorage() {
-        localStorage.setItem('contentpackstoragemortasheet', JSON.stringify(this.PackList));
+        localStorage.setItem('contentpackstorage_sitename', JSON.stringify(this.PackList));
     }
 
     /**
@@ -111,7 +111,7 @@ class ContentPackManager {
                                 if (typeof pack.files[i].type === 'string') {
                                     let j = 0;
                                     for (j = 0; j < pack.files[i].data.length; j++) {
-                                        const result = '' //ContentDataDex[pack.files[i].type].validateItem(pack.files[i].data[j])
+                                        const result = ''
                                         if (result !== '') {return result}
                                     }
                                 } else {

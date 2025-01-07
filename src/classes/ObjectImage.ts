@@ -1,4 +1,4 @@
-import { ObjectTag } from "./IconpendiumItem";
+import { ObjectTag } from "./CompendiumItem";
 
 /**
  * Data structure for the description section

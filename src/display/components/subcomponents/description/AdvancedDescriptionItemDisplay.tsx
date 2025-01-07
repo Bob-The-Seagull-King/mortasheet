@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../../resources/styles/_icon.scss'
+import '../../../../resources/styles/_mainstylesource.scss'
 import React from 'react'
 
 // Classes
 import { getTagValue, getTagSetValue} from '../../../../utility/functions'
 import { ConvertContentWithGlossary } from '../../../../utility/util'
 import { AdvancedDescription} from '../../../../classes/AdvancedDescription'
-import { PlayerTable } from '../../../../classes/feature/table/tablebody'
+import { TableBody } from '../../../../classes/feature/table/tablebody'
 import { TableFactory } from '../../../../factories/features/TableFactory'
 
 // Components
@@ -141,7 +141,7 @@ const AdvancedDescriptionItemDisplay = (props: any) => {
      * @returns Display component with the Addon
      */
     function findTable(id: string) {
-        let table: PlayerTable | null = null;
+        let table: TableBody | null = null;
 
         table = TableFactory.CreateNewTable(id)
 

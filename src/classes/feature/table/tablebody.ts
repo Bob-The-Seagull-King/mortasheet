@@ -1,15 +1,15 @@
-import { IIconpendiumItemData, IconpendiumItem } from '../../IconpendiumItem'
+import { ICompendiumItemData, CompendiumItem } from '../../CompendiumItem'
 import { DescriptionFactory } from '../../../utility/functions';
 import { ITableItem } from './tableitem';
 import { TableItemFactory } from '../../../factories/features/TableItemFactory';
 
-interface ITable extends IIconpendiumItemData {
+interface ITable extends ICompendiumItemData {
     description: [] // Description of the table,
     colnames: string[], // Names of each of the columns
     items: ITableItem[] // items in the column
 }
 
-class PlayerTable extends IconpendiumItem {
+class TableBody extends CompendiumItem {
 
     public readonly Description
     public readonly ColNames;
@@ -18,7 +18,6 @@ class PlayerTable extends IconpendiumItem {
     /**
      * Assigns parameters and creates a series of description
      * objects with DescriptionFactory
-     * @param data Object data in IPlayerAbility format
      */
     public constructor(data: ITable)
     {
@@ -41,5 +40,5 @@ class PlayerTable extends IconpendiumItem {
 
 }
 
-export {ITable, PlayerTable}
+export {ITable, TableBody}
 

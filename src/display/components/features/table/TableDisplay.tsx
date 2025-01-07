@@ -1,16 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../../resources/styles/_icon.scss'
+import '../../../../resources/styles/_mainstylesource.scss'
 import React from 'react'
 
 import Table from 'react-bootstrap/Table';
 
 // Classes
 import { returnTags, returnDescription } from '../../../../utility/util';
-import { PlayerTable } from '../../../../classes/feature/table/tablebody';
+import { TableBody } from '../../../../classes/feature/table/tablebody';
 import { getColour } from '../../../../utility/functions';
 
 const TableDisplay = (props: any) => {
-    const TableObject: PlayerTable = props.data
+    const TableObject: TableBody = props.data
     const DisplayColour : string = props.d_colour;
     const DisplayType : string = props.d_type;
 

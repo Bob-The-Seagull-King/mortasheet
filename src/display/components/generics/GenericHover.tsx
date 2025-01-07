@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../resources/styles/_icon.scss'
+import '../../../resources/styles/_mainstylesource.scss'
 import React from 'react'
 
 
@@ -36,7 +36,7 @@ const GenericHover = (props: any) => {
             </div>
           </Tooltip>
           }>
-          <span className='glossaryPurple hovermouse'>{DisplayName}</span>
+          <span className='glossaryMain hovermouse'>{DisplayName}</span>
         </OverlayTrigger>
       </>
     )

@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../resources/styles/_icon.scss'
+import '../../resources/styles/_mainstylesource.scss'
 import React from 'react'
 
 // Components
@@ -10,7 +10,7 @@ const MenuHeader = (prop: any) => {
     // Return result -----------------------------
     return (
         <>
-            <div className={"floatingButton backgroundicon"}>
+            <div className={"floatingButton backgrounddefault"}>
                 <PalleteSwap/>
             </div>
         </>

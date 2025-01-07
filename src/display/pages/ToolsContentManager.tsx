@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../resources/styles/_icon.scss'
+import '../../resources/styles/_mainstylesource.scss'
 import React, { useState } from 'react'
 
 import { ToastContainer, toast } from 'react-toastify';
@@ -98,7 +98,7 @@ const ToolsContentManager = (prop: any) => {
                     </div>
                     <div className="row">
                         <div className="col-12 justify-content-center" style={{display:"flex"}}>
-                            <label htmlFor="pack-upload" className="generalbuttonbox borderstyler subbordericon hovermouse">
+                            <label htmlFor="pack-upload" className="generalbuttonbox borderstyler subborderdefault hovermouse">
                                 <FontAwesomeIcon icon={faFileImport} className="pageaccestext"/>
                                 <h1 className="pageaccestext">
                                     UPLOAD CONTENT PACK

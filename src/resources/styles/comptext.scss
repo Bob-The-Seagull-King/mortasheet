@@ -94,8 +94,8 @@
   background-color: var(--colour_offwhite);
 }
 
-.glossaryPurple {
-    color: var(--colour_icon_main);
+.glossaryMain {
+    color: var(--colour_default_main);
     font-weight: bold;
 }
 
@@ -107,13 +107,13 @@
 .boldtextCol {   
     font-weight: 650;
     font-size: 1.25rem;
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
 }
 
 .boldtextColNormal {   
     font-weight: 650;
     font-size: 1rem;
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
 }
 
 .subtletext {
@@ -124,13 +124,13 @@
 }
 
 .hometitle {
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
     font-size: 5rem;
     font-weight: 1500;
 }
 
 .homesubtitle {
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
     font-size: 2rem;
     font-weight: 1500;
 }
@@ -138,7 +138,7 @@
 .homelink {
     font-weight: 1000;
     text-decoration: none;
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
 }
 .navitemh2 {
     margin-top: 0.4em;
@@ -148,7 +148,7 @@
 .webtitle {
     margin-top: 0em;
     margin-bottom: 0em;
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
     font-size: 3rem;
 
 }
@@ -239,7 +239,7 @@
   .pagetitletext {
     font-size: 3rem;
     font-weight: 600;
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
     justify-self: center;
     text-align: center;
   }
@@ -247,26 +247,26 @@
   .pageaccestext {
     font-size: 1.75rem;
     font-weight: 700;
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
     margin: 0.1em;
 }
 
   .packtitle {
     font-size: 1.75rem;
     font-weight: 700;
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
     margin: 0.25em;
   }
 
   .packsubtitle {
     font-size: 1.25rem;
     font-weight: 400;
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
     margin: 0.25em;
   }
 
   .purpleIcon {
-    color: var(--colour_icon_main);
+    color: var(--colour_default_main);
   }
   
   .redIcon {
@@ -278,7 +278,7 @@
   }
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: var(--colour_icon_secondary) !important;
+  color: var(--colour_default_secondary) !important;
   background-color: var(colour_offwhite) !important;
   border-color: none !important ;
   font-weight: 700 !important;
@@ -286,7 +286,7 @@
 }
 
 .nav-tabs .nav-item .nav-link{
-  color: var(--colour_icon_secondary) !important;
+  color: var(--colour_default_secondary) !important;
   background-color: var(colour_offwhite) !important;
   border-color: none !important ;
   font-weight: 700 !important;
@@ -294,7 +294,7 @@
 }
 
 .nav-tabs .nav-item.nav-link.active {  
-  color: var(--colour_icon_secondary) !important;
+  color: var(--colour_default_secondary) !important;
   background-color: var(colour_offwhite) !important;
   border-color: none !important ;
   font-weight: 700 !important;
@@ -302,7 +302,7 @@
 }
 
 .tabOverride {
-  color: var(--colour_icon_secondary) !important;
+  color: var(--colour_default_secondary) !important;
   background-color: var(colour_offwhite) !important;
   border-color: none !important ;
   font-weight: 700 !important;
@@ -310,14 +310,14 @@
 }
 
 .nav-tabs {
-  color: var(--colour_icon_secondary)  !important;
+  color: var(--colour_default_secondary)  !important;
   background-color:var(colour_offwhite) !important;
   border-color: none !important ;
   font-size: 1.1rem !important;
 }
 
 .nav-tabs .nav-link:hover{
-    color: var(--colour_icon_main)  !important;
+    color: var(--colour_default_main)  !important;
     background-color: var(colour_offwhite) !important;
     font-size: 1.1rem !important;
 }
@@ -327,13 +327,13 @@
 }
 
 .largefonttext {
-  color: var(--colour_icon_main);
+  color: var(--colour_default_main);
   font-size: 4rem;
   font-weight: 700;
 }
 
 .medfonttext {
-  color: var(--colour_icon_main);
+  color: var(--colour_default_main);
   font-size: 3rem;
   font-weight: 600;
 }

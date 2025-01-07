@@ -1,14 +1,14 @@
-import { IIconpendiumItemData, IconpendiumItem } from '../../IconpendiumItem'
+import { ICompendiumItemData, CompendiumItem } from '../../CompendiumItem'
 import { DescriptionFactory } from '../../../utility/functions';
 
 /**
  * Data structure for the player addon's
  */
-interface ITableItem extends IIconpendiumItemData {
+interface ITableItem extends ICompendiumItemData {
     description: any[] // Descriptive text of the Addon
 }
 
-class PlayerTableItem extends IconpendiumItem {
+class TableItem extends CompendiumItem {
     public readonly Description;
 
     /**
@@ -34,5 +34,5 @@ class PlayerTableItem extends IconpendiumItem {
     }
 }
 
-export { ITableItem, PlayerTableItem}
+export { ITableItem, TableItem}
 

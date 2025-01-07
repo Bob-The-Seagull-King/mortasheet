@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../../resources/styles/_icon.scss'
+import '../../../../resources/styles/_mainstylesource.scss'
 import React, { useState } from 'react'
 import Modal from 'react-bootstrap/Modal';
 
@@ -47,7 +47,7 @@ const BaseFilterSelectDisplay = (prop: any) => {
     // Return result -----------------------------
     return (
         <>
-            <div onClick={() => handleShow()}className='borderstyler bordericon roundBody hovermouse'>
+            <div onClick={() => handleShow()}className='borderstyler borderdefault roundBody hovermouse'>
                 {((_activetextfilters.length == 0) && (_activetagfilters.length == 0) && (_activemiscfilters.length == 0) ) &&
                     <div className="">
                             <h1 className="subtletext">No Filters Selected</h1>
@@ -77,7 +77,7 @@ const BaseFilterSelectDisplay = (prop: any) => {
 
             <Modal data-theme={theme} show={show} contentClassName="filterboxStructure" dialogClassName="" size="lg" onHide={handleClose} keyboard={true}  centered>
                 
-                <h1 className={'titleShape titlebody backgroundicon'}>Select Filters</h1>
+                <h1 className={'titleShape titlebody backgrounddefault'}>Select Filters</h1>
                 <Modal.Body className="filterSelectorBack">
                     <div className="row p-3 overflow-auto flex-grow-1">
                         <div style={{"maxHeight": "calc(70vh"}}>

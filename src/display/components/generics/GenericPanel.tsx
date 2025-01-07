@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import '../../../resources/styles/_icon.scss'
+import '../../../resources/styles/_mainstylesource.scss'
 import React, { useState } from 'react'
 
 import Button from 'react-bootstrap/Button';
@@ -31,7 +31,7 @@ const GenericPanel = (prop: any) => {
             </div>
             <Modal data-theme={theme}  show={show}  contentClassName="filterboxStructure" dialogClassName="" onHide={handleClose} keyboard={true}  centered>
                 
-                <h1 className={'titleShape titlebody backgroundicon'}>
+                <h1 className={'titleShape titlebody backgrounddefault'}>
                     {panelType.id}
                     <div className="row float-end">
                         <div className='col-12 float-end'>

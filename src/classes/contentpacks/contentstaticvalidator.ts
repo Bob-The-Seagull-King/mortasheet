@@ -1,6 +1,6 @@
 import { ContentPack } from "./contentpack";
 import { IAdvancedDescription } from "../AdvancedDescription";
-import { ObjectTag } from "../IconpendiumItem";
+import { ObjectTag } from "../CompendiumItem";
 
 export interface ContentType {
     validateItem: (item : any) => string;

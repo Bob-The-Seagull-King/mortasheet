@@ -1,6 +1,6 @@
 import { Requester } from '../Requester';
 import { ITable } from '../../classes/feature/table/tablebody'
-import { PlayerTable } from '../../classes/feature/table/tablebody'
+import { TableBody } from '../../classes/feature/table/tablebody'
 
 class TableFactory {
 
@@ -10,7 +10,7 @@ class TableFactory {
      * @returns A newly created ability
      */
     static CreateTable(_table: ITable) {
-        const table = new PlayerTable(_table)
+        const table = new TableBody(_table)
         return table;
     }
 
