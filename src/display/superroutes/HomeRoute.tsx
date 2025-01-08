@@ -42,7 +42,7 @@ const HomeRoute: React.FC = () => {
         <div className="backgroundBaseColour" data-theme={theme}>
         <div>
             <div className="row justify-content-center m-0 p-0">
-                <div className="col-lg-10 col-md-12 col-sm-12 col-xs-12 col-12">
+                <div className="col-lg-7 col-md-12 col-sm-12 col-xs-12 col-12">
                     <div className="row">
                         <img src={logo} style={{maxWidth:"100%"}} />
                     </div>
@@ -50,7 +50,7 @@ const HomeRoute: React.FC = () => {
                     <div className="row">
                         <div className="separator"><h3 style={{fontFamily:"Libre Baskerville"}}>Content</h3></div>
                     </div>
-                    <div className="row row-cols-lg-3 row-cols-md-3 row-cols-sx-1 row-cols-xs-1 row-cols-1">
+                    <div className="row row-cols-lg-2 row-cols-md-2 row-cols-sx-1 row-cols-xs-1 row-cols-1">
                         <div className="col" style={{padding:"0.5em"}}>
                             <div className="pageaccessbox borderstyler subborderdefault hovermouse" onClick={() => NavigateHome("compendium/glossary/")}>
                                 <FontAwesomeIcon icon={faList} className="pageaccestext"/>
