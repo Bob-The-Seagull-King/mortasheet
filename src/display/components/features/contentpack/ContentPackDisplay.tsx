@@ -74,7 +74,7 @@ const ContentPackDisplay = (props: any) => {
                     <div className="contentpackcontainer smallbordersubpurple" >
                         <span className="packvrbox">
                             <Button style={{padding:"0em"}} variant="" onClick={() => handleShow()}>
-                                <FontAwesomeIcon icon={faBookOpen} className="purpleIcon" style={{fontSize:"2em",margin:"0em"}}/>
+                                <FontAwesomeIcon icon={faBookOpen} className="defaultIcon" style={{fontSize:"2em",margin:"0em"}}/>
                             </Button>
                             <div className="vr packvr"></div>
                             <Button style={{padding:"0em"}} variant="" onClick={() => switchContentPackState()}>
@@ -131,7 +131,7 @@ const ContentPackDisplay = (props: any) => {
                             <div className="col-12 smallcontentpackrow" style={{display: "flex", justifyContent:"space-between"}}>
                                 <span/>
                                 <Button style={{padding:"0em"}} variant="" onClick={() => handleShow()}>
-                                    <FontAwesomeIcon icon={faBookOpen} className="purpleIcon" style={{fontSize:"2em",margin:"0em"}}/>
+                                    <FontAwesomeIcon icon={faBookOpen} className="defaultIcon" style={{fontSize:"2em",margin:"0em"}}/>
                                 </Button>
                                 <div className="vr packvr"></div>
                                 <Button style={{padding:"0em"}} variant="" onClick={() => switchContentPackState()}>

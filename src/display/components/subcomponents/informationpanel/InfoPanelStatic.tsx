@@ -31,7 +31,7 @@ export const PanelDataDex : PanelDataTable = {
                             <div className="row textHolder">
                                 <p className="bodytext">
                                     Content packs are structured JSON files that allow people to make their game content accessable in
-                                    ICONpendium. Here, you can add or delete content packs to include them in the Compendium. You can
+                                    the compendium. Here, you can add or delete content packs to include them in the Compendium. You can
                                     hold up to 5MB of content packs at any given time.
                                 </p>
                                 <p className="bodytext">

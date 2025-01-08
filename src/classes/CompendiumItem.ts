@@ -2,7 +2,7 @@ import { Requester } from "../factories/Requester";
 import { IObjectImage, ObjectImage } from "./ObjectImage";
 
 /**
- * Basic data package for any Iconpendium Item
+ * Basic data package for any Item
  */
 interface ICompendiumItemData {
     id: string, // The id of the item
