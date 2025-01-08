@@ -72,6 +72,14 @@ const HomeRoute: React.FC = () => {
                                 </h1>
                             </div>
                         </div>
+                        <div className="col" style={{padding:"0.5em"}}>
+                            <div className="pageaccessbox borderstyler subborderdefault hovermouse" onClick={() => NavigateHome("tools/saveitem/")}>
+                                <FontAwesomeIcon icon={faFileLines} className="pageaccestext"/>
+                                <h1 className="pageaccestext">
+                                    SAVE ITEM
+                                </h1>
+                            </div>
+                        </div>
                     </div>
                     <div className="row">
                         <div className="separator"></div>

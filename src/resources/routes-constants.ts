@@ -7,6 +7,7 @@ export const ROUTES = {
     // Page Routes //
     COMPENDIUM_GLOSSARY_ROUTE: '/glossary/*',
     
-    TOOLS_CONTENT_UPLOAD_ROUTE: '/content/*'
+    TOOLS_CONTENT_UPLOAD_ROUTE: '/content/*',
+    TOOLS_CONTENT_SAVE_ITEM: '/saveitem/*'
 
 }
