@@ -229,15 +229,16 @@ class DataResponder {
                         isvalid = (data[dynamicKey] >= term.value[0]) && (data[dynamicKey] <= term.value[1])
                     }
                 }
-            }
-            if (term.strict) {
-                if (data[dynamicKey] != undefined) {
-                    isvalid = data[dynamicKey].toString().toLowerCase() == term.value.toString().toLowerCase()
-
-                }
             } else {
-                if (data[dynamicKey] != undefined) {
-                    isvalid = data[dynamicKey].toString().toLowerCase().includes(term.value.toString().toLowerCase())
+                if (term.strict) {
+                    if (data[dynamicKey] != undefined) {
+                        isvalid = data[dynamicKey].toString().toLowerCase() == term.value.toString().toLowerCase()
+
+                    }
+                } else {
+                    if (data[dynamicKey] != undefined) {
+                        isvalid = data[dynamicKey].toString().toLowerCase().includes(term.value.toString().toLowerCase())
+                    }
                 }
             }
             if (term.equals) {

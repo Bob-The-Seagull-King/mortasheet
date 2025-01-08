@@ -7,76 +7,11 @@
             "category" : "default"
         },
         "eventtags": {},
-        "name": "Default 0",
+        "name": "Default",
         "description":  [{
             "tags": {"desc_type" : "desc"},
             "content": "This is a default test item.",
             "subcontent":   []
-        }],
-        "testval": 0
-    },
-    {
-        "id": "gl_default22",
-        "type": "Glossary",
-        "source": "core",
-        "tags": {
-            "category" : "default"
-        },
-        "eventtags": {},
-        "name": "Default 2",
-        "description":  [{
-            "tags": {"desc_type" : "desc"},
-            "content": "This is a default test item.",
-            "subcontent":   []
-        }],
-        "testval": 2
-    },
-    {
-        "id": "gl_default2",
-        "type": "Glossary",
-        "source": "core",
-        "tags": {
-            "category" : "default"
-        },
-        "eventtags": {},
-        "name": "Default 2",
-        "description":  [{
-            "tags": {"desc_type" : "desc"},
-            "content": "This is a default test item.",
-            "subcontent":   []
-        }],
-        "testval": 2
-    },
-    {
-        "id": "gl_default3",
-        "type": "Glossary",
-        "source": "core",
-        "tags": {
-            "category" : "default"
-        },
-        "eventtags": {},
-        "name": "Default 3",
-        "description":  [{
-            "tags": {"desc_type" : "desc"},
-            "content": "This is a default test item.",
-            "subcontent":   []
-        }],
-        "testval": 3
-    },
-    {
-        "id": "gl_default4",
-        "type": "Glossary",
-        "source": "core",
-        "tags": {
-            "category" : "default"
-        },
-        "eventtags": {},
-        "name": "Default 4",
-        "description":  [{
-            "tags": {"desc_type" : "desc"},
-            "content": "This is a default test item.",
-            "subcontent":   []
-        }],
-        "testval": 4
+        }]
     }
 ]

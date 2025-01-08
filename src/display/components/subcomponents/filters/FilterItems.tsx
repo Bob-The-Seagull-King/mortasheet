@@ -111,24 +111,49 @@ const FilterRangeItem = (prop: any) => {
         <div className="col">
             <div className="centerPosition">
                 
-                <div className="row">
-                    <div className="col-4">
+                <div className="row" style={{minHeight:"5rem"}}>
+                    
+                <div className="col-2">
+                        
+                        <div className={"tagBox filterobjectdisplay"} style={{minHeight:"2.75em", alignItems: "center"}} >
 
-                        <div className={"tagBox "} style={{minHeight:"2.75em", alignItems: "center"}} >
-                            <div onClick={() => resetRange(ItemFilter)} className="hovermouse tagboxtitle">
+                            
+                            <div onClick={() => resetRange(ItemFilter)} className="hovermouse" style={{textAlign:"center", width:"100%"}}>
                                 {"Reset"}
-                            </div>                    
+                            </div>  
+                            
+                            
                         </div>
                     </div>
-                    <div className="col-4">
-                        <InputGroup className="mb-3 borderstyler subborderdefault filtertextinput">
-                            <Form.Control value="number" ref={lowerRef} onChange={e => updateLower(ItemFilter, parseInt(e.target.value))} className='' aria-label="Text input with checkbox" defaultValue={ItemFilter.Set_Lower.toString()}/>
-                        </InputGroup>
+                    <div className="col-5">
+                        
+                        <div className={"tagBox filterobjectdisplay"} style={{minHeight:"2.75em", alignItems: "center"}} >
+                            <div className='hovermouse tagpad'/>
+                            {"MIN"}
+                            <div className='tagpad'/>
+                            
+                            <div className='col-9'>
+                                <InputGroup className=" tagboxpad" >                            
+                                    <Form.Control type="number" ref={lowerRef} onChange={e => updateLower(ItemFilter, parseInt(e.target.value))} className='' aria-label="Text input with checkbox" defaultValue={ItemFilter.Lower.toString()}/>
+                                </InputGroup>
+                            </div>
+                            
+                        </div>
                     </div>
-                    <div className="col-4">
-                        <InputGroup className="mb-3 borderstyler subborderdefault filtertextinput">
-                            <Form.Control value="number" ref={upperRef} onChange={e => updateUpper(ItemFilter, parseInt(e.target.value))} className='' aria-label="Text input with checkbox" defaultValue={ItemFilter.Set_Upper.toString()}/>
-                        </InputGroup>
+                    <div className="col-5">
+                        
+                        <div className={"tagBox filterobjectdisplay"} style={{minHeight:"2.75em", alignItems: "center"}} >
+                            <div className='hovermouse tagpad'/>
+                            {"MAX"}
+                            <div className='tagpad'/>
+                            
+                            <div className='col-9'>
+                                <InputGroup className=" tagboxpad" >                            
+                                    <Form.Control type="number" ref={upperRef} onChange={e => updateUpper(ItemFilter, parseInt(e.target.value))} className='' aria-label="Text input with checkbox" defaultValue={ItemFilter.Upper.toString()}/>
+                                </InputGroup>
+                            </div>
+                            
+                        </div>
                     </div>
                 </div>
             
@@ -148,7 +173,7 @@ const FilterTagItem = (prop: any) => {
             <div className="centerPosition">
                 <div className={"tagBox " + (_currentstate == "" ? "filterobjectdisplay" : _currentstate == "positive" ? "filterobjectdisplaypositive" : "filterobjectdisplaynegative")} style={{minHeight:"2.75em", alignItems: "center"}} >
                     <div className='hovermouse tagpad'/>
-                    <div onClick={() => SwitchStates(ItemFilter.TagType, returnactivetext)} className="hovermouse tagboxtitle">
+                    <div onClick={() => SwitchStates(ItemFilter.TagType, returnactivetext)} className="hovermouse tagboxtitle ">
                         {makestringpresentable(ItemFilter.TagType.Name)}
                     </div>
                     <div className='tagpad'/>

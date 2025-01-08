@@ -33,12 +33,6 @@ export const DisplayCollectionDataDex : DisplayCollectionDataTable = {
                                 <FilterTextItem data={item} key="name"/>
                             ))}
                         </div>
-                        <div className="separator"><h3>TEST</h3></div>
-                        <div className="row">
-                            {manager.ReturnRangeFilters().map((item) => (
-                                <FilterRangeItem data={item} key="name"/>
-                            ))}
-                        </div>
                         <div className="separator"><h3>TAGS</h3></div>
                         <div className="subltenotetext">{"You can specify tag's value in the text box. Leave blank to find all of that tag."}
                         </div>

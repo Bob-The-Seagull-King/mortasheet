@@ -50,25 +50,6 @@ export const FitlerDataDex : FilterDataTable = {
         },
         findText() {
             return [new FilterText({group: "name", val: "", isstrict: false})]
-        },
-        findRange() {
-            const tempMisc: FilterRange[] = []
-            const keytypes = ["testval"]
-            keytypes.sort();
-    
-            let i = 0;
-            for (i = 0; i < keytypes.length; i ++) {
-                const foundVals = Requester.MakeRequest({ searchtype: 'testval', searchparam: { type: 'glossary' , id: keytypes[i]} }).sort();
-                console.log("FOUND")
-                console.log(foundVals)
-                foundVals.sort();
-
-                const tempItemObject: IFilterRange = { group: keytypes[i], set_lower: foundVals[0], set_upper: foundVals[-1], lower: foundVals[0], upper: foundVals[-1]}
-                const tempItemConstructed = new FilterRange(tempItemObject);
-                tempMisc.push(tempItemConstructed);
-            }
-    
-            return tempMisc;
         }
     }
 }
