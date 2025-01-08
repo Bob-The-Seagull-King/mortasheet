@@ -46,6 +46,7 @@ interface IDataRequestSearchTerm {
     strict: boolean, // true -> exact match of value, false -> item includes value
     istag?: boolean, // true -> checks if a tag with tag_name=value has tagvalue
     tagvalue?: any, // if left blank, just checks if tag_name exists
+    isrange?: boolean // true -> treats val as [lower_bound, upper_bound] inclusive for numbers only
 }
 
 /**
@@ -222,6 +223,13 @@ class DataResponder {
         if (!term.istag) {
             const dynamicKey = term.item as keyof (typeof data);
             let isvalid = false;
+            if (term.isrange) {
+                if (data[dynamicKey] != undefined) {
+                    if (typeof data[dynamicKey] === 'number') {
+                        isvalid = (data[dynamicKey] >= term.value[0]) && (data[dynamicKey] <= term.value[1])
+                    }
+                }
+            }
             if (term.strict) {
                 if (data[dynamicKey] != undefined) {
                     isvalid = data[dynamicKey].toString().toLowerCase() == term.value.toString().toLowerCase()

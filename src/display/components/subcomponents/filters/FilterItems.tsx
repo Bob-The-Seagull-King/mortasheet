@@ -1,12 +1,12 @@
 import 'bootstrap/dist/css/bootstrap.css'
 import '../../../../resources/styles/_mainstylesource.scss'
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
 
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
 // Classes
-import { FilterText, FilterItem, FilterTag } from '../../../../classes/viewmodel/collections/filters/FilterInterfaces'
+import { FilterText, FilterItem, FilterTag, FilterRange } from '../../../../classes/viewmodel/collections/filters/FilterInterfaces'
 import { makestringpresentable } from '../../../../utility/functions'
 
 
@@ -78,6 +78,66 @@ const FilterTextItem = (prop: any) => {
     // -------------------------------------------
 }
 
+const FilterRangeItem = (prop: any) => {
+    const ItemFilter: FilterRange = prop.data
+
+    const lowerRef = useRef<HTMLInputElement>(null);
+    const upperRef = useRef<HTMLInputElement>(null);
+
+    function resetRange(item : FilterRange) {
+        item.Lower = item.Set_Lower;
+        item.Upper = item.Set_Upper;
+        if (lowerRef != null) {
+            if (lowerRef.current) {
+                lowerRef.current.value = item.Set_Lower.toString();
+            }
+        }
+        if (upperRef != null) {
+            if (upperRef.current) {
+                upperRef.current.value = item.Set_Upper.toString();
+            }
+        }
+    }
+    
+    function updateLower(item : FilterRange, value: number) {
+        item.Lower = value;
+    }
+    function updateUpper(item : FilterRange, value: number) {
+        item.Upper = value;
+    }
+
+    // Return result -----------------------------
+    return (
+        <div className="col">
+            <div className="centerPosition">
+                
+                <div className="row">
+                    <div className="col-4">
+
+                        <div className={"tagBox "} style={{minHeight:"2.75em", alignItems: "center"}} >
+                            <div onClick={() => resetRange(ItemFilter)} className="hovermouse tagboxtitle">
+                                {"Reset"}
+                            </div>                    
+                        </div>
+                    </div>
+                    <div className="col-4">
+                        <InputGroup className="mb-3 borderstyler subborderdefault filtertextinput">
+                            <Form.Control value="number" ref={lowerRef} onChange={e => updateLower(ItemFilter, parseInt(e.target.value))} className='' aria-label="Text input with checkbox" defaultValue={ItemFilter.Set_Lower.toString()}/>
+                        </InputGroup>
+                    </div>
+                    <div className="col-4">
+                        <InputGroup className="mb-3 borderstyler subborderdefault filtertextinput">
+                            <Form.Control value="number" ref={upperRef} onChange={e => updateUpper(ItemFilter, parseInt(e.target.value))} className='' aria-label="Text input with checkbox" defaultValue={ItemFilter.Set_Upper.toString()}/>
+                        </InputGroup>
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    )
+    // -------------------------------------------
+}
+
 const FilterTagItem = (prop: any) => {
     const ItemFilter: FilterTag = prop.data
     const [_currentstate, returnactivetext] = useState(GetDisplayVal(ItemFilter.TagType));
@@ -125,4 +185,4 @@ const FilterMiscItem = (prop: any) => {
 }
 
 
-export {FilterTextItem, FilterTagItem, FilterMiscItem}
+export {FilterTextItem, FilterTagItem, FilterMiscItem, FilterRangeItem}

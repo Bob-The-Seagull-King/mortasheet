@@ -1,5 +1,5 @@
 import { FilterManager } from "../../classes/viewmodel/collections/filters/FilterManager"
-import {FilterTagItem, FilterTextItem, FilterMiscItem} from "../components/subcomponents/filters/FilterItems"
+import {FilterTagItem, FilterTextItem, FilterMiscItem, FilterRangeItem} from "../components/subcomponents/filters/FilterItems"
 import GenericDisplay from "../components/generics/GenericDisplay"
 import GlossaryDisplay from "../components/features/glossary/GlossaryDisplay"
 
@@ -31,6 +31,12 @@ export const DisplayCollectionDataDex : DisplayCollectionDataTable = {
                         <div className="row">
                             {manager.ReturnTextFilters().map((item) => (
                                 <FilterTextItem data={item} key="name"/>
+                            ))}
+                        </div>
+                        <div className="separator"><h3>TEST</h3></div>
+                        <div className="row">
+                            {manager.ReturnRangeFilters().map((item) => (
+                                <FilterRangeItem data={item} key="name"/>
                             ))}
                         </div>
                         <div className="separator"><h3>TAGS</h3></div>

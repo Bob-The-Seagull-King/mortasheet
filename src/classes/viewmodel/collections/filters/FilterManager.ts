@@ -1,12 +1,13 @@
 // Import typescript classes
-import { FilterText, FilterTag, FilterItem } from './FilterInterfaces'
+import { FilterText, FilterTag, FilterItem, FilterRange } from './FilterInterfaces'
 import { FilterType, FitlerDataDex } from './FiltersStatic';
 
 class FilterManager {
     
     TextOptions: FilterText[] = [];
     TagOptions: FilterTag[] = [];
-    MiscOptions: FilterItem[] = []
+    MiscOptions: FilterItem[] = [];
+    RangeOptions: FilterRange[] = [];
 
     MyFilters : FilterType;
 
@@ -21,12 +22,20 @@ class FilterManager {
         if (this.MyFilters.findText) {
             this.TextOptions = this.MyFilters.findText();
         }
+        if (this.MyFilters.findRange) {
+            this.RangeOptions = this.MyFilters.findRange();
+        }
     }
 
     /**
      * @returns Array of all text-type filters
      */
     ReturnTextFilters () { return this.TextOptions; }
+    
+    /**
+     * @returns Array of all range-type filters
+     */
+    ReturnRangeFilters () { return this.RangeOptions; }
 
     /**
      * @returns Array of all tag-type filters
@@ -44,6 +53,11 @@ class FilterManager {
     ReturnActiveTextFilters() { return this.TextOptions.filter((value) => value.Val.trim().length > 0); }
 
     /**
+     * @returns Array of all currently active range-type filters
+     */
+    ReturnActiveRangeFilters() { return this.RangeOptions.filter((value) => ((value.Lower != value.Set_Lower) || (value.Upper != value.Set_Upper))); }
+
+    /**
      * @returns Array of all currently active tag-type filters
      */
     ReturnActiveTagFilters() { return this.TagOptions.filter((value) => value.TagType.IsActive == true); }
@@ -56,12 +70,12 @@ class FilterManager {
     /**
      * @returns Integer count of all the filters that currently exist
      */
-    ReturnCount() { return this.ReturnMiscFilters.length + this.ReturnTagFilters.length + this.ReturnTextFilters.length; }
+    ReturnCount() { return this.ReturnMiscFilters.length + this.ReturnTagFilters.length + this.ReturnTextFilters.length + this.ReturnRangeFilters.length; }
 
     /**
      * @returns Integer count of all the filters that are currently active
      */
-    ReturnActiveCount() { return this.ReturnActiveMiscFilters.length + this.ReturnActiveTagFilters.length + this.ReturnActiveTextFilters.length; }
+    ReturnActiveCount() { return this.ReturnActiveMiscFilters.length + this.ReturnActiveTagFilters.length + this.ReturnActiveTextFilters.length + this.ReturnActiveRangeFilters.length; }
 }
 
 export {FilterManager}

@@ -62,6 +62,7 @@ equals      : boolean
 strict      : boolean
 istag?      : boolean
 tagvalue?   : any
+isrange?    : boolean
 ```
 - **item** - The key that is being searched
 - **value** - The expected value of that key
@@ -70,3 +71,4 @@ tagvalue?   : any
 - **istag** - Optional, if true then the search travel through the tags of an object.
     - *value* is the expected tag_name.
 - **tagvalue** - Optional, if non-null then the tag search checks the *val* of tags in addition to if the tag exists.
+- **isrange** - Optional, if non-null then the search will use a range of two numbers (inclusive) to determine matches.

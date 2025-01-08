@@ -13,6 +13,8 @@ All search requests have a *type* value which determines what json data file wil
 | File Name | Type Value |
 | --------- | ---------- |
 | glossary.json | "glossary" |
+| images.json | "images" |
+| table.json | "table" |
 
 ## Search Options
 

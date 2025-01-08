@@ -22,6 +22,7 @@ const BaseFilterSelectDisplay = (prop: any) => {
     const [_activetextfilters, returnactivetext] = useState(FilterManager.ReturnActiveTextFilters());
     const [_activetagfilters, returnactivetag] = useState(FilterManager.ReturnActiveTagFilters());
     const [_activemiscfilters, returnactivemisc] = useState(FilterManager.ReturnActiveMiscFilters());
+    const [_activerangefilters, returnactiverange] = useState(FilterManager.ReturnActiveRangeFilters());
     const [_keyval, updatekey] = useState(1);
     const [theme] = useGlobalState('theme');
     const [show, setShow] = useState(false);
@@ -41,6 +42,7 @@ const BaseFilterSelectDisplay = (prop: any) => {
         returnactivetext(FilterManager.ReturnActiveTextFilters())
         returnactivetag(FilterManager.ReturnActiveTagFilters())
         returnactivemisc(FilterManager.ReturnActiveMiscFilters())
+        returnactiverange(FilterManager.ReturnActiveRangeFilters())
         updatekey(_keyval+1)
     }
     
@@ -68,6 +70,9 @@ const BaseFilterSelectDisplay = (prop: any) => {
                                 ))}
                             {_activemiscfilters.map((item) => (
                                     <FilterDisplay key={"tag"+item.Name+(_keyval.toString())} title={item.Group} state={item.DoInclude? "positive" : "negative" } value={item.Name}/>
+                                ))}
+                            {_activerangefilters.map((item) => (
+                                    <FilterDisplay key={"tag"+(item.Lower)+(_keyval.toString())} title={item.Group} state={""} value={item.Lower + " to " + item.Upper}/>
                                 ))}
                         </div>
                         <div className='toppad'></div>

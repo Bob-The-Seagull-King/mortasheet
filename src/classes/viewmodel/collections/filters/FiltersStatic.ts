@@ -1,11 +1,12 @@
-import { FilterItem, FilterTag, FilterText, IFilterItem, IFilterTag, IFilterText } from "./FilterInterfaces";
+import { FilterItem, FilterRange, FilterTag, FilterText, IFilterItem, IFilterRange, IFilterTag, IFilterText } from "./FilterInterfaces";
 import { Requester } from "../../../../factories/Requester";
 
 export interface FilterType {
     searchId      : string,
     findText?: () => FilterText[],
     findMisc?: () => FilterItem[],
-    findTags?: () => FilterTag[]
+    findTags?: () => FilterTag[],
+    findRange?: () => FilterRange[]
 }
 
 export interface FilterDataTable {[moveid: Lowercase<string>]: FilterType}
@@ -35,7 +36,7 @@ export const FitlerDataDex : FilterDataTable = {
     
             let i = 0;
             for (i = 0; i < keytypes.length; i ++) {
-                const foundVals = Requester.MakeRequest({ searchtype: 'keyvalues', searchparam: { type: 'trophies' , id: keytypes[i]} }).sort();
+                const foundVals = Requester.MakeRequest({ searchtype: 'keyvalues', searchparam: { type: 'glossary' , id: keytypes[i]} }).sort();
                 
                 let j = 0;
                 for (j = 0; j < foundVals.length; j++) {
@@ -49,6 +50,25 @@ export const FitlerDataDex : FilterDataTable = {
         },
         findText() {
             return [new FilterText({group: "name", val: "", isstrict: false})]
+        },
+        findRange() {
+            const tempMisc: FilterRange[] = []
+            const keytypes = ["testval"]
+            keytypes.sort();
+    
+            let i = 0;
+            for (i = 0; i < keytypes.length; i ++) {
+                const foundVals = Requester.MakeRequest({ searchtype: 'testval', searchparam: { type: 'glossary' , id: keytypes[i]} }).sort();
+                console.log("FOUND")
+                console.log(foundVals)
+                foundVals.sort();
+
+                const tempItemObject: IFilterRange = { group: keytypes[i], set_lower: foundVals[0], set_upper: foundVals[-1], lower: foundVals[0], upper: foundVals[-1]}
+                const tempItemConstructed = new FilterRange(tempItemObject);
+                tempMisc.push(tempItemConstructed);
+            }
+    
+            return tempMisc;
         }
     }
 }

@@ -18,6 +18,7 @@ export function ConvertFiltersToRequest(manager: FilterManager, _type: string, _
 
     // Intiailize lists of filters to convert
     const filtertext = manager.ReturnActiveTextFilters();
+    const filterrange = manager.ReturnActiveRangeFilters();
     const filtertag = manager.ReturnActiveTagFilters();
     const filtermisc = manager.ReturnActiveMiscFilters();
     const ungroupedfilters = filtermisc.filter((value) => (!_groups.includes(value.Group)))
@@ -35,6 +36,17 @@ export function ConvertFiltersToRequest(manager: FilterManager, _type: string, _
                                 }
             filterSet.push(jsontemp);
         }
+    }
+    
+    // Creates filters for each range item
+    for (i = 0; i < filterrange.length; i++) {
+        const jsontemp =    {                         
+            item: filterrange[i].Group,
+            value: [filterrange[i].Lower, filterrange[i].Upper],
+            equals: true,
+            isrange: true
+        }
+        filterSet.push(jsontemp);
     }
     
     // Create filters for each tag item
