@@ -71,7 +71,7 @@ const ContentPackDisplay = (props: any) => {
         <>
             <div className='' ref={ref}>
                 {stateWidth > 700 &&
-                    <div className="contentpackcontainer smallbordersubpurple" >
+                    <div className="contentpackcontainer smallbordersubdefault" >
                         <span className="packvrbox">
                             <Button style={{padding:"0em"}} variant="" onClick={() => handleShow()}>
                                 <FontAwesomeIcon icon={faBookOpen} className="defaultIcon" style={{fontSize:"2em",margin:"0em"}}/>
@@ -107,7 +107,7 @@ const ContentPackDisplay = (props: any) => {
                     </div>
                 }
                 {stateWidth <= 700 &&
-                    <div className="contentpacksmallcontainer smallbordersubpurple" >
+                    <div className="contentpacksmallcontainer smallbordersubdefault" >
                         
                         <div className="row" style={{width:"100%"}}>
                             <div className="col-12 smallcontentpackrow" style={{display: "flex", justifyContent:"space-between"}}>

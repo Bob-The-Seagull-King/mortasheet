@@ -7,7 +7,7 @@
     border-width: 2px !important;
 }
 
-.smallbordersubpurple {
+.smallbordersubdefault {
     border-style: solid !important;
     border-width: 1px !important;
     border-color: var(--colour_default_secondary) !important;
@@ -375,9 +375,6 @@
     display: flex;
     align-items: center;
     height: 100%;
-}
-
-.imagecarouseldisplay {
 }
 
 // Bootstrap overrides

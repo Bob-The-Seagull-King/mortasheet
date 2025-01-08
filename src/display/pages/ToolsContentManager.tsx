@@ -116,10 +116,10 @@ const ToolsContentManager = (prop: any) => {
                         </div>
                     </div>
                     <div style={{padding:"0.5em"}}>
-                        <div className='row row-cols-1 smallbordersubpurple'>
+                        <div className='row row-cols-1 smallbordersubdefault'>
                                 {_allcontentpacks.length < 1 &&
                                     <div className="col p-0" key={"packdisplaynone"}>
-                                        <div className='contentpackcontainer smallbordersubpurple' style={{justifyContent:"center",alignItems:"center"}}>
+                                        <div className='contentpackcontainer smallbordersubdefault' style={{justifyContent:"center",alignItems:"center"}}>
                                             <h1 className="subtletext" style={{paddingTop:"1em", paddingBottom:"1em"}}>No Packages Selected</h1>
                                         </div>
                                     </div>
