@@ -15,14 +15,13 @@ import ContentPackDisplay from '../../../components/features/contentpack/Content
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faClone, faDownload, faEye, faFileImport, faPenToSquare, faPersonMilitaryRifle, faTrash } from '@fortawesome/free-solid-svg-icons'
-import { ContentPack } from '../../../../classes/contentpacks/contentpack'
 import { Item } from '../../../../classes/saveitems/item';
 import { ItemManager } from '../../../../classes/saveitems/itemmanager';
 import { Button } from 'react-bootstrap';
 
 const SaveItemDisplay = (prop: any) => {
     const Manager : ItemManager = prop.parent;
-    const FightItem: Item = prop.data;
+    const ItemItem: Item = prop.data;
     const updateHost = prop.statefunction;
     const UpdateFunction = prop.updater;
     
@@ -30,26 +29,26 @@ const SaveItemDisplay = (prop: any) => {
     const ref = useRef<HTMLDivElement>(null);
 
     function ViewContentPack() {
-        UpdateFunction(FightItem, true)
+        UpdateFunction(ItemItem, true)
     }
 
     function removeContentPack() {
-        Manager.DeletePack(FightItem);
+        Manager.DeletePack(ItemItem);
         updateHost();
     }
 
     function copyContentPack() {
-        Manager.DuplicateFight(FightItem);
+        Manager.DuplicateItem(ItemItem);
         updateHost();
     }
 
     const exportData = () => {
         const jsonString = `data:text/json;chatset=utf-8,${encodeURIComponent(
-            JSON.stringify(FightItem.ConvertToInterface(), null, 4)
+            JSON.stringify(ItemItem.ConvertToInterface(), null, 4)
         )}`;
         const link = document.createElement("a");
         link.href = jsonString;
-        link.download = FightItem.Title + ".json";
+        link.download = ItemItem.Title + ".json";
     
         link.click();
       };
@@ -74,14 +73,10 @@ const SaveItemDisplay = (prop: any) => {
                         <span className="contentsubnamecontainer">
                             <span/>
                             <h1 className="packtitle">
-                                {FightItem.Title}
+                                {ItemItem.Title}
                             </h1>
                             <span/>
                             <span className="packvrbox">
-                            <div className="vr packvr"></div>
-                            <Button style={{padding:"0em"}} variant="" onClick={() => UpdateFunction(FightItem, false)}>
-                                <FontAwesomeIcon icon={faPenToSquare} className="" style={{fontSize:"2em",margin:"0em"}}/>
-                            </Button>
                             <div className="vr packvr"></div>
                             <Button style={{padding:"0em"}} variant="" onClick={() => ViewContentPack()}>
                                 <FontAwesomeIcon icon={faEye} className="" style={{fontSize:"2em",margin:"0em"}}/>
@@ -109,18 +104,12 @@ const SaveItemDisplay = (prop: any) => {
                         
                         <div className="row" style={{width:"100%"}}>
                                 <h1 className="packtitle" style={{textAlign:"center",width:"100%"}}>
-                                    {FightItem.Title}
+                                    {ItemItem.Title}
                                 </h1>
                         </div>
                         <div className="row">
                             <div className="col-12 smallcontentpackrow" style={{display: "flex", justifyContent:"space-between"}}>
                                 <span/>
-                                    <Button style={{padding:"0em"}} variant="" onClick={() => UpdateFunction(FightItem)}>
-                                        <FontAwesomeIcon icon={faPenToSquare} className="" style={{fontSize:"2em",margin:"0em"}}/>
-                                    </Button>
-                                    <span className="packvrbox">
-                                        <div className="vr packvr"/>
-                                    </span>
                                     <Button style={{padding:"0em"}} variant="" onClick={() => ViewContentPack()}>
                                         <FontAwesomeIcon icon={faEye} className="" style={{fontSize:"2em",margin:"0em"}}/>
                                     </Button>

@@ -11,20 +11,20 @@ import { Item } from '../../classes/saveitems/item';
 const ToolsSavedItem = (prop: any) => {
     const Manager = prop.manager;
     
-    const [_currentFight, returnFight] = useState(grabFightFromURL);
+    const [_currentItem, returnItem] = useState(grabItemFromURL);
     const [_keyval, returnkey] = useState(1);
 
-    function grabFightFromURL() {
+    function grabItemFromURL() {
         const param = grabURL();
 
-        const FightCurrent = Manager.GetFightByName(param);
+        const ItemCurrent = Manager.GetItemByName(param);
         
-        return FightCurrent
+        return ItemCurrent
     }
 
-    function UpdateFight(_fight : Item) {
+    function UpdateItem(_Item : Item) {
         Manager.SetStorage();
-        returnFight(_fight);
+        returnItem(_Item);
         returnkey(_keyval + 1);
     }
 
@@ -44,16 +44,16 @@ const ToolsSavedItem = (prop: any) => {
     // Return result -----------------------------
     return (
         <div className="container" style={{minWidth:"98%", marginLeft:"0.5rem", marginRight:"0.5rem"}}>
-            {_currentFight != null &&
+            {_currentItem != null &&
             <>
                 <div>
-                    <SaveItemViewDisplay key={_keyval} data={_currentFight} updater={UpdateFight} manager={Manager}/>
+                    <SaveItemViewDisplay key={_keyval} data={_currentItem} updater={UpdateItem} manager={Manager}/>
                 </div>
             </>
                 
             }
-            {_currentFight == null &&
-                <SaveItemListDisplay manager={Manager} updater={UpdateFight}/>
+            {_currentItem == null &&
+                <SaveItemListDisplay manager={Manager} updater={UpdateItem}/>
             }
         </div>
     )

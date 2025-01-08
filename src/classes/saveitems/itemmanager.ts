@@ -3,34 +3,34 @@ import { Item, IItem } from './item';
 import { Requester } from '../../factories/Requester';
 
 class ItemManager {
-    public FightList: Item[] = []; 
+    public ItemList: Item[] = []; 
 
     constructor() {
-        this.FightList = this.GrabFights();
+        this.ItemList = this.GrabItems();
     }    
 
     /**
      * @param _name The name of the warband to find
      * @returns The first instance of a warband with that name
      */
-    public GetFightByName(_name : string) {
+    public GetItemByName(_name : string) {
         let i = 0;
-        for (i=0; i < this.FightList.length ; i++) {
-            if (this.FightList[i].Title.trim() == _name) {
-                return this.FightList[i]
+        for (i=0; i < this.ItemList.length ; i++) {
+            if (this.ItemList[i].Title.trim() == _name) {
+                return this.ItemList[i]
             }
         }
         return null;
     }
 
 
-    public GrabFights() {
+    public GrabItems() {
         const TempList: Item[] = [];  
         const data = localStorage.getItem('compendiumsaveitem');  
         try {
-            const FightList: IItem[] = JSON.parse(data || "");
-            for (let i = 0; i < FightList.length; i++) {
-                TempList.push(new Item(FightList[i]))
+            const ItemList: IItem[] = JSON.parse(data || "");
+            for (let i = 0; i < ItemList.length; i++) {
+                TempList.push(new Item(ItemList[i]))
             }
             return TempList;
         } catch (e) {
@@ -45,8 +45,8 @@ class ItemManager {
      */
     public SetStorage() {
         const _list: IItem[] = []
-        for (let i = 0; i < this.FightList.length; i++) {
-            _list.push(this.FightList[i].ConvertToInterface())
+        for (let i = 0; i < this.ItemList.length; i++) {
+            _list.push(this.ItemList[i].ConvertToInterface())
         }
         localStorage.setItem('compendiumsaveitem', JSON.stringify(_list));
     }
@@ -65,13 +65,13 @@ class ItemManager {
             ReturnMsg = this.ValidateFileData(_content) 
             if (ReturnMsg == "") {
                 const ContentNew: Item = new Item(JSON.parse(_content) as IItem);
-                this.FightList.push(ContentNew);
+                this.ItemList.push(ContentNew);
                 this.SetStorage();
             } else {
                 return ReturnMsg;
             }
         } catch (e) {
-            ReturnMsg = "File was not in the Fight Sheet format.";
+            ReturnMsg = "File was not in the Item Sheet format.";
         }
 
         return ReturnMsg;
@@ -90,9 +90,9 @@ class ItemManager {
         let i = 0;
 
         // Check that no Content Pack shares the same ID
-        for (i = 0; i < this.FightList.length; i++) {
-            if (this.FightList[i].ID == TestPack.id) {
-                return "You already have a Fight Sheet with the same ID";
+        for (i = 0; i < this.ItemList.length; i++) {
+            if (this.ItemList[i].ID == TestPack.id) {
+                return "You already have a Item Sheet with the same ID";
             }
         }
 
@@ -104,7 +104,7 @@ class ItemManager {
      * @returns All Content Packs
      */
     public GetPack() {
-        return this.FightList;
+        return this.ItemList;
     }
 
     /**
@@ -114,9 +114,9 @@ class ItemManager {
      */
     public DeletePack(_pack : Item) {
         let i = 0;
-        for (i = 0; i < this.FightList.length; i++) {
-            if (_pack == this.FightList[i]) {
-                this.FightList.splice(i, 1);
+        for (i = 0; i < this.ItemList.length; i++) {
+            if (_pack == this.ItemList[i]) {
+                this.ItemList.splice(i, 1);
                 break;
             }
         }
@@ -124,30 +124,30 @@ class ItemManager {
         this.SetStorage();
     }
 
-    public NewFight(_title : string) {
+    public NewItem(_title : string) {
         const msg = ""
 
         if (_title.trim().length <= 0) {
-            return "The fight must have a Title";
+            return "The Item must have a Title";
         }
 
-        const _fight : IItem = {            
+        const _Item : IItem = {            
             id : this.CalcID(_title.trim()),
             title : _title
         }
 
-        this.FightList.push(new Item(_fight))
+        this.ItemList.push(new Item(_Item))
         this.SetStorage();
 
         return msg;
     }
 
-    public DuplicateFight(_fight : Item) {        
-        const NewMember : Item = new Item(_fight.ConvertToInterface());
-        NewMember.Title = _fight.Title + " - Copy"
-        NewMember.ID = this.CalcID(_fight.Title + " - Copy");
+    public DuplicateItem(_Item : Item) {        
+        const NewMember : Item = new Item(_Item.ConvertToInterface());
+        NewMember.Title = _Item.Title + " - Copy"
+        NewMember.ID = this.CalcID(_Item.Title + " - Copy");
         
-        this.FightList.push(NewMember);
+        this.ItemList.push(NewMember);
         this.SetStorage();
     }
 

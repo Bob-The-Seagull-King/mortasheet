@@ -14,7 +14,7 @@ import ContentPackDisplay from '../../../components/features/contentpack/Content
 
 // Font Awesome
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileImport, faPersonMilitaryRifle } from '@fortawesome/free-solid-svg-icons'
+import { faFileImport, faPerson } from '@fortawesome/free-solid-svg-icons'
 import { ContentPack } from '../../../../classes/contentpacks/contentpack'
 import { Item } from '../../../../classes/saveitems/item';
 import { ItemManager } from '../../../../classes/saveitems/itemmanager';
@@ -24,10 +24,10 @@ const SaveItemListDisplay = (prop: any) => {
     const Manager : ItemManager = prop.manager;
     const UpdaterMethod = prop.updater;
 
-    let NewFightTitle = "";
+    let NewItemTitle = "";
     const inputRef = useRef<HTMLInputElement>(null);
 
-    const [_allfights, returnstate] = useState(Manager.GetPack());
+    const [_allItems, returnstate] = useState(Manager.GetPack());
     const [_key, updateKey] = useState(0);
     // States
 
@@ -51,12 +51,12 @@ const SaveItemListDisplay = (prop: any) => {
         });
     }
 
-    function NewFight() {
-        const Result = Manager.NewFight(NewFightTitle);
+    function NewItem() {
+        const Result = Manager.NewItem(NewItemTitle);
         if (Result != "") {
             runToast(Result);
         } else {
-            UpdaterMethod(Manager.GetFightByName(NewFightTitle))
+            UpdaterMethod(Manager.GetItemByName(NewItemTitle))
         }
         ItemRecall();
         if (inputRef.current != null) {
@@ -88,7 +88,7 @@ const SaveItemListDisplay = (prop: any) => {
     }
 
     function updateTitle(value: string) {
-        NewFightTitle = value;
+        NewItemTitle = value;
     }
 
     return(
@@ -116,13 +116,13 @@ const SaveItemListDisplay = (prop: any) => {
                                 <div className="row justify-content-center" style={{display:"flex"}}>
                                     <div className="col-md-6 col-12">
                                         <InputGroup className="tagboxpad" style={{height:"4em"}}>
-                                            <Form.Control ref={inputRef} style={{ height:"100%",textAlign:"center"}} onChange={e => updateTitle(e.target.value)} aria-label="Text input" defaultValue={NewFightTitle} placeholder="Fight Name"/>
+                                            <Form.Control ref={inputRef} style={{ height:"100%",textAlign:"center"}} onChange={e => updateTitle(e.target.value)} aria-label="Text input" defaultValue={NewItemTitle} placeholder="Item Name"/>
                                         </InputGroup>
                                     </div>
                                     <div className="col-md-2 col-6">
                                         <div className="generalbuttonbox" style={{width:"100%",alignItems:"center",height:"4em"}}>
-                                            <div style={{display:"flex",width:"fit-content",alignItems:"flex-end"}} onClick={() => NewFight()} className="hovermouse ">
-                                                <FontAwesomeIcon icon={faPersonMilitaryRifle} className="pageaccestext"/>
+                                            <div style={{display:"flex",width:"fit-content",alignItems:"flex-end"}} onClick={() => NewItem()} className="hovermouse ">
+                                                <FontAwesomeIcon icon={faPerson} className="pageaccestext"/>
                                                 <h1 className="pageaccestext" style={{whiteSpace:"nowrap"}}>
                                                     Create
                                                 </h1>
@@ -150,14 +150,14 @@ const SaveItemListDisplay = (prop: any) => {
 
                     <div style={{padding:"0.5em"}}>
                         <div className='row row-cols-1 smallbordersubpurple'>
-                                {_allfights.length < 1 &&
+                                {_allItems.length < 1 &&
                                     <div className="col p-0" key={"packdisplaynone"}>
                                         <div className='contentpackcontainer smallbordersubpurple' style={{justifyContent:"center",alignItems:"center"}}>
-                                            <h1 className="subtletext" style={{paddingTop:"1em", paddingBottom:"1em"}}>No Fights Available</h1>
+                                            <h1 className="subtletext" style={{paddingTop:"1em", paddingBottom:"1em"}}>No Items Available</h1>
                                         </div>
                                     </div>
                                 }
-                                {_allfights.map((item: Item) => (
+                                {_allItems.map((item: Item) => (
                                     <div className="col p-0" key={"packdisplay"+item.ID}>
                                         <SaveItemDisplay  data={item} parent={Manager} statefunction={ItemRecall} updater={UpdaterMethod}/>
                                     </div>
